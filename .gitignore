@@ -1,0 +1,27 @@
+# Secrets / credentials
+.env
+.env.*
+credentials.json
+token.json
+*.key
+*.pem
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Temp / build artifacts
+.tmp/
+dist/
+build/
+.cache/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

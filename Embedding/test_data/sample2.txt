@@ -1,0 +1,1 @@
+Quantum computing uses quantum bits, or qubits, which can exist in superposition — representing both 0 and 1 simultaneously. This allows quantum computers to solve certain problems exponentially faster than classical computers. Key applications include drug discovery, cryptography, and optimization of complex logistics networks.

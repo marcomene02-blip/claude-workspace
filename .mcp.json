@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "n8n": {
+      "command": "npx",
+      "args": ["n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true",
+        "N8N_API_URL": "https://menegon.app.n8n.cloud",
+        "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3ZTMwM2MxZi1jYmYwLTQwZjktYmQ5NS04YWQyODYzYzU5YjQiLCJpc3MiOiJuOG4iLCJhdWQiOiJtY3Atc2VydmVyLWFwaSIsImp0aSI6ImFkODdmZjYzLTNiMmItNGE0MS1hZjM2LWU4M2Q1NzYzYTE3NyIsImlhdCI6MTc3NTc4NzU3Mn0.ox0xTRiSh_ZOLDmc7IAGRQEEreR5HPUIqecfhxGPt0k"
+      }
+    }
+  }
+}
