@@ -39,3 +39,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - analista-pipeline: escalada quando threshold violado sem prazo definido; critério de duplicata não especificado
 - analista-performance: KPIs sem faixas de referência objetivas; recomendações anteriores nunca verificadas antes de novas
 - Summary, Key points e Changelog da página atualizados; todos os 17 agentes têm melhorias documentadas
+
+## [2026-04-14] refactor | backlog-melhorias — skills grupo CRM e dados
+- Populadas 5 linhas de skills (monday-crm-query, monday-crm-write, forecast-ponderado, analise-churn, analise-nps)
+- monday-crm-query: formato de saída indefinido + exemplo de paginação GraphQL ausente para board Apólices
+- monday-crm-write: retorno de sucesso/erro não padronizado + rollback parcial não documentado + movimentação de grupo ausente da lista de ações críticas
+- forecast-ponderado: fonte da meta mensal não especificada + calibração histórica dos multiplicadores ausente + regra para deals mid-period indefinida
+- analise-churn: dimensão Engajamento sem fonte de dados mapeada (last_updated_at) + join com Apólices para monoproduto não documentado + caso zero-críticos ausente do template de saída
+- analise-nps: tamanho mínimo de amostra não definido (risco de NPS espúrio) + column ID de feedback textual não documentado + cálculo de prêmio anual para escalada a Marco não especificado
+- Key points atualizado: 5 de 14 skills com melhorias definidas

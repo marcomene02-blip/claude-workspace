@@ -4,18 +4,18 @@ type: topic
 created: 2026-04-14
 updated: 2026-04-14
 sources: []
-tags: [backlog, melhorias, plugins, agentes, skills, tarefas]
+tags: [backlog, melhorias, plugins, agentes, skills, tarefas, crm, dados]
 ---
 
 ## Summary
 
-Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas. As melhorias são priorizadas em Alta / Média / Baixa e rastreadas com status Pendente / Em andamento / Concluído. As entradas de plugins com prioridade Alta envolvem habilitar paralelismo no monitor-crm e auditoria adversarial nas skills que escrevem no CRM. Os 6 agentes do grupo comercial já têm melhorias definidas, incluindo item crítico de skill ausente no hunter-cross-sell. Os 4 agentes do grupo marketing/conteúdo (cmo, analista-campanhas, criador-conteudo, especialista-inbound) também estão preenchidos. Os 7 agentes do grupo análise e monitoramento (analista-churn, executor-retencao, analista-forecast, monitor-crm, analista-nps, analista-pipeline, analista-performance) completam o levantamento — todos os 17 agentes do sistema têm pelo menos uma melhoria concreta documentada.
+Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas. As melhorias são priorizadas em Alta / Média / Baixa e rastreadas com status Pendente / Em andamento / Concluído. As entradas de plugins com prioridade Alta envolvem habilitar paralelismo no monitor-crm e auditoria adversarial nas skills que escrevem no CRM. Os 6 agentes do grupo comercial já têm melhorias definidas, incluindo item crítico de skill ausente no hunter-cross-sell. Os 4 agentes do grupo marketing/conteúdo (cmo, analista-campanhas, criador-conteudo, especialista-inbound) também estão preenchidos. Os 7 agentes do grupo análise e monitoramento (analista-churn, executor-retencao, analista-forecast, monitor-crm, analista-nps, analista-pipeline, analista-performance) completam o levantamento — todos os 17 agentes do sistema têm pelo menos uma melhoria concreta documentada. As 5 skills do grupo CRM e dados (monday-crm-query, monday-crm-write, forecast-ponderado, analise-churn, analise-nps) têm melhorias documentadas, com foco em: formato de saída não definido, dependências não documentadas e lacunas de dados de entrada.
 
 ## Key points
 
 - 6 melhorias identificadas para plugins `superpowers` e `codex`, todas com status Pendente
 - 17 de 17 agentes com melhorias definidas: 6 grupo comercial + 4 grupo marketing/conteúdo + 7 grupo análise e monitoramento
-- 14 skills cadastradas, incluindo `monday-crm-write` e `forecast-ponderado` como candidatas a revisão de código
+- 5 de 14 skills com melhorias definidas: grupo CRM e dados (monday-crm-query, monday-crm-write, forecast-ponderado, analise-churn, analise-nps); as outras 9 skills permanecem com `—`
 - Nenhuma tarefa agendada ativa no momento do levantamento (2026-04-14)
 
 ## Connections
@@ -35,6 +35,7 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 - 2026-04-14 — populadas 6 linhas de agentes do grupo comercial (diretor-comercial, gerente-comercial, especialista-renovacao, especialista-seguro-novo, hunter-cross-sell, qualificador-leads)
 - 2026-04-14 — populadas 4 linhas de agentes do grupo marketing/conteúdo (cmo, analista-campanhas, criador-conteudo, especialista-inbound)
 - 2026-04-14 — populadas 7 linhas de agentes do grupo análise e monitoramento (analista-churn, executor-retencao, analista-forecast, monitor-crm, analista-nps, analista-pipeline, analista-performance); todos os 17 agentes têm melhorias documentadas
+- 2026-04-14 — populadas 5 linhas de skills do grupo CRM e dados (monday-crm-query, monday-crm-write, forecast-ponderado, analise-churn, analise-nps); Key points atualizado para 5 de 14 skills com melhorias definidas
 
 ---
 
@@ -81,14 +82,14 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 |------|----------|------------|--------|
 | abordagem-comercial | — | — | Pendente |
 | analise-campanhas | — | — | Pendente |
-| analise-churn | — | — | Pendente |
-| analise-nps | — | — | Pendente |
+| analise-churn | A dimensão "Engajamento" (15% do score) não tem fonte de dados documentada — o Monday não tem campo nativo de "última interação"; especificar que a data de engajamento deve ser lida do último update registrado no item (via API `last_updated_at`) e documentar esse mapeamento na SKILL.md; também a verificação de monoproduto exige cross-reference com o board Apólices (9749857183) mas nenhuma instrução de join está documentada — adicionar passo explícito de busca no board Apólices filtrando por cliente antes de calcular a dimensão; por fim, não há saída definida para o caso em que a carteira tem zero clientes Críticos — adicionar esse caso ao template de saída esperada | Alta | Pendente |
+| analise-nps | Não há tamanho mínimo de amostra definido — com 1 resposta, a skill tecnicamente produz um NPS de −100 ou +100 que é matematicamente correto mas estatisticamente inútil; adicionar regra explícita: "se total de respostas no período < 5, emitir aviso de amostra insuficiente e não apresentar score por produto ou corretor (segmentação requer ≥ 5 por categoria)"; também o campo de feedback textual dos detratores não tem seu column ID documentado no SKILL.md — identificar e registrar o ID da coluna de texto livre do board 9751082146 para que a análise de categorias (Preço/Atendimento/Sinistro/Produto) seja reproduzível; e o fluxo de escalada para Marco (detratores com prêmio > R$ 3.000/ano) não documenta como calcular o prêmio anual — especificar que é o campo `numeric_mks5gh0b` (Prêmio Atual) do board Clientes cruzado por CPF/nome | Alta | Pendente |
 | auditoria-pipeline | — | — | Pendente |
 | criacao-conteudo | — | — | Pendente |
 | cross-sell-hunt | — | — | Pendente |
-| forecast-ponderado | — | — | Pendente |
-| monday-crm-query | — | — | Pendente |
-| monday-crm-write | — | — | Pendente |
+| forecast-ponderado | Os multiplicadores de cenário (0,70× pessimista / 1,15× otimista) não têm calibração histórica documentada e a fonte do valor "Meta do mês" não está especificada — definir de onde buscar a meta (hardcoded no SKILL.md? campo em um board Monday? doc_id no Monday Docs?) e adicionar instrução de calcular o erro médio absoluto percentual (MAPE) das últimas 4 semanas comparando o cenário Provável com a receita real (board Apólices 9749857183, coluna de prêmio pago) para calibrar os multiplicadores; também não há regra para deals criados no meio do período — definir se entram no forecast corrente (pró-rata pelo tempo restante) ou apenas no próximo ciclo, e documentar a regra no SKILL.md | Alta | Pendente |
+| monday-crm-query | Não há formato de saída definido — a skill descreve quais boards e colunas existem mas não especifica o schema do objeto retornado ao agente que a chama (lista de dicts? markdown table? JSON?); padronizar o formato de retorno com pelo menos dois modos: `list` (array de objetos com campos selecionados) e `summary` (contagem + top N) e documentar no SKILL.md; também a instrução de paginação ("usar paginação para boards grandes") não fornece o cursor correto da API Monday — adicionar exemplo de query GraphQL com `limit` e `cursor` para o board Apólices (8.459 itens) para evitar que agentes façam requisições sem paginação e recebam dados truncados silenciosamente | Média | Pendente |
+| monday-crm-write | Não há formato de retorno definido para nenhuma das 5 operações — o agente que chama a skill não sabe se a escrita foi bem-sucedida ou falhou; padronizar retorno mínimo `{ "status": "ok"|"error", "item_id": X, "message": "..." }` para todas as operações e documentar no SKILL.md; também a regra "confirmar o valor atual antes de alterar" (atualização de coluna) é boa prática mas não tem instrução de rollback — se a escrita falhar a meio (ex.: update criado mas coluna não atualizada), o item fica em estado inconsistente; adicionar instrução explícita: em caso de erro parcial, registrar o estado inconsistente como update no próprio item com prefixo `[ERRO-WRITE]` para auditoria manual; e a lista de ações críticas que exigem confirmação humana não inclui movimentação de grupo (ex.: mover deal de "Follow-up" para "Não Renovado"), que é irreversível — adicionar à lista de ações bloqueadas sem aprovação | Alta | Pendente |
 | nutricao-lead | — | — | Pendente |
 | plano-retencao | — | — | Pendente |
 | qualificacao-lead | — | — | Pendente |
