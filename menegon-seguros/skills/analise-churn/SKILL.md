@@ -20,6 +20,16 @@ Skill para calcular risco de churn na carteira Menegon Seguros. Produz lista pri
 
 **Score alto = cliente saudável. Score baixo = cliente em risco.**
 
+### Fonte de dados por dimensão
+
+| Dimensão | Campo/Board |
+|---|---|
+| Vencimento próximo | Campo `date_mkn8bwga` (data de vencimento) no board Renovação (9427535861) |
+| Histórico NPS | Board NPS (9751082146), filtrado por cliente |
+| Sinistros | Board Sinistros (18026494883), filtrado por cliente |
+| Engajamento | Campo `last_updated_at` do item no board Clientes (9332203920) — se a última atualização for há 60+ dias, classificar como risco médio |
+| Monoproduto | Contar itens ativos no board Apólices (9749857183) com `person` = corretor do cliente; se apenas 1 apólice ativa, classificar como monoproduto |
+
 ## Classificação de risco
 
 | Score | Classificação | Prazo de ação |
@@ -35,6 +45,7 @@ Skill para calcular risco de churn na carteira Menegon Seguros. Produz lista pri
 - NPS: board 9751082146
 - Sinistros: board 18026494883
 - Renovação: board 9427535861 (para verificar se já tem cotação em andamento)
+- Apólices: board 9749857183 (para verificar dimensão Monoproduto — contar apólices ativas por cliente)
 
 ## Saída esperada
 
@@ -51,4 +62,23 @@ EM RISCO (ação em 7 dias):
 ...
 
 Resumo: X críticos | X em risco | X monitorando | X saudáveis
+```
+
+### Saída quando não há clientes críticos
+
+```
+ANÁLISE DE CHURN — [data]
+
+Carteira analisada: X clientes ativos
+
+NENHUM CLIENTE CRÍTICO identificado neste ciclo.
+
+EM RISCO (ação em 7 dias):
+[lista ou "Nenhum"]
+
+MONITORAR:
+[lista ou "Nenhum"]
+
+Resumo: 0 críticos | X em risco | X monitorando | X saudáveis
+Próxima análise recomendada: [data + 7 dias]
 ```
