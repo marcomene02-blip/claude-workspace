@@ -32,6 +32,7 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 ## Changelog
 
 - 2026-04-14 — página criada com 6 melhorias de plugins e tabelas-esqueleto para agentes, skills e tarefas
+- 2026-04-14 — populadas 6 linhas de agentes do grupo comercial (diretor-comercial, gerente-comercial, especialista-renovacao, especialista-seguro-novo, hunter-cross-sell, qualificador-leads)
 
 ---
 
@@ -60,15 +61,15 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 | analista-pipeline | — | — | Pendente |
 | cmo | — | — | Pendente |
 | criador-conteudo | — | — | Pendente |
-| diretor-comercial | — | — | Pendente |
+| diretor-comercial | Sem critério de escalada para decisões urgentes: o agente aguarda acionamento mas nunca aciona de volta — adicionar regra explícita "se forecast < 80% da meta e faltam ≤ 7 dias para fechamento de ciclo, escalar automaticamente para revisão de plano de ação" e incluir exemplo de saída de aprovação/reprovação com justificativa (few-shot) no system prompt | Alta | Pendente |
 | especialista-inbound | — | — | Pendente |
-| especialista-renovacao | — | — | Pendente |
-| especialista-seguro-novo | — | — | Pendente |
+| especialista-renovacao | Não tem critério numérico para priorização de cotação quando múltiplos vencimentos colidem no mesmo dia — definir score de urgência combinando dias para vencimento + prêmio líquido (`numeric_mkvv8v53`) para ordenar o lote diário; também está faltando skill `nutricao-lead` para clientes que ficam em "Follow-up" além de 7 dias sem resposta | Média | Pendente |
+| especialista-seguro-novo | Handoff de pós-fechamento é implícito ("encaminhar para Analista de Churn") mas sem registro estruturado de conclusão no CRM — adicionar passo 6a: gravar campo `status_handoff` no item do Monday antes de encaminhar, garantindo que o Analista de Churn não processe um deal ainda em análise; também falta skill `nutricao-lead` para leads classificados como "frios" antes de arquivá-los | Alta | Pendente |
 | executor-retencao | — | — | Pendente |
-| gerente-comercial | — | — | Pendente |
-| hunter-cross-sell | — | — | Pendente |
+| gerente-comercial | Distribuição de prioridades é manual e sem critério de scoring documentado — definir fórmula de prioridade (ex.: `score = (30 - dias_vencimento) × prêmio_líquido`) e adicionar ao system prompt com exemplo de output de distribuição semanal para os especialistas (few-shot); também não tem exit criteria explícito para o resumo ao Diretor (quando o consolidado está "bom o suficiente" vs. precisa de aprovação) | Alta | Pendente |
+| hunter-cross-sell | Skill `cross-sell-hunt` não está documentada no repositório de skills — verificar se a skill existe ou se precisa ser criada; critério de "probabilidade de fechar" no cálculo de valor esperado é totalmente subjetivo e pode gerar lists inconsistentes entre execuções, definir rubrica de scoring por perfil (ex.: cliente ativo há >1 ano = +2 pts, produto complementar natural = +3 pts) | Alta | Pendente |
 | monitor-crm | — | — | Pendente |
-| qualificador-leads | — | — | Pendente |
+| qualificador-leads | Critérios BANT têm pesos definidos verbalmente (Alto/Médio/Baixo) mas sem escala numérica — especificar pontuação concreta por critério (ex.: Produto Alto = 3 pts, Perfil Alto = 3 pts, Timing Médio = 2 pts, Origem Médio = 2 pts, Contato Baixo = 1 pt; máx = 11) para tornar o score 8–10/5–7/0–4 reproduzível entre execuções; adicionar campo Monday target para registrar o score calculado por lead | Alta | Pendente |
 
 ---
 
