@@ -75,3 +75,7 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - Campo de feedback textual documentado (text_mkrtez0s, board 9751082146)
 - Regra de escalada para Marco com source do prêmio anual (numeric_mks5gh0b)
 - Backlog: analise-nps marcado como Concluído
+
+## [2026-04-15] refactor | backlog-melhorias — Fase 2 seções Quando usar
+- 7 skills recebem seção ## Quando usar: auditoria-pipeline, cross-sell-hunt, plano-retencao, analise-campanhas, nutricao-lead, criacao-conteudo, segmentacao-carteira
+- Todas marcadas como Concluído no backlog
