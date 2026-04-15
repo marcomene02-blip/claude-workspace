@@ -8,6 +8,16 @@ version: 1.0.0
 
 Skill para construir planos de recuperação individualizados. Cada plano identifica a causa raiz, define a ação correta e entrega um script pronto para o corretor.
 
+## Quando usar
+
+**Quem invoca:** `executor-retencao`
+
+**Condição de disparo:** invocar para cada cliente identificado com health score < 60 na análise semanal de churn (`analise-churn`).
+
+**Prioridade:** clientes com score < 40 (Crítico) devem ser processados primeiro, dentro de 24h após a conclusão da análise de churn.
+
+**Não invocar** quando o cliente já possui um plano de retenção ativo aguardando aprovação do Marco — evitar planos duplicados.
+
 ## Causas raiz mais comuns
 
 | Causa | Sinais no CRM | Ação recomendada |

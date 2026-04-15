@@ -8,6 +8,16 @@ version: 1.0.0
 
 Skill para medir e diagnosticar performance de campanhas de marketing. Conecta dados de leads/CRM com resultados comerciais.
 
+## Quando usar
+
+Invocar via agente `analista-campanhas` nos seguintes gatilhos:
+
+1. **Toda segunda-feira** — monitoramento contínuo de campanhas ativas.
+2. **Ao encerrar qualquer campanha** — relatório final de performance.
+3. **Solicitação de `monitor-crm` ou CMO** — revisão de performance sob demanda.
+
+**Requisito mínimo de dados:** a campanha deve ter pelo menos 1 lead registrado. Sem isso, a skill encerra sem análise (evita divisão por zero na validação dos dados).
+
 ## KPIs calculados
 
 | KPI | Fórmula | Meta de referência |

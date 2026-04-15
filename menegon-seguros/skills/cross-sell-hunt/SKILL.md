@@ -8,6 +8,13 @@ version: 1.0.0
 
 Skill para mapear oportunidades de cross-sell na base de clientes ativos. Produz lista priorizada por valor esperado com plano de abordagem.
 
+## Quando usar
+
+- **Agente invocador:** `hunter-cross-sell`
+- **Cadência:** toda segunda-feira de manhã (execução semanal)
+- **Destino da saída:** atualização no item do cliente no Monday CRM via skill `monday-crm-write`
+- **Exclusão:** não processar clientes que já foram abordados nos últimos 30 dias — evita repetir o mesmo top 10 da semana anterior
+
 ## Fontes de dados
 
 - Clientes: board 9332203920 (filtro Ativo)

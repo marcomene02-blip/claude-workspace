@@ -8,6 +8,19 @@ version: 1.0.0
 
 Skill de health check do pipeline comercial. Detecta problemas de dados, deals estagnados e calcula cobertura de meta.
 
+## Quando usar
+
+**Quem invoca:** `analista-pipeline`
+
+**Acionar quando:**
+- Semanalmente, antes do standup comercial (segunda-feira de manhã)
+- O agente `monitor-crm` emite alerta de Pipeline Seguro Novo (Dimensão 3)
+- O diretor comercial solicita um relatório de pipeline
+
+**Não acionar quando:**
+- O objetivo for analisar NPS ou churn — use `analista-nps`
+- Já foi executada nas últimas 24h sem mudanças no pipeline
+
 ## Checklist de higiene (por deal)
 
 - [ ] Corretor responsável atribuído (`person`)
