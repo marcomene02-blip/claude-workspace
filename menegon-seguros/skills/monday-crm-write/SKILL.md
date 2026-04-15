@@ -31,8 +31,31 @@ Atualizar o doc de log (doc_id 39303015) com snapshots e aprendizados do dia.
 ### Atualizar Mapa de Conhecimento
 Registrar correções ou novos padrões no Mapa (doc_id 39560051, object_id 18405584697).
 
+### Mover item para outro grupo
+Transferir um deal/apólice para outro grupo do board (ex: "Em Andamento" → "Não Renovado").
+- **Ação irreversível** — exige confirmação humana antes de executar
+- Confirmar: nome do item, grupo de origem e grupo de destino
+
+## Schema de retorno
+
+Toda operação deve produzir um objeto de resultado antes de prosseguir:
+
+```json
+{
+  "status": "sucesso" | "erro",
+  "item_id": "<id do item afetado>",
+  "operacao": "<tipo da operação executada>",
+  "message": "<descrição do resultado ou erro>"
+}
+```
+
+Se `status = "erro"`:
+1. Registrar `[ERRO-WRITE] <mensagem>` como update no próprio item (se o item existir)
+2. Não prosseguir com operações subsequentes que dependam desta escrita
+3. Reportar o erro ao agente que invocou a skill antes de encerrar
+
 ## Regras críticas
 
 - NUNCA altere dados de items sem ter lido o estado atual antes
-- Ações críticas (deletar, mover para Não Renovado, alterar prêmio) exigem confirmação humana
+- Ações críticas (deletar, mover entre grupos, alterar prêmio) exigem confirmação humana antes de executar
 - Todo update deve ter contexto suficiente para ser entendido por quem ler depois
