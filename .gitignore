@@ -25,3 +25,6 @@ build/
 Thumbs.db
 .vscode/
 .idea/
+
+# Wiki — Obsidian vault config (local, regenerated on first open)
+wiki/.obsidian/

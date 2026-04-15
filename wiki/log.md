@@ -118,3 +118,9 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - criador-conteudo AGENT: 4 exemplos few-shot (WhatsApp e email, certo/errado) + passo de monday-crm-query para conteúdo personalizado
 - analista-forecast AGENT: regra de corte dia 15 para deals novos + referência MAPE + fonte da meta (doc_id 39560051)
 - Todos marcados como Concluído no backlog — 100% de agentes e skills concluídos; apenas 6 itens de plugins restam (deferred)
+
+## [2026-04-15] schema | Obsidian compatibility + content language
+- CLAUDE.md: nova seção "Obsidian compatibility" permitindo wikilinks `[[slug]]` em Connections; citações de fontes em Key points permanecem `[slug]` (não `[[slug]]`)
+- CLAUDE.md: documentadas settings recomendadas do Obsidian vault; attachment folder = `raw/images/`
+- CLAUDE.md: nova seção "Content language" declarando pt-BR para pages/index/log e en para schema/meta
+- .gitignore (raiz): adicionado `wiki/.obsidian/` para não versionar config local do vault
