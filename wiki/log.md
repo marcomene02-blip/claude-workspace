@@ -100,3 +100,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - analista-nps: gatilho mensal (Dia 1) + nutricao-lead para promotores
 - analista-pipeline: escalada automática (48h → diretor) + critério de deal duplicado
 - Todos marcados como Concluído no backlog
+
+## [2026-04-15] refactor | Fase 5 onda 2 — 5 agentes melhorados
+
+- especialista-inbound: passo 4b (status_nurturing + data_handoff via monday-crm-write) + skill segmentacao-carteira
+- analista-performance: tabela de benchmarks por KPI (7 métricas com alerta) + passo 0 de rastreamento de recomendações pendentes
+- gerente-comercial: fórmula de prioridade score=(30-dias)×prêmio + few-shot distribuição semanal + exit criteria do resumo ao diretor
+- diretor-comercial: 4 exemplos few-shot (aprovação, ajuste, reprovação forecast, reprovação campanha)
+- qualificador-leads: tabela BANT com pontuação numérica (máx 10 pts) + regra de registro do score no Monday
+- Todos marcados como Concluído no backlog
