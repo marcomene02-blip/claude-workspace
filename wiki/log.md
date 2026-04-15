@@ -119,6 +119,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - analista-forecast AGENT: regra de corte dia 15 para deals novos + referência MAPE + fonte da meta (doc_id 39560051)
 - Todos marcados como Concluído no backlog — 100% de agentes e skills concluídos; apenas 6 itens de plugins restam (deferred)
 
+## [2026-04-15] ingest | Menegon Seguros — COMPANY e 3 TEAMs
+- Copiadas 4 fontes canônicas de menegon-seguros/ para wiki/raw/notes/ com prefixo 2026-04-15 e cabeçalho de origem
+- Criadas 4 páginas em pages/sources/: menegon-company, team-comercial, team-crm-fidelizacao, team-marketing
+- Atualizada seção ## Sources de wiki/index.md
+- Contradição de contagem identificada: COMPANY.md descreve 15 agentes nos núcleos subordinados; backlog e filesystem apontam para 17 — registrada em Open questions de menegon-company.md; será filiada no hub em C3
+
 ## [2026-04-15] schema | Obsidian compatibility + content language
 - CLAUDE.md: nova seção "Obsidian compatibility" permitindo wikilinks `[[slug]]` em Connections; citações de fontes em Key points permanecem `[slug]` (não `[[slug]]`)
 - CLAUDE.md: documentadas settings recomendadas do Obsidian vault; attachment folder = `raw/images/`
