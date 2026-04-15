@@ -65,3 +65,7 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - criacao-conteudo: gatilho e formato de saída ausentes + processo de aprovação de cases não documentado + faixa de preço no one-pager sem fonte de dados especificada
 - segmentacao-carteira: gatilho ausente + sem fallback quando health score não calculado + Marco omitido da distribuição por corretor + "contato direto" sem definição operacional
 - Key points atualizado: 14 de 14 skills com melhorias definidas — backlog de skills completo; Summary da página atualizado
+
+## [2026-04-14] refactor | backlog-melhorias — revisão final e prioridades
+- Verificado que todos os 33 ativos têm melhorias definidas
+- Prioridades revisadas e consistentes
