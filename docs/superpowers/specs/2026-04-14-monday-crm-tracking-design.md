@@ -1,99 +1,130 @@
 ---
-title: Rastreamento Sistemático de Melhorias do Monday CRM
+title: Monitoramento Sistemático do Monday CRM para Identificação de Melhorias
 type: analysis
 created: 2026-04-14
 updated: 2026-04-14
-tags: [monday, crm, agentes, skills, tarefas-agendadas, wiki, changelog]
+tags: [monday, crm, monitor, agentes, wiki, alertas]
 ---
 
 ## Objetivo
 
-Rastrear sistematicamente todas as melhorias do ecossistema Monday CRM — incluindo mudanças estruturais (agentes, skills, boards, tasks agendadas) e execuções rotineiras dos agentes — usando a wiki Git existente como fonte de verdade.
+Monitorar sistematicamente o Monday CRM para identificar oportunidades de melhoria operacional — renovações em risco, churn latente, pipeline estagnado, NPS baixo, automações falhando e desvios de forecast — e acionar automaticamente o agente responsável quando uma anomalia é detectada.
 
 ## Escopo
 
-Cobre dois tipos de registro:
+Cobre duas responsabilidades:
 
-1. **Changelog estrutural** — quando o sistema muda (novo agente, skill, board, task agendada configurada ou alterada)
-2. **Log de runtime** — quando os agentes executam suas tasks agendadas (resultado, métrica chave, status)
+1. **Monitoramento proativo** — leitura diária dos 8 boards, avaliação de 6 dimensões com limiares de alerta, geração de relatório na wiki Git
+2. **Reatividade automática** — quando anomalia é detectada, o agente responsável pela dimensão é acionado diretamente, sem intervenção manual
 
-Não cobre: logs internos do Monday.com, histórico de conversas Claude, ou mudanças em arquivos que não sejam agentes/skills/tasks/boards.
+Não cobre: execução das ações corretivas (responsabilidade dos agentes especializados), mudanças estruturais no sistema (agentes, skills, boards).
+
+## Arquitetura
+
+Um novo agente **monitor-crm** opera como task agendada local (Desktop), rodando todo dia às 06:00 — antes de todas as tasks operacionais. Fluxo:
+
+```
+06:00 → monitor-crm roda
+         ├── consulta 8 boards via MCP Monday
+         ├── avalia 6 dimensões
+         ├── grava relatório em wiki/pages/analyses/crm-monitor/YYYY-MM-DD.md
+         ├── atualiza wiki/pages/analyses/crm-monitor/index.md
+         └── para cada anomalia → aciona task do agente responsável
+```
 
 ## Estrutura de Arquivos
 
 ```
-wiki/pages/analyses/
-  monday-changelog.md    ← mudanças estruturais
-  monday-runtime-log.md  ← execuções das tasks agendadas
+wiki/pages/analyses/crm-monitor/
+  index.md              ← índice de todos os relatórios (uma linha por dia)
+  2026-04-14.md         ← relatório diário
+  2026-04-15.md
+  ...
 ```
 
-Ambos seguem o frontmatter padrão da wiki (`title`, `type: analysis`, `created`, `updated`). Entradas em ordem cronológica reversa (mais recente no topo).
+## As 6 Dimensões e Limiares de Alerta
 
-O `wiki/index.md` lista os dois arquivos em `## Analyses`. O `wiki/log.md` recebe entrada apenas na criação ou em mudanças de schema — não a cada execução de runtime.
+| Dimensão | Board(s) | Limiar de alerta | Agente acionado |
+|---|---|---|---|
+| **Renovações** | renovacao (9427535861) | Apólice vencendo em ≤7 dias sem status "em andamento" | especialista-renovacao |
+| **Churn** | clientes (9332203920) | Cliente com score de risco alto sem plano de retenção ativo | analista-churn |
+| **Pipeline Seguro Novo** | seguro_novo (9332203907) + leads (9332203913) | Lead parado há >5 dias ou forecast do mês <70% da meta | analista-pipeline |
+| **NPS** | nps (9751082146) | Detrator (nota ≤6) sem atualização nos últimos 7 dias | analista-nps |
+| **Qualidade das automações** | todos | Task com status `erro`/`parcial` no último ciclo; item criado por agente sem atualização em >3 dias | gerente-comercial |
+| **Forecast** | apolices (9749857183) + seguro_novo | Desvio >15% entre forecast e realidade do mês corrente | analista-forecast |
 
-## Formato das Entradas
+O monitor detecta e delega — não toma decisões operacionais.
 
-### monday-changelog.md
+## Formato do Relatório Diário
 
 ```markdown
-## [YYYY-MM-DD] <tipo> | <nome>
-- **Tipo:** <tipo legível>
-- **O quê:** descrição da mudança
-- **Por quê:** motivação
-- **Impacto:** boards, skills ou agentes afetados
-- **Commit:** <hash curto>
+---
+title: Monitor CRM — YYYY-MM-DD
+type: analysis
+status: ok | alertas | critico
+created: YYYY-MM-DD
+---
+
+## Resumo
+<N> alertas detectados. <N> crítico(s).
+
+## Dimensões
+
+### Renovações — ok | alerta | critico
+- <observação>
+
+### Churn — ok | alerta | critico
+- <observação> → **<agente> acionado** (se alerta)
+
+### Pipeline Seguro Novo — ok | alerta | critico
+### NPS — ok | alerta | critico
+### Qualidade das automações — ok | alerta | critico
+### Forecast — ok | alerta | critico
+
+## Ações disparadas
+- [ ] <agente> — <motivo>
 ```
 
-**Tipos válidos:** `add-agent`, `add-skill`, `add-task`, `add-board`, `update-agent`, `update-skill`, `update-task`, `update-board`, `remove-agent`, `remove-skill`, `remove-task`, `remove-board`
+**Status do relatório:** `ok` (nenhum alerta) | `alertas` (≥1 alerta não crítico) | `critico` (≥1 dimensão crítica)
 
-### monday-runtime-log.md
+## Formato do Índice
+
+`wiki/pages/analyses/crm-monitor/index.md` — uma linha por dia, ordem cronológica reversa:
 
 ```markdown
-## [YYYY-MM-DD HH:MM] <nome-da-task> | <status>
-- **Agente(s):** <lista>
-- **Métrica chave:** <1–2 linhas com o resultado principal>
-- **Duração:** <ex: 4m 12s>
-- **Commit:** <hash curto>
+| Data       | Status   | Alertas                        |
+|------------|----------|-------------------------------|
+| 2026-04-14 | alertas  | churn (2), pipeline (crítico) |
+| 2026-04-13 | ok       | —                             |
 ```
-
-**Status válidos:** `ok`, `erro`, `parcial`
 
 ## Protocolo de Commit
 
-### Tasks agendadas (runtime)
+O monitor-crm commita ao final de cada execução:
 
-Cada task agendada recebe a seguinte instrução no final do seu prompt:
+```
+git add wiki/pages/analyses/crm-monitor/YYYY-MM-DD.md
+git add wiki/pages/analyses/crm-monitor/index.md
+git commit -m "monitor: YYYY-MM-DD <status> — <resumo de alertas>"
+```
 
-> "Ao terminar, adicione uma entrada em `wiki/pages/analyses/monday-runtime-log.md` com data/hora UTC-3, nome da task, status (ok/erro/parcial), agente(s) envolvido(s), métrica chave (1–2 linhas) e duração. Faça commit apenas desse arquivo com mensagem `runtime: <nome-da-task> <status>`."
+Regras: `git add` nos arquivos específicos (nunca `-A`), nunca `--no-verify`.
 
-### Mudanças estruturais (changelog)
+## Acionamento de Agentes
 
-O agente que implementa a mudança (novo agente, skill, board ou task) é responsável por:
-
-1. Adicionar entrada em `monday-changelog.md`
-2. Commitar com mensagem `changelog: <tipo> | <nome>`
-
-Não há automação externa — o próprio Claude faz o commit ao final da execução.
-
-### Regras de commit
-
-- Usar `git add` no arquivo específico (nunca `git add -A`)
-- Mensagem curta e descritiva
-- Nunca usar `--no-verify`
-- Não atualizar `wiki/index.md` ou `wiki/log.md` a cada execução de runtime — apenas na criação dos arquivos ou em mudanças de schema
+Quando o monitor detecta anomalia, inclui no output um bloco de contexto estruturado dirigido à task agendada responsável. As tasks locais compartilham o mesmo contexto Desktop — o monitor invoca diretamente a próxima task com os dados já contextualizados. Sem webhook, sem script auxiliar.
 
 ## Contexto do Sistema
 
 - **Workspace Monday:** 11267903
 - **Boards ativos:** renovacao, seguro_novo, leads, clientes, apolices, nps, sinistro, agendamentos
-- **Agentes:** 16 (ver `menegon-seguros/`)
-- **Skills:** 10 (ver `menegon-seguros/skills/`)
-- **Tasks agendadas locais:** 11 (matinal, vespertina, semanal, churn, limpeza-pipeline, cross-sell, forecast, sprint-review, alerta-fim-semana, consolidacao-semanal, mensal)
-- **Limite de cloud triggers:** 3 (todas as 11 tasks ficam como locais/Desktop)
+- **Agentes disponíveis:** 16 (ver `menegon-seguros/agents/`)
+- **Tasks agendadas locais:** 11 (todas locais — limite de 3 cloud triggers)
+- **MCP Monday:** disponível via `.mcp.json` (workspace 11267903)
 
 ## Critérios de Sucesso
 
-- Após qualquer execução de task agendada, há uma entrada correspondente em `monday-runtime-log.md`
-- Após qualquer mudança estrutural no sistema, há uma entrada em `monday-changelog.md`
-- Os dois arquivos são legíveis por qualquer agente futuro sem contexto adicional
-- O histórico Git reflete a evolução do sistema ao longo do tempo
+- Todo dia às 06:00 há um relatório novo em `crm-monitor/`
+- Nenhuma anomalia passa 24h sem ser detectada e delegada ao agente responsável
+- O índice permite ver em segundos a evolução do status do CRM ao longo das semanas
+- Qualquer agente futuro consegue ler os relatórios sem contexto adicional
