@@ -119,6 +119,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - analista-forecast AGENT: regra de corte dia 15 para deals novos + referência MAPE + fonte da meta (doc_id 39560051)
 - Todos marcados como Concluído no backlog — 100% de agentes e skills concluídos; apenas 6 itens de plugins restam (deferred)
 
+## [2026-04-15] refactor | seeds — hub de agentes + 6 entidades + index atualizado
+- Criada concepts/sistema-agentes-menegon.md: hub com tabelas de 17 agentes (papéis por núcleo) e 14 skills (por grupo); contradições de contagem de agents (16 vs 17) e skills (10 vs 14) registradas em Open questions; 4 conceitos sem fonte pendentes listados
+- Criadas 6 entity pages: menegon-seguros, marco-menegon, monday-crm, time-comercial, time-crm-fidelizacao, time-marketing
+- Atualizado index.md seções ## Entities e ## Concepts
+- Dry-run de lint executado em chat antes do commit: nenhum key point sem citação, nenhum órfão novo, contradições preservadas, lacunas de conceitos registradas
+
 ## [2026-04-15] ingest | Menegon Seguros — COMPANY e 3 TEAMs
 - Copiadas 4 fontes canônicas de menegon-seguros/ para wiki/raw/notes/ com prefixo 2026-04-15 e cabeçalho de origem
 - Criadas 4 páginas em pages/sources/: menegon-company, team-comercial, team-crm-fidelizacao, team-marketing

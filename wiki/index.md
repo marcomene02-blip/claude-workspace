@@ -4,11 +4,16 @@ Catalog of every page in this wiki. Agent rewrites sections on ingest. See [CLAU
 
 ## Entities
 
-_none yet_
+- [Menegon Seguros](pages/entities/menegon-seguros.md) — corretora de seguros multiramo; empresa que opera o sistema de agentes
+- [Marco Menegon](pages/entities/marco-menegon.md) — fundador e Diretor Comercial; aprovador final de ações críticas
+- [Monday CRM](pages/entities/monday-crm.md) — sistema de CRM (workspace 11267903); fonte de verdade para todos os agentes
+- [Time Comercial](pages/entities/time-comercial.md) — 5 agentes; renovação, seguro novo e cross-sell
+- [Time CRM & Fidelização](pages/entities/time-crm-fidelizacao.md) — 3 agentes; retenção de clientes e NPS
+- [Time Marketing](pages/entities/time-marketing.md) — 4 agentes; geração de leads e campanhas
 
 ## Concepts
 
-_none yet_
+- [Sistema de Agentes — Menegon Seguros](pages/concepts/sistema-agentes-menegon.md) — hub com 17 agentes e 14 skills; tabelas de composição e links para fontes individuais
 
 ## Topics
 
