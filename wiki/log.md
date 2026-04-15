@@ -69,3 +69,9 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 ## [2026-04-14] refactor | backlog-melhorias — revisão final e prioridades
 - Verificado que todos os 33 ativos têm melhorias definidas
 - Prioridades revisadas e consistentes
+
+## [2026-04-15] refactor | analise-nps — amostra mínima, campo feedback, prêmio anual
+- Adicionada seção de tamanho mínimo de amostra (< 5 respostas = AMOSTRA INSUFICIENTE)
+- Campo de feedback textual documentado (text_mkrtez0s, board 9751082146)
+- Regra de escalada para Marco com source do prêmio anual (numeric_mks5gh0b)
+- Backlog: analise-nps marcado como Concluído
