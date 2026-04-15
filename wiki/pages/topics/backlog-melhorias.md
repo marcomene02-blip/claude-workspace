@@ -2,7 +2,7 @@
 title: Backlog de Melhorias
 type: topic
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-15
 sources: []
 tags: [backlog, melhorias, plugins, agentes, skills, tarefas, crm, dados, comercial, retencao]
 ---
@@ -22,6 +22,12 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 
 - [Monitor CRM — Índice](../analyses/crm-monitor/index.md) — agente `monitor-crm` é alvo da melhoria de paralelismo (superpowers)
 - Workspace n8n em menegon.app.n8n.cloud referenciado na melhoria de skills `n8n-*`
+- [[sistema-agentes-menegon]] — hub de todos os 17 agentes e 14 skills referenciados neste backlog
+- [[menegon-seguros]] — empresa cujos ativos (agentes, skills, plugins) são rastreados aqui
+- [[time-comercial]] — 5 agentes do grupo comercial com melhorias mapeadas
+- [[time-crm-fidelizacao]] — 3 agentes do grupo CRM com melhorias mapeadas
+- [[time-marketing]] — 4 agentes do grupo marketing com melhorias mapeadas
+- [[monday-crm]] — CRM onde as skills `monday-crm-write` e `monday-crm-query` melhoradas irão registrar ações
 
 ## Open questions
 
@@ -41,6 +47,7 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 - 2026-04-14 — Fase 5 onda 1: 5 agentes marcados Concluído (cmo, especialista-renovacao, especialista-seguro-novo, analista-nps, analista-pipeline)
 - 2026-04-15 — Fase 5 onda 2: 5 agentes marcados Concluído (especialista-inbound, analista-performance, gerente-comercial, diretor-comercial, qualificador-leads)
 - 2026-04-15 — Fase 5 onda 3: 5 ativos marcados Concluído (analise-churn SKILL, abordagem-comercial SKILL, analista-campanhas AGENT, criador-conteudo AGENT, analista-forecast AGENT) — todos os agentes e skills do backlog concluídos; apenas plugins restantes (6 itens deferred)
+- 2026-04-15 — Connections atualizadas com wikilinks para hub de agentes e entidades Menegon após ingest das fontes canônicas
 
 ---
 
