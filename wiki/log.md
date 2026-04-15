@@ -84,3 +84,10 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - qualificacao-lead: score inteiro, Quando usar, registro obrigatório no Monday, campo de descarte
 - executor-retencao: SLA 24h/72h, escalada [Aguardando Aprovação], skill nutricao-lead adicionada
 - Ambos marcados como Concluído no backlog
+
+## [2026-04-15] refactor | backlog-melhorias — Fase 4
+- analista-churn: tendência de score (deterioração rápida) e exit criteria
+- hunter-cross-sell: rubrica de probabilidade de fechamento
+- monday-crm-query: formato list/summary e paginação com cursor
+- forecast-ponderado: Quando usar, fonte da meta, MAPE, deals mid-period
+- Todos marcados como Concluído no backlog
