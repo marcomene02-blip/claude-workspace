@@ -57,3 +57,11 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - qualificacao-lead: score não inteiro por critério de contato (0.5) inconsistente com faixas de classificação inteiras + score não gravado no Monday + campo de motivo de descarte não definido
 - abordagem-comercial: gatilho ausente em todas as 5 situações de template + template de email prometido nas regras mas inexistente na SKILL.md + limite de caracteres WhatsApp ambíguo
 - Key points atualizado: 10 de 14 skills com melhorias definidas; Summary da página atualizado
+
+## [2026-04-14] refactor | backlog-melhorias — skills grupo conteúdo/crescimento
+- Populadas 4 linhas de skills (analise-campanhas, nutricao-lead, criacao-conteudo, segmentacao-carteira)
+- analise-campanhas: gatilho ausente + custo sem fonte/coluna definida + divisão por zero não tratada em ROI/CPL/taxa
+- nutricao-lead: gatilho ausente + limite de ciclos de cadência indefinido (risco de loop infinito) + templates incompletos para 2 personas (dias 7/10/14 faltando)
+- criacao-conteudo: gatilho e formato de saída ausentes + processo de aprovação de cases não documentado + faixa de preço no one-pager sem fonte de dados especificada
+- segmentacao-carteira: gatilho ausente + sem fallback quando health score não calculado + Marco omitido da distribuição por corretor + "contato direto" sem definição operacional
+- Key points atualizado: 14 de 14 skills com melhorias definidas — backlog de skills completo; Summary da página atualizado
