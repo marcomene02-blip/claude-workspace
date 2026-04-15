@@ -17,3 +17,6 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - Adicionado YAML frontmatter ao `pages/topics/backlog-melhorias.md`
 - Adicionadas seções obrigatórias (Summary, Key points, Connections, Open questions, Changelog)
 - Adicionada entrada no índice `wiki/index.md`
+
+## [2026-04-14] refactor | backlog-melhorias — agentes grupo comercial
+- Populadas 6 linhas de agentes (diretor-comercial, gerente-comercial, especialista-renovacao, especialista-seguro-novo, hunter-cross-sell, qualificador-leads)
