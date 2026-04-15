@@ -20,3 +20,11 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 
 ## [2026-04-14] refactor | backlog-melhorias — agentes grupo comercial
 - Populadas 6 linhas de agentes (diretor-comercial, gerente-comercial, especialista-renovacao, especialista-seguro-novo, hunter-cross-sell, qualificador-leads)
+
+## [2026-04-14] refactor | backlog-melhorias — agentes grupo marketing/conteúdo
+- Populadas 4 linhas de agentes (cmo, analista-campanhas, criador-conteudo, especialista-inbound)
+- cmo: skill segmentacao-carteira ausente + exit criteria de planejamento faltando
+- analista-campanhas: threshold numérico de intervenção ausente + skill segmentacao-carteira faltando
+- criador-conteudo: exemplos concretos de tom/voz ausentes + consulta CRM antes de criar conteúdo personalizado
+- especialista-inbound: passo de registro Monday no handoff ausente + skill segmentacao-carteira faltando
+- Summary e Key points atualizados para refletir 10 agentes com melhorias definidas

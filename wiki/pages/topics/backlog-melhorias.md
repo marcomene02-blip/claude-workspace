@@ -9,12 +9,12 @@ tags: [backlog, melhorias, plugins, agentes, skills, tarefas]
 
 ## Summary
 
-Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas. As melhorias são priorizadas em Alta / Média / Baixa e rastreadas com status Pendente / Em andamento / Concluído. As entradas de plugins com prioridade Alta envolvem habilitar paralelismo no monitor-crm e auditoria adversarial nas skills que escrevem no CRM. Os 6 agentes do grupo comercial já têm melhorias definidas, incluindo item crítico de skill ausente no hunter-cross-sell.
+Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas. As melhorias são priorizadas em Alta / Média / Baixa e rastreadas com status Pendente / Em andamento / Concluído. As entradas de plugins com prioridade Alta envolvem habilitar paralelismo no monitor-crm e auditoria adversarial nas skills que escrevem no CRM. Os 6 agentes do grupo comercial já têm melhorias definidas, incluindo item crítico de skill ausente no hunter-cross-sell. Os 4 agentes do grupo marketing/conteúdo (cmo, analista-campanhas, criador-conteudo, especialista-inbound) também estão preenchidos.
 
 ## Key points
 
 - 6 melhorias identificadas para plugins `superpowers` e `codex`, todas com status Pendente
-- 11 agentes aguardando levantamento; 6 agentes do grupo comercial com melhorias definidas
+- 7 agentes aguardando levantamento; 10 agentes com melhorias definidas (6 grupo comercial + 4 grupo marketing/conteúdo)
 - 14 skills cadastradas, incluindo `monday-crm-write` e `forecast-ponderado` como candidatas a revisão de código
 - Nenhuma tarefa agendada ativa no momento do levantamento (2026-04-14)
 
@@ -33,6 +33,7 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 
 - 2026-04-14 — página criada com 6 melhorias de plugins e tabelas-esqueleto para agentes, skills e tarefas
 - 2026-04-14 — populadas 6 linhas de agentes do grupo comercial (diretor-comercial, gerente-comercial, especialista-renovacao, especialista-seguro-novo, hunter-cross-sell, qualificador-leads)
+- 2026-04-14 — populadas 4 linhas de agentes do grupo marketing/conteúdo (cmo, analista-campanhas, criador-conteudo, especialista-inbound)
 
 ---
 
@@ -53,16 +54,16 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 
 | Nome | Melhoria | Prioridade | Status |
 |------|----------|------------|--------|
-| analista-campanhas | — | — | Pendente |
+| analista-campanhas | Não tem threshold numérico que define quando uma campanha "precisa de intervenção" vs. está "dentro do esperado" — adicionar exit criteria explícito ao system prompt (ex.: conversão < 60% da meta por 3+ dias consecutivos = alertar CMO; ROI < 1,0 = pausar campanha); também falta skill `segmentacao-carteira` para cruzar performance de campanha com o segmento-alvo e identificar se o problema é de segmentação, não de canal | Alta | Pendente |
 | analista-churn | — | — | Pendente |
 | analista-forecast | — | — | Pendente |
 | analista-nps | — | — | Pendente |
 | analista-performance | — | — | Pendente |
 | analista-pipeline | — | — | Pendente |
-| cmo | — | — | Pendente |
-| criador-conteudo | — | — | Pendente |
+| cmo | Não tem skill `segmentacao-carteira` apesar de ser responsável por definir segmentação de campanhas — adicionar skill ao frontmatter e incluir passo explícito de consulta à carteira segmentada antes de planejar campanhas trimestrais; também faltam exit criteria para entrega de planejamento (ex.: o plano está aprovado quando contém: objetivo quantificado, canal priorizado, CPL-meta por canal e responsável definido) | Média | Pendente |
+| criador-conteudo | Tom e voz estão descritos qualitativamente mas sem exemplos concretos aprovados e reprovados — adicionar ao system prompt pelo menos 1 exemplo de mensagem "certa" e 1 "errada" por tipo de conteúdo principal (script WhatsApp, email nurturing, post Instagram) para tornar as diretrizes reproduzíveis; também não há consulta de CRM para identificar qual produto/segmento o cliente-alvo possui antes de criar conteúdo personalizado — adicionar passo de `monday-crm-query` quando o contexto for um lead ou cliente específico | Média | Pendente |
 | diretor-comercial | Adicionar few-shot examples de aprovação e rejeição no system prompt (ex: quando forecast < 80% com ≤7 dias para fechamento, output deve incluir justificativa estruturada de reprovação); hoje o agente não tem exemplos de saída | Alta | Pendente |
-| especialista-inbound | — | — | Pendente |
+| especialista-inbound | O handoff para o qualificador-leads está implícito no gatilho "Qualificador devolve lead morno" mas o fluxo de 14 dias não tem passo explícito de registro no Monday antes de passar o lead adiante — adicionar passo 4b: gravar campos `status_nurturing` e `data_handoff` no item do Monday (via `monday-crm-write`) antes de enviar para o qualificador, evitando leads duplicados em nutrição e qualificação simultaneamente; também não usa skill `segmentacao-carteira` apesar de ter estratégia diferenciada por persona | Alta | Pendente |
 | especialista-renovacao | Não tem critério numérico para priorização de cotação quando múltiplos vencimentos colidem no mesmo dia — definir score de urgência combinando dias para vencimento + prêmio líquido (`numeric_mkvv8v53`) para ordenar o lote diário; também está faltando skill `nutricao-lead` para clientes que ficam em "Follow-up" além de 7 dias sem resposta | Média | Pendente |
 | especialista-seguro-novo | Handoff de pós-fechamento é implícito ("encaminhar para Analista de Churn") mas sem registro estruturado de conclusão no CRM — adicionar passo 6a: gravar campo `status_handoff` no item do Monday antes de encaminhar, garantindo que o Analista de Churn não processe um deal ainda em análise; também falta skill `nutricao-lead` para leads classificados como "frios" antes de arquivá-los | Média | Pendente |
 | executor-retencao | — | — | Pendente |
