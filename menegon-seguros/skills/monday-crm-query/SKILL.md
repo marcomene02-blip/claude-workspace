@@ -33,9 +33,46 @@ Habilidade de leitura do Monday CRM. Use esta skill para buscar dados de qualque
 - `text_mks7z632` — Seguradora
 - `dropdown_mm09hks6` — Produto
 
+## Formato de saída
+
+Toda consulta deve retornar em um dos dois modos:
+
+### Modo `list` (padrão)
+Array de objetos com os campos selecionados. Usar quando o agente precisa processar item por item.
+
+```json
+[
+  { "id": "123456789", "name": "Cliente XYZ", "status": "Em Cotação", "date_mks7vvn8": "2026-05-10", "numeric_mks5gh0b": 1200 },
+  ...
+]
+```
+
+### Modo `summary`
+Contagem + top N itens. Usar quando o agente precisa de visão agregada (ex.: quantos deals por estágio).
+
+```
+Board: Renovação
+Total de itens: 47
+Por status:
+  Em Cotação: 12
+  Follow-up: 18
+  Em Análise: 8
+  Atualizar Cadastro: 9
+
+Top 5 por prêmio líquido:
+  [Cliente A] — R$ 3.200 — Follow-up — vence 2026-04-28
+  ...
+```
+
+Especificar o modo desejado ao invocar a skill. Se omitido, usar `list`.
+
 ## Instruções de uso
 
 1. Sempre filtrar por período relevante quando buscar vencimentos
 2. No board Clientes, sempre aplicar filtro `text_mkrtez0s = "Ativo"`
-3. Usar paginação para boards grandes (Apólices tem 8.459 itens)
+3. Usar paginação para boards grandes (Apólices tem 8.459 itens). Exemplo de query com cursor:
+   - Primeira página: `boards(ids: 9749857183) { items_page(limit: 100) { cursor items { id name } } }`
+   - Páginas seguintes: `boards(ids: 9749857183) { items_page(limit: 100, cursor: "CURSOR_AQUI") { cursor items { id name } } }`
+   - Repetir até `cursor` retornar `null`
+   - Nunca buscar sem `limit` em boards com > 500 itens — a API trunca silenciosamente
 4. Ler o Mapa de Conhecimento (doc_id 39560051) antes de interpretar dados desconhecidos
