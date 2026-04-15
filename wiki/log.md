@@ -28,3 +28,14 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - criador-conteudo: exemplos concretos de tom/voz ausentes + consulta CRM antes de criar conteúdo personalizado
 - especialista-inbound: passo de registro Monday no handoff ausente + skill segmentacao-carteira faltando
 - Summary e Key points atualizados para refletir 10 agentes com melhorias definidas
+
+## [2026-04-14] refactor | backlog-melhorias — agentes grupo análise e monitoramento
+- Populadas 7 linhas de agentes (analista-churn, executor-retencao, analista-forecast, monitor-crm, analista-nps, analista-pipeline, analista-performance)
+- analista-churn: rastreamento de tendência de health score (queda ≥15 pts em 7 dias) ausente + exit criteria do relatório indefinido
+- executor-retencao: SLA de aprovação do Marco indefinido — clientes Críticos ficam sem escalada automática; skill nutricao-lead faltando para clientes Em Risco
+- analista-forecast: MAPE nunca calculado, calibração dos multiplicadores sem base histórica; deals mid-week sem regra de inclusão definida
+- monitor-crm: skill monday-crm-write ausente impede criar alertas no Monday; health score duplicado com analista-churn, frágil a mudanças de peso
+- analista-nps: gatilho reativo sem cadência mínima garantida; skill nutricao-lead faltando para fluxo de referral de promotores
+- analista-pipeline: escalada quando threshold violado sem prazo definido; critério de duplicata não especificado
+- analista-performance: KPIs sem faixas de referência objetivas; recomendações anteriores nunca verificadas antes de novas
+- Summary, Key points e Changelog da página atualizados; todos os 17 agentes têm melhorias documentadas
