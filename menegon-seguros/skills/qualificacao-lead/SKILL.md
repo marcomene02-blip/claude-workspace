@@ -16,7 +16,7 @@ Skill para qualificar leads antes de passá-los ao time comercial. Aplica modelo
 | Perfil com fit para o produto | 2 pts | Alto = 2, Médio = 1, Baixo = 0 |
 | Timing favorável | 2 pts | Vencendo em 60 dias = 2, Situação nova = 1, Sem urgência = 0 |
 | Origem do lead | 2 pts | Indicação = 2, Inbound orgânico = 1, Frio = 0 |
-| Contato verificado | 1 pt | WhatsApp válido = 1, Só email = 0.5, Nenhum = 0 |
+| Contato verificado | 1 pt | WhatsApp válido = 1, Só email = 0, Nenhum = 0 |
 | Histórico de cliente Menegon | 1 pt | Cliente anterior = 1, Novo = 0 |
 
 ## Classificação
@@ -26,6 +26,26 @@ Skill para qualificar leads antes de passá-los ao time comercial. Aplica modelo
 | 8–10 | Quente | Encaminhar imediatamente ao Especialista correto |
 | 5–7 | Morno | Entrar na cadência de nurturing (Especialista Inbound) |
 | 0–4 | Frio | Arquivar com motivo registrado |
+
+## Quando usar
+
+**Quem invoca:** `qualificador-leads`
+
+**Acionar quando:** novo lead entra no board Leads (9332203913) com status "Novo" ou "A qualificar".
+
+**Não acionar** para leads já qualificados (status "Quente", "Morno" ou "Frio") — apenas reclassificar se houver mudança relevante de contexto (ex.: cliente indicou novo interesse).
+
+## Registro obrigatório no Monday
+
+Após calcular o score, **antes de encaminhar o lead**, registrar via `monday-crm-write`:
+
+| Campo | O que gravar |
+|---|---|
+| Coluna de nota/score | Score numérico calculado (ex.: `7`) |
+| Update no item | Texto completo da qualificação (copiar saída esperada abaixo) |
+| Status | Atualizar para "Quente", "Morno" ou "Frio" conforme classificação |
+
+Para leads **Frios (0–4):** registrar o motivo de descarte no campo de texto do item (ex.: "Frio — sem timing e contato apenas por email") antes de arquivar.
 
 ## Saída esperada por lead
 
