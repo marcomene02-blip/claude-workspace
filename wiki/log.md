@@ -48,3 +48,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - analise-churn: dimensão Engajamento sem fonte de dados mapeada (last_updated_at) + join com Apólices para monoproduto não documentado + caso zero-críticos ausente do template de saída
 - analise-nps: tamanho mínimo de amostra não definido (risco de NPS espúrio) + column ID de feedback textual não documentado + cálculo de prêmio anual para escalada a Marco não especificado
 - Key points atualizado: 5 de 14 skills com melhorias definidas
+
+## [2026-04-14] refactor | backlog-melhorias — skills grupo comercial/retenção
+- Populadas 5 linhas de skills (auditoria-pipeline, cross-sell-hunt, plano-retencao, qualificacao-lead, abordagem-comercial)
+- auditoria-pipeline: gatilho ausente + dimensão "distribuição equilibrada" sem critério numérico + fonte da Meta Mensal não especificada
+- cross-sell-hunt: gatilho e cadência ausentes + probabilidades sem calibração histórica + lógica de rotação de clientes inexistente
+- plano-retencao: gatilho ausente + SLA de aprovação do Marco indefinido para clientes Críticos + output não definido para causa raiz indeterminável
+- qualificacao-lead: score não inteiro por critério de contato (0.5) inconsistente com faixas de classificação inteiras + score não gravado no Monday + campo de motivo de descarte não definido
+- abordagem-comercial: gatilho ausente em todas as 5 situações de template + template de email prometido nas regras mas inexistente na SKILL.md + limite de caracteres WhatsApp ambíguo
+- Key points atualizado: 10 de 14 skills com melhorias definidas; Summary da página atualizado
