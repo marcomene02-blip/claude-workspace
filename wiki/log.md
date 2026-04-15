@@ -12,3 +12,8 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 ## [2026-04-14] ingest | Monitor CRM
 - Criado `wiki/pages/analyses/crm-monitor/index.md` — índice de relatórios diários.
 - Atualizado `wiki/index.md` com entrada em Analyses.
+
+## [2026-04-14] refactor | backlog-melhorias criado sem frontmatter
+- Adicionado YAML frontmatter ao `pages/topics/backlog-melhorias.md`
+- Adicionadas seções obrigatórias (Summary, Key points, Connections, Open questions, Changelog)
+- Adicionada entrada no índice `wiki/index.md`

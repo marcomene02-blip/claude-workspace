@@ -1,13 +1,41 @@
-# Backlog de Melhorias
+---
+title: Backlog de Melhorias
+type: topic
+created: 2026-04-14
+updated: 2026-04-14
+sources: []
+tags: [backlog, melhorias, plugins, agentes, skills, tarefas]
+---
 
-Rastreamento de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas.
+## Summary
 
-**Prioridade:** Alta / Média / Baixa
-**Status:** Pendente / Em andamento / Concluído
+Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema: plugins, agentes, skills e tarefas agendadas. As melhorias são priorizadas em Alta / Média / Baixa e rastreadas com status Pendente / Em andamento / Concluído. As entradas de plugins com prioridade Alta envolvem habilitar paralelismo no monitor-crm e auditoria adversarial nas skills que escrevem no CRM.
+
+## Key points
+
+- 6 melhorias identificadas para plugins `superpowers` e `codex`, todas com status Pendente
+- 17 agentes cadastrados no backlog aguardando levantamento de melhorias específicas
+- 14 skills cadastradas, incluindo `monday-crm-write` e `forecast-ponderado` como candidatas a revisão de código
+- Nenhuma tarefa agendada ativa no momento do levantamento (2026-04-14)
+
+## Connections
+
+- [Monitor CRM — Índice](../analyses/crm-monitor/index.md) — agente `monitor-crm` é alvo da melhoria de paralelismo (superpowers)
+- Workspace n8n em menegon.app.n8n.cloud referenciado na melhoria de skills `n8n-*`
+
+## Open questions
+
+- Quais agentes têm maior prioridade para levantamento de melhorias específicas?
+- A skill `forecast-ponderado` tem cobertura de testes antes de receber `codex:review`?
+- O limite de 3 cloud triggers afeta a viabilidade de ativar tarefas agendadas no futuro?
+
+## Changelog
+
+- 2026-04-14 — página criada com 6 melhorias de plugins e tabelas-esqueleto para agentes, skills e tarefas
 
 ---
 
-## Plugins (2)
+## Plugins — 2 instalados
 
 | Nome | Versão | Melhoria | Prioridade | Status |
 |------|--------|----------|------------|--------|

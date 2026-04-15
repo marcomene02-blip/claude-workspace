@@ -12,7 +12,7 @@ _none yet_
 
 ## Topics
 
-_none yet_
+- [Backlog de Melhorias](pages/topics/backlog-melhorias.md) — rastreamento de ideias de melhoria para plugins, agentes, skills e tarefas agendadas
 
 ## Sources
 
