@@ -91,3 +91,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - monday-crm-query: formato list/summary e paginação com cursor
 - forecast-ponderado: Quando usar, fonte da meta, MAPE, deals mid-period
 - Todos marcados como Concluído no backlog
+
+## [2026-04-14] refactor | Fase 5 onda 1 — 5 agentes melhorados
+
+- cmo: skill segmentacao-carteira adicionada ao frontmatter + exit criteria de planejamento
+- especialista-renovacao: nutricao-lead + score de urgência para cotações simultâneas
+- especialista-seguro-novo: nutricao-lead para leads frios + passo 6a (status_handoff no CRM)
+- analista-nps: gatilho mensal (Dia 1) + nutricao-lead para promotores
+- analista-pipeline: escalada automática (48h → diretor) + critério de deal duplicado
+- Todos marcados como Concluído no backlog
