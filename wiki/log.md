@@ -79,3 +79,8 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 ## [2026-04-15] refactor | backlog-melhorias — Fase 2 seções Quando usar
 - 7 skills recebem seção ## Quando usar: auditoria-pipeline, cross-sell-hunt, plano-retencao, analise-campanhas, nutricao-lead, criacao-conteudo, segmentacao-carteira
 - Todas marcadas como Concluído no backlog
+
+## [2026-04-15] refactor | backlog-melhorias — Fase 3 qualificacao-lead e executor-retencao
+- qualificacao-lead: score inteiro, Quando usar, registro obrigatório no Monday, campo de descarte
+- executor-retencao: SLA 24h/72h, escalada [Aguardando Aprovação], skill nutricao-lead adicionada
+- Ambos marcados como Concluído no backlog
