@@ -109,3 +109,12 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - diretor-comercial: 4 exemplos few-shot (aprovação, ajuste, reprovação forecast, reprovação campanha)
 - qualificador-leads: tabela BANT com pontuação numérica (máx 10 pts) + regra de registro do score no Monday
 - Todos marcados como Concluído no backlog
+
+## [2026-04-15] refactor | Fase 5 onda 3 — 5 ativos melhorados
+
+- analise-churn SKILL: fonte de engajamento (last_updated_at) + join Apólices (9749857183) para monoproduto + template zero-críticos
+- abordagem-comercial SKILL: seção Quando usar (5 cenários) + templates email renovação e cross-sell + limite 320 chars WhatsApp
+- analista-campanhas AGENT: thresholds numéricos (ROI < 1,0 = pausar; conversão < 60% = alertar CMO) + skill segmentacao-carteira
+- criador-conteudo AGENT: 4 exemplos few-shot (WhatsApp e email, certo/errado) + passo de monday-crm-query para conteúdo personalizado
+- analista-forecast AGENT: regra de corte dia 15 para deals novos + referência MAPE + fonte da meta (doc_id 39560051)
+- Todos marcados como Concluído no backlog — 100% de agentes e skills concluídos; apenas 6 itens de plugins restam (deferred)
