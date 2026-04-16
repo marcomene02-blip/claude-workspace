@@ -126,7 +126,7 @@ Os seguintes campos devem ser incluídos como campos de nível superior no objet
 | `rotina` | `rotina` |
 | `execucao` | `execucao` |
 | `alertas_gerados` | `metricas_acao.alertas_gerados` (null se não aplicável) |
-| `tag_util` | `feedback_humano.tag_util` (null no momento do upsert) |
+| `tag_util` | `feedback_humano.tag_util` — usar `""` (string vazia) quando null; Pinecone não aceita null |
 | `toca_cliente_externo` | `toca_cliente_externo` |
 | `modo_autonomia` | `modo_autonomia` |
 
@@ -139,7 +139,7 @@ Os seguintes campos devem ser incluídos como campos de nível superior no objet
   "rotina": "monitor-crm",
   "execucao": "2026-04-15T06:30:00-03:00",
   "alertas_gerados": 3,
-  "tag_util": null,
+  "tag_util": "",
   "toca_cliente_externo": false,
   "modo_autonomia": "auto"
 }
