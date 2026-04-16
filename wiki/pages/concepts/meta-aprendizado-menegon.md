@@ -16,7 +16,7 @@ Cada rotina registra sua execução num arquivo markdown estruturado. O recalibr
 ```
 ┌─ CHASSI DE META-APRENDIZADO ───────────────────────────────────┐
 │                                                                │
-│   rotinas (17)                                                 │
+│   rotinas (12, expandindo)                                     │
 │        │                                                       │
 │        │ emit (YAML frontmatter + narrativa)                   │
 │        ▼                                                       │

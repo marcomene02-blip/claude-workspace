@@ -1,6 +1,6 @@
 ---
 rotina: recalibrador-menegon
-familia: operacional
+familia: B-operacional
 toca_cliente_externo: false
 modo_autonomia: auto
 board_monday_principal: null

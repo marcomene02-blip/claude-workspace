@@ -14,7 +14,7 @@ Ao **iniciar** a execução, o agente deve:
 
 1. Verificar se existe o arquivo `menegon-seguros/config/thresholds/<rotina>.yaml` (onde `<rotina>` é o nome canônico da rotina, ex: `monitor-crm`).
 2. Se o arquivo existir: ler todos os campos e mantê-los em memória como `thresholds_em_vigor`. Esses valores serão copiados no frontmatter do arquivo de análise ao final.
-3. Se o arquivo **não** existir: usar os defaults declarados na própria SKILL.md da rotina. Registrar `thresholds_em_vigor: {}` no frontmatter.
+3. Se o arquivo **não** existir: usar os defaults declarados no próprio AGENTS.md da rotina. Registrar `thresholds_em_vigor: {}` no frontmatter.
 
 **Nota**: O arquivo de thresholds pode ser modificado pelo `recalibrador-menegon` entre execuções. Ler no início garante que a rotina opera com os parâmetros mais recentes e que o log reflete exatamente o que foi usado.
 
@@ -52,7 +52,7 @@ metricas_acao:
 metricas_acao_t7: null                 # preenchido retroativamente: quantos alertas geraram ação humana
 metricas_acao_t14: null
 metricas_acao_t30: null
-# === MÉTRICA FAMÍLIA D — Feedback humano ===
+# === MÉTRICAS FAMÍLIA D — Feedback humano ===
 feedback_humano:
   tag_util: null                       # "util" | "ignorar" | null (preenchido pelo especialista-performance)
   observacao: null                     # comentário livre opcional
