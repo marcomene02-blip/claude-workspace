@@ -109,12 +109,85 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 
 ---
 
-## Tarefas Agendadas (0)
+## Tarefas Agendadas — 16 cloud triggers (2026-04-15 pós-migração)
 
-| Nome | Melhoria | Prioridade | Status |
-|------|----------|------------|--------|
-| *nenhuma ativa no momento* | — | — | — |
+> **Estado atual:** 0 specs locais em `~/.claude/scheduled-tasks/` (todas deletadas). **16 cloud triggers ativos** conectados ao Monday CRM MCP (`mcp.monday.com/mcp`), todos no repositório `marcomene02-blip/claude-workspace`. Routines expandiu o limite para 15 execuções/dia no plano Max — pico atual é 7/dia (segunda, quarta e sexta).
+
+### Cadeia diária (seg-sex)
+
+```
+06:30  monitor-crm             Avalia 6 dimensões do CRM (insumo do matinal)
+07:30  matinal-menegon         Briefing do dia (vencimentos + prazos + alertas)
+08:15  qualificacao-leads      BANT em leads novos → Quente/Morno/Frio
+09:05  nutricao-leads          Cadência 14 dias para mornos
+18:00  vespertina-menegon      Fechamento do dia
+```
+
+### Cadência semanal
+
+| Dia | Horário | Task | Função |
+|-----|---------|------|--------|
+| Seg | 07:00 | semanal-menegon | Diagnóstico semanal por corretor |
+| Seg | 10:00 | churn-menegon | Health Score de carteira |
+| Ter | 08:00 | audit-followup-menegon | SLA Follow-up + Cotação |
+| Qua | 08:10 | limpeza-pipeline-menegon | Higiene dos boards |
+| Qua | 09:00 | cross-sell-menegon | Top 15 oportunidades |
+| Qui | 08:00 | audit-followup-menegon | SLA Follow-up + Cotação |
+| Sex | 14:00 | forecast-menegon | 3 cenários de fechamento |
+| Sex | 16:00 | sprint-review-menegon | Fechamento do sprint |
+| Sáb | 09:00 | alerta-fim-semana-menegon | Top 10 vencimentos críticos |
+| Dom | 20:00 | consolidacao-semanal-menegon | KPIs da semana + prioridades |
+
+### Cadência mensal
+
+| Dia | Horário | Task |
+|-----|---------|------|
+| Dia 2 | 09:10 | nps-mensal-menegon — consolida NPS + detrator/promotor |
+| Dia 1 | 08:00 | mensal-menegon — revisão mensal completa |
+
+### IDs dos triggers (RemoteTrigger)
+
+| Task | Trigger ID |
+|------|-----------|
+| matinal-menegon | trig_017PE4j4gusofoYWtpxJaZKX |
+| vespertina-menegon | trig_01Wo1gQbPCZ6JtdjxsdLxTHB |
+| monitor-crm | trig_01LGPjyEgRUGfAHjS56LpELT |
+| semanal-menegon | trig_01UjRWopqptvZ3ZN8paCZ1gz |
+| churn-menegon | trig_01PDWY1zi3QxpBpxwizz3BBW |
+| limpeza-pipeline-menegon | trig_01Epeb2a19bPxvpmhUqu8Hc8 |
+| cross-sell-menegon | trig_018tYQ9R5MXeRdDnnudJuqbj |
+| forecast-menegon | trig_0167djfQ8T5VmXAqi8MgXfs4 |
+| sprint-review-menegon | trig_01FgC91mX4SsnxLN7nn7oo6s |
+| alerta-fim-semana-menegon | trig_01Ur5iJWXgbdRgTR21i9ucZR |
+| consolidacao-semanal-menegon | trig_01MmHNFu2DFrcDsmN7ruLRUB |
+| mensal-menegon | trig_01MZbvT8Z3yCVSswjwb88kUJ |
+| qualificacao-leads-menegon | trig_01DWMKQbcBJ1nYujsG91aEUP |
+| nutricao-leads-menegon | trig_015KCoGMsKuywiKrHNrJ7tBF |
+| nps-mensal-menegon | trig_01XRcPkHahJ4aBRHpUMEdUGy |
+| audit-followup-menegon | trig_01QtAJ3nsgpCX2NNpAvdfqkT |
+
+### Sintonização (como as tasks se integram)
+
+- **Canal de escrita compartilhado:** Log Diário (`doc_id 39303015`, object_id `18404865691`) — todas escrevem
+- **Canal de leitura contextual:** Mapa de Conhecimento (`doc_id 39560051`, object_id `18405584697`) — todas lêem
+- **Fonte da verdade:** boards Monday workspace `11267903` (Renovação, Seguro Novo, Leads, Clientes, Apólices, NPS, Sinistro, Agendamentos)
+- **Ordem temporal:** 06:30 → 07:30 → 08:xx → 09:xx → 18:00 é uma cadeia onde cada task enriquece o Log antes da próxima ler
+- **Semanal**: consolidacao Dom 20:00 → semanal Seg 07:00 → matinal Seg 07:30 fecha o ciclo
+
+### Gaps remanescentes (próximas fases)
+
+- **Marketing** — 4 agentes (CMO, Campanhas, Conteúdo, Inbound) sem rotina agendada. Alta prioridade para Fase 2.
+- **Aniversário cliente + boas-vindas pós-emissão** — sem rotina; requer novas skills antes de agendar.
+- **Escalada de planos de retenção** (executor-retencao) — sem rotina.
+- **Programa de referral** (pós-NPS promotor) — skill a criar.
+- **Sinistro, backoffice, prospecção outbound** — áreas ausentes do sistema inteiro (nem agentes, nem rotinas).
+
+### Pendência operacional
+
+- **PDF da matinal** — cloud não gera mais PDFs (sem reportlab no ambiente do clone). Se precisar do PDF, rodar skill manual no Desktop ou criar rotina local dedicada ao PDF.
+- **Colunas Monday** — `status_nurturing`, `data_inicio_nurturing`, `ciclo_nurturing` e `status_referral` devem existir nos boards. A 1ª execução das tasks que dependem delas vai alertar se faltarem.
+- **monitor-crm paralelo** — habilitar `dispatching-parallel-agents` para reduzir tempo; backlog já sinaliza.
 
 ---
 
-*Última atualização: 2026-04-14*
+*Última atualização: 2026-04-15*
