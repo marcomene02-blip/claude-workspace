@@ -14,10 +14,14 @@ metricas_chave:
 # Análises — Nurturing Inbound Menegon
 
 ## Última execução
-<!-- preenchido pela rotina a cada run -->
+
+**2026-04-16** — 0 leads mornos avaliados, 0 drafts gerados. ⚠️ Alerta: label "Morno" não configurado no board `lead_status`.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
 
 ## Execuções
-<!-- lista reversa cronológica gerada pela rotina -->
+
+| Data | Leads Avaliados | Drafts Gerados | Updates Monday | Observação |
+|---|---|---|---|---|
+| [2026-04-16](./2026-04-16.md) | 0 | 0 | 0 | ⚠️ Label "Morno" ausente no board |
