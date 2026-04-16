@@ -117,4 +117,21 @@ Rastreamento centralizado de ideias de melhoria para todos os ativos do sistema:
 
 ---
 
-*Última atualização: 2026-04-14*
+## Rotinas Inbound — adicionadas em 2026-04-15
+
+| Nome | Trigger ID | Horário (BRT) | Cron (UTC) | Modo | Próxima execução |
+|------|-----------|---------------|------------|------|-----------------|
+| qualificacao-inbound-menegon | trig_01SWjw5Yxua6Nu4BRQAG92jq | Seg–Sex 08:30 | `30 11 * * 1-5` | auto | seg-sex 08:30 |
+| nurturing-inbound-menegon | trig_01SW1XEbY2tjSQjqwYSZygg6 | Seg–Sex 09:30 | `30 12 * * 1-5` | shadow | seg-sex 09:30 |
+| analise-conversao-inbound-menegon | trig_01AtB36f69kwVLy8BYSeb7o1 | Sex 14:30 | `30 17 * * 5` | auto | sex 14:30 |
+| calendario-editorial-menegon | trig_016jnqLWuf6wJqBmzBQYjo6V | Seg 11:00 | `0 14 * * 1` | shadow | seg 11:00 |
+| recalibrador-menegon | trig_01F1cHWwqWumSAWr8vRut6bo | Sex 15:00 | `0 18 * * 5` | auto | sex 15:00 |
+
+**Notas:**
+- Rotinas `shadow` (`nurturing-inbound`, `calendario-editorial`) têm `toca_cliente_externo: true` — o recalibrador nunca aplica mudanças automaticamente nessas rotinas.
+- Rotinas `auto` (`qualificacao-inbound`, `analise-conversao-inbound`) são 100% internas; nenhuma toca cliente externo diretamente.
+- Todos os triggers usam MCP `monday-com` (connector_uuid: 95cd8a84-e15b-49c5-82a7-a1fa5b24169a).
+
+---
+
+*Última atualização: 2026-04-15*
