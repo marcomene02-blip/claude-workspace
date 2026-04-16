@@ -1,0 +1,18 @@
+# Thresholds da Qualificação de Lead (modelo BANT) — editado pelo recalibrador-menegon
+# Última calibração: 2026-04-15 (setup inicial)
+
+# Pontuação máxima por critério (total_max = soma de todos)
+pesos:
+  produto_definido: 2      # Sim=2, Vago=1, Não=0
+  fit_perfil: 2            # Alto=2, Médio=1, Baixo=0
+  timing: 2                # Vencendo 60 dias=2, Situação nova=1, Sem urgência=0
+  origem: 2                # Indicação=2, Inbound orgânico=1, Frio=0
+  contato_verificado: 1    # WhatsApp válido=1, Só email=0, Nenhum=0
+  historico_cliente: 1     # Cliente anterior=1, Novo=0
+  total_max: 10
+
+# Cutoffs de classificação
+classificacao:
+  quente_min: 8            # score 8-10: Quente — encaminhar imediatamente
+  morno_min: 5             # score 5-7: Morno — entrar em nurturing 14 dias
+  frio_max: 4              # score 0-4: Frio — arquivar com motivo

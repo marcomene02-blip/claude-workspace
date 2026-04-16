@@ -1,0 +1,29 @@
+# Thresholds do Forecast Ponderado — editado automaticamente pelo recalibrador-menegon
+# Última calibração: 2026-04-15 (setup inicial — sem histórico)
+# Para reverter: ver CHANGELOG.md
+
+# Pesos por estágio (probabilidade de fechamento por status do funil)
+pesos_renovacao:
+  atualizar_cadastro: 0.15
+  em_cotacao: 0.35
+  follow_up: 0.55
+  em_analise_aprovacao: 0.80
+
+pesos_seguro_novo:
+  prospeccao: 0.10
+  em_cotacao: 0.25
+  follow_up: 0.40
+  em_analise_aprovacao: 0.70
+
+# Multiplicadores de cenário (aplicados sobre o valor ponderado total)
+cenarios:
+  pessimista: 0.70
+  provavel: 1.00
+  otimista: 1.15
+
+# Limites de alerta do MAPE (Erro Percentual Absoluto Médio)
+# Calculado comparando cenário Provável das últimas 4 semanas com receita real
+mape:
+  calibrado_max_pct: 10.0        # MAPE < 10%: modelo calibrado
+  desvio_moderado_max_pct: 20.0  # MAPE 10-20%: registrar observação
+  # MAPE > 20%: alertar analista-forecast para revisar multiplicadores

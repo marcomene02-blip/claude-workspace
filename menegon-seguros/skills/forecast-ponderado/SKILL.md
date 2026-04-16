@@ -6,6 +6,8 @@ schema: agentcompanies/v1
 version: 1.0.0
 ---
 
+> **Config:** leia `menegon-seguros/config/thresholds/forecast-ponderado.yaml` no início da execução para obter os thresholds atuais. Os valores neste documento são apenas referência inicial — o YAML tem precedência.
+
 Skill de cálculo de forecast ponderado por estágio do funil. Produz três cenários de receita para embasar decisões comerciais.
 
 ## Quando usar

@@ -1,0 +1,15 @@
+# Thresholds da Nutrição de Lead — editado pelo recalibrador-menegon
+# Nota: toca_cliente_externo=true, modo_autonomia=shadow (nunca auto-apply)
+
+# Cadência de contatos (dias a partir do D0)
+cadencia_dias: [0, 3, 7, 10, 14]
+max_ciclos: 2                        # máximo de 2 cadências por lead/cliente
+
+# Score cutoffs para entrar/sair da cadência
+score:
+  quente_min: 8                      # score ≥8: não entra em nurturing, encaminhar direto
+  morno_min: 5                       # score 5-7: entra na cadência de nurturing
+  frio_max: 4                        # score ≤4: arquivar com motivo, não nutrir
+
+# Clientes churn que NÃO entram em nurturing
+churn_critico_max: 40                # health score <40: ir direto para plano-retencao

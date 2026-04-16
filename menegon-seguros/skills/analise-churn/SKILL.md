@@ -6,6 +6,8 @@ schema: agentcompanies/v1
 version: 1.0.0
 ---
 
+> **Config:** leia `menegon-seguros/config/thresholds/analise-churn.yaml` no início da execução para obter os thresholds atuais. Os valores neste documento são apenas referência inicial — o YAML tem precedência.
+
 Skill para calcular risco de churn na carteira Menegon Seguros. Produz lista priorizada de clientes com score, fatores de risco e classificação de urgência.
 
 ## Modelo de Health Score (0–100)

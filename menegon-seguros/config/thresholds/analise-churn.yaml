@@ -1,0 +1,26 @@
+# Thresholds do Health Score de Churn — editado pelo recalibrador-menegon
+# Última calibração: 2026-04-15 (setup inicial)
+
+# Pesos do Health Score (devem somar 1.00)
+pesos_health_score:
+  vencimento_proximo: 0.30   # ≤30 dias sem cotação = risco alto
+  historico_nps: 0.25        # Detrator(0-6)=alto, sem resposta 12m=médio
+  sinistros: 0.20            # 2+ no ano ou sinistro aberto = risco alto
+  engajamento: 0.15          # sem interação 60+ dias = risco médio
+  monoproduto: 0.10          # 1 produto = risco baixo adicional
+
+# Cutoffs de classificação (0-100, alto = saudável)
+classificacao:
+  critico_max: 40            # < 40: Crítico — ação em 48h
+  risco_max: 60              # 40-60: Em Risco — ação em 7 dias
+  monitorar_max: 80          # 61-80: Monitorar — próxima semana
+  # > 80: Saudável — rotina normal
+
+# SLAs de ação por classificação
+sla:
+  critico_horas: 48
+  risco_dias: 7
+
+# Thresholds de engajamento
+engajamento:
+  risco_sem_interacao_dias: 60   # sem interação há 60+ dias = risco médio

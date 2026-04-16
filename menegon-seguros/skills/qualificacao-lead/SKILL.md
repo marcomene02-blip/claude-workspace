@@ -6,6 +6,8 @@ schema: agentcompanies/v1
 version: 1.0.0
 ---
 
+> **Config:** leia `menegon-seguros/config/thresholds/qualificacao-lead.yaml` no início da execução para obter os thresholds atuais. Os valores neste documento são apenas referência inicial — o YAML tem precedência.
+
 Skill para qualificar leads antes de passá-los ao time comercial. Aplica modelo BANT adaptado ao contexto de seguros.
 
 ## Modelo de pontuação (0–10)

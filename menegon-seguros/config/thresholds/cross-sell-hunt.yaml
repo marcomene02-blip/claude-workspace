@@ -1,0 +1,22 @@
+# Thresholds do Cross-sell Hunt — editado pelo recalibrador-menegon
+# Última calibração: 2026-04-15 (setup inicial)
+
+# Probabilidades base de fechamento por tipo de abordagem
+probabilidades:
+  indicacao_direta: 0.60   # cliente indicou interesse diretamente
+  perfil_alto_fit: 0.40    # perfil altamente compatível com produto
+  fit_moderado: 0.20       # fit moderado por matriz de produtos
+
+# Prêmios médios estimados por produto (R$/ano)
+premios_medios:
+  auto: 2800
+  residencial: 900
+  vida_individual: 1200
+  previdencia: 3600
+  vida_em_grupo: 4800      # PJ
+  empresarial: 5500
+
+# Parâmetros operacionais
+operacional:
+  abordagem_janela_dias: 30  # não abordar cliente já abordado há menos de 30 dias
+  top_n_semana: 10           # máximo de oportunidades exibidas por execução semanal
