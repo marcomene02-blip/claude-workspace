@@ -6,6 +6,8 @@ schema: agentcompanies/v1
 version: 1.0.0
 ---
 
+> **Config:** leia `menegon-seguros/config/thresholds/cross-sell-hunt.yaml` no início da execução para obter os thresholds atuais. Os valores neste documento são apenas referência inicial — o YAML tem precedência.
+
 Skill para mapear oportunidades de cross-sell na base de clientes ativos. Produz lista priorizada por valor esperado com plano de abordagem.
 
 ## Quando usar

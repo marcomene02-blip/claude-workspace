@@ -1,0 +1,35 @@
+# Thresholds do Monitor CRM — editado pelo recalibrador-menegon
+# Nota: toca_cliente_externo=false, modo_autonomia=auto
+
+# Dimensão 1 — Renovações
+renovacoes:
+  vencimento_janela_dias: 7          # monitorar apólices vencendo em ≤7 dias
+  critico_urgente_dias: 2            # ≥1 apólice com vencimento ≤2 dias = crítico
+  critico_quantidade_min: 3          # ≥3 apólices na condição = crítico
+
+# Dimensão 2 — Churn
+churn:
+  alerta_health_score_max: 60        # health score <60 sem plano = alerta
+  critico_health_score_max: 40       # health score <40 = crítico (usa analise-churn.yaml para pesos)
+
+# Dimensão 3 — Pipeline
+pipeline:
+  alerta_deals_parados_dias: 5       # deal sem update há >5 dias = alerta
+  alerta_forecast_pct_min: 70        # forecast <70% da meta = alerta
+  critico_forecast_pct_min: 50       # forecast <50% da meta = crítico
+  critico_deals_parados_min: 5       # ≥5 deals parados = crítico
+
+# Dimensão 4 — NPS
+nps:
+  detrator_sem_update_dias: 7        # detrator (nota ≤6) sem update em >7 dias
+  critico_detratores_min: 3          # ≥3 detratores = crítico
+
+# Dimensão 5 — Qualidade das automações
+automacoes:
+  alerta_sem_resposta_dias: 3        # item sem resposta em >3 dias = alerta
+  critico_sem_resposta_min: 3        # ≥3 itens = crítico
+
+# Dimensão 6 — Forecast
+forecast:
+  alerta_desvio_pct: 15              # desvio >15% = alerta
+  critico_desvio_pct: 30             # desvio >30% = crítico

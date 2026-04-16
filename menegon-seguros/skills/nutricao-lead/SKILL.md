@@ -6,6 +6,8 @@ schema: agentcompanies/v1
 version: 1.0.0
 ---
 
+> **Config:** leia `menegon-seguros/config/thresholds/nutricao-lead.yaml` no início da execução para obter os thresholds atuais. Os valores neste documento são apenas referência inicial — o YAML tem precedência.
+
 Skill para executar a cadência de nurturing de leads mornos. Produz a sequência completa de mensagens por persona, com timing, canal e critérios de saída.
 
 ## Quando usar
