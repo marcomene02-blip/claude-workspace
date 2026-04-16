@@ -132,12 +132,13 @@ Adicione uma linha no topo da tabela em `wiki/pages/analyses/crm-monitor/index.m
 
 Também atualize o campo `updated:` no frontmatter do index.md para a data atual.
 
-### 6. Commitar
+### 6. Commitar e publicar
 
 ```bash
-cd C:/Users/marco/Desktop/Claude
+cd "$(git rev-parse --show-toplevel)"
 git add wiki/pages/analyses/crm-monitor/YYYY-MM-DD.md wiki/pages/analyses/crm-monitor/index.md
 git commit -m "monitor: YYYY-MM-DD <status> — <resumo>"
+git push origin master
 ```
 
 ### 7. Notificar no Monday (se status critico)
