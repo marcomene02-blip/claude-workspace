@@ -28,3 +28,6 @@ Thumbs.db
 
 # Wiki — Obsidian vault config (local, regenerated on first open)
 wiki/.obsidian/
+
+# Git worktrees
+.worktrees/
