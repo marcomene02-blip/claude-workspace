@@ -6,6 +6,9 @@ renovacoes:
   vencimento_janela_dias: 7          # monitorar apólices vencendo em ≤7 dias
   critico_urgente_dias: 2            # ≥1 apólice com vencimento ≤2 dias = crítico
   critico_quantidade_min: 3          # ≥3 apólices na condição = crítico
+  prazo_tarefa_monitorar: true       # monitorar coluna Prazo da Tarefa (date_mks722ne)
+  prazo_tarefa_alerta_atraso_dias: 0 # prazo da tarefa vencido (≥0 dias) = alerta
+  prazo_tarefa_critico_atraso_dias: 3 # prazo da tarefa vencido há ≥3 dias = crítico
 
 # Dimensão 2 — Churn
 churn:
