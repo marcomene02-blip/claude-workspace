@@ -124,7 +124,35 @@ tags: [monday, crm, monitor]
 - YYYY-MM-DD — relatório gerado pelo monitor-crm.
 ```
 
-### 5. Atualizar o índice
+### 5. Gerar resumo WhatsApp
+
+Crie o arquivo `wiki/pages/analyses/monitor-crm/YYYY-MM-DD-resumo.txt` com um resumo em texto puro formatado para WhatsApp (use `*negrito*` e `_itálico_` do WhatsApp). O arquivo deve ser autoexplicativo para quem recebe a mensagem fora do contexto do wiki.
+
+Estrutura obrigatória:
+
+```
+*MONITOR CRM — DD/MM/YYYY* 🔴|🟡|🟢
+Status global: *CRÍTICO|ALERTAS|OK*
+<N> alertas · <N> críticos
+
+━━━━━━━━━━━━━━━━━━━━
+<emoji> *<DIMENSÃO> — <STATUS>*
+_(<agente-responsavel>)_
+
+<lista de itens concretos com nomes, datas e IDs quando relevante>
+
+[repetir bloco para cada dimensão com status alerta ou critico]
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · DD/MM/YYYY HH:MM_
+```
+
+- Emoji por status: 🔴 crítico · 🟡 alerta · 🟢 ok
+- Omitir dimensões com status **ok** (não geram ruído desnecessário)
+- Cada bloco deve ser autossuficiente: o destinatário lê só o seu bloco e entende o que precisa fazer
+- Incluir o papel do agente responsável em itálico abaixo do título da dimensão (ex: `_(especialista-renovacao)_`) para orientar o diretor ao encaminhar individualmente
+
+### 6. Atualizar o índice
 
 Adicione uma linha no topo da tabela em `wiki/pages/analyses/monitor-crm/index.md`:
 
@@ -134,16 +162,16 @@ Adicione uma linha no topo da tabela em `wiki/pages/analyses/monitor-crm/index.m
 
 Também atualize o campo `updated:` no frontmatter do index.md para a data atual.
 
-### 6. Commitar e publicar
+### 7. Commitar e publicar
 
 ```bash
 cd "$(git rev-parse --show-toplevel)"
-git add wiki/pages/analyses/monitor-crm/YYYY-MM-DD.md wiki/pages/analyses/monitor-crm/index.md
+git add wiki/pages/analyses/monitor-crm/YYYY-MM-DD.md wiki/pages/analyses/monitor-crm/YYYY-MM-DD-resumo.txt wiki/pages/analyses/monitor-crm/index.md
 git commit -m "monitor: YYYY-MM-DD <status> — <resumo>"
 git push origin master
 ```
 
-### 7. Notificar no Monday (se status critico)
+### 8. Notificar no Monday (se status critico)
 
 Se **qualquer dimensão estiver crítica**, use `monday-crm-write` para criar um update no item principal do board Clientes (9332203920) ou no deal/apólice afetado, identificando o problema e o agente acionado:
 
@@ -151,7 +179,7 @@ Se **qualquer dimensão estiver crítica**, use `monday-crm-write` para criar um
 - Notificar Marco (77698859) via Monday
 - **Não** usar em dimensões com status ok ou apenas alerta — apenas crítico
 
-### 8. Acionar agentes (se houver alertas)
+### 9. Acionar agentes (se houver alertas)
 
 Para cada dimensão com status **alerta** ou **critico**, produza um bloco de contexto estruturado no seu output final com os dados que o agente responsável precisa. Formato:
 

@@ -1,0 +1,86 @@
+*MONITOR CRM — 17/04/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+⚠️ *Urgente — vence em ≤2 dias:*
+• GILBERTO ARNALDO MURGIA — vence 19/04 (Follow-up)
+
+📋 *Follow-up vencendo até 24/04 (7 apólices):*
+• MARCO AURELIO SILVA — 20/04
+• RAQUEL SARTOR MARCELINO — 22/04
+• MIGUEL RICARDO PUERTA — 23/04
+• GUSTAVO MARTIN TEIXEIRA PINTO — 23/04 ⚠️ processo 7d atrasado
+• ALADISTON FERNANDES MARTINS — 24/04
+• LETICIA AIDA MEZZENA — 24/04
+• NATÁLIA CORDON FORTUNA PEREIRA — 24/04
+
+⏱️ *Atrasos no processo (Prazo da Tarefa vencido):*
+• GUSTAVO MARTIN TEIXEIRA PINTO — prazo era 10/04 → *7 dias em atraso*
+• CESAR BATISTA DONINI — prazo era 15/04 → 2 dias em atraso (vence 25/04)
+• AUTO POSTO PANORAMA BOTUCATU — prazo era 15/04 → 2 dias em atraso (Em Cotação)
+• FABIO ROBERTO PIOZZI — prazo era 15/04 → 2 dias em atraso (Em Cotação)
+
+✅ *Já renovados — aguardando emissão da apólice:*
+CARMAR COMERCIO (18/04), ASSOCIACAO FRATERNAL PELICANO (19/04), SERGIO RIBAS MOREIRA (20/04), ROBERTO KUOTAI HONG (22/04), MARIA APARECIDA DIAS DE ALMEIDA MANOEL (23/04)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação há 10 dias (mesmos do ciclo 14/04):
+• AUTO POSTO CONFIANCA SHOPPING — ocorrência 03/04
+• KATHARINA METZLER — ocorrência 31/03
+• ASSOC PROP MOR LOT FECHADO — ocorrência 17/01 ⚠️ 3 meses em aberto
+• RODRIGO GOMES DE PAULA — ocorrência 25/03
+
+Health score degradado. Sem plano de retenção registrado para nenhum dos clientes afetados.
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+≥5 deals em Follow-up parados há >5 dias:
+• JULIA GOMES ESTEVES — ~24 dias parado (prazo 23/03)
+• VIVIANNE HELENA CASTANHO DE OLIVEIRA — ~24 dias parado (prazo 23/03)
+• JOSE OTAVIO DE ALMEIDA BARROS — ~24 dias parado (prazo 23/03)
+• SUELI DE SOUZA ELIAS — ~10 dias parado (prazo 07/04)
+• + outros sem atualização no período
+
+1 lead parado há 27 dias: TECHSOLV LTDA (último contato 21/03)
+Meta de abril/2026: _não localizada_ — forecast indisponível
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator sem nenhuma ação há ~240 dias:
+• Nota 6 — resposta recebida em 19/08/2025
+• Último update registrado: 20/08/2025
+
+Verificar se o cliente ainda está ativo e providenciar recuperação urgente.
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+Rotina monitor-crm *não executou* em:
+• 15/04/2026 — sem relatório gerado
+• 16/04/2026 — sem relatório gerado
+
+2 dias consecutivos sem execução. Verificar agendamento da task e identificar causa da falha.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+Meta mensal de abril/2026 *não registrada* em wiki/pages/analyses/forecast-menegon/
+Sem meta definida, não é possível calcular desvio de forecast.
+
+Ação: solicitar meta ao diretor-comercial e registrar para habilitar monitoramento.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 17/04/2026 06:00_
