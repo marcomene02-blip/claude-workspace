@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-20 (re-exec 10:17 BRT) — 0 clientes na janela 2026-05-04 a 2026-05-06. Pipeline ativo encerra em 2026-04-30; próximo ciclo ainda não cadastrado.
+2026-04-20 j10 (10:32 BRT) — 6 clientes na janela 2026-04-29 a 2026-05-01. LTV R$ 51.373,41. 2 apólices com prêmio R$ 0 (Atualizar Cadastro urgente).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -29,3 +29,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 |------|----------|-----------|---------|------------|
 | — | — | — | — | Rotina criada em 2026-04-19. Ainda sem execuções. |
 | 2026-04-20 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Janela 2026-05-04–05-06 vazia; pipeline ativo encerra em 2026-04-30. Re-exec 10:17 BRT confirmou resultado. |
+| 2026-04-20 (j10) | 6 clientes | R$ 51.373,41 | 0 VIP · 0 RISCO | Teste janela_dias=10; janela 2026-04-29–05-01. 2 apólices prêmio R$ 0 (Atualizar Cadastro). |
