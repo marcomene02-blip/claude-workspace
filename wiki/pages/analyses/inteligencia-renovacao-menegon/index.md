@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-19
+updated: 2026-04-20
 ---
 
 # Inteligência de Renovação — Índice
@@ -17,7 +17,8 @@ updated: 2026-04-19
 Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando apólices com vencimento em 15 dias e gera dossiê completo por cliente: apólices ativas e vencidas, LTV, sinistros, ramos, data de antiguidade e texto de WhatsApp para o corretor.
 
 ## Última execução
-<!-- preenchido pela rotina a cada run -->
+
+2026-04-20 — 0 clientes na janela 2026-05-04 a 2026-05-06. Nenhuma apólice ativa com vencimento em 15 dias.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -27,3 +28,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | Data | Clientes | LTV total | Alertas | Observação |
 |------|----------|-----------|---------|------------|
 | — | — | — | — | Rotina criada em 2026-04-19. Ainda sem execuções. |
+| 2026-04-20 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Janela 2026-05-04–05-06 vazia; pipeline ativo encerra em 2026-04-30. |
