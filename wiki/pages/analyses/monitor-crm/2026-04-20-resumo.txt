@@ -1,0 +1,81 @@
+*MONITOR CRM — 20/04/2026* 🔴
+Status global: *CRÍTICO*
+2 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+⚠️ MARCO AURELIO SILVA vence *HOJE 20/04* em Follow-up (sem ação comercial concluída). Prazo da tarefa vencido há 3 dias.
+
+9 apólices em Follow-up com vencimento até 27/04:
+• MARCO AURELIO SILVA — *20/04 (HOJE)*
+• MIGUEL RICARDO PUERTA — 23/04 (prazo +3d)
+• GUSTAVO MARTIN TEIXEIRA PINTO — 23/04 (prazo *+10 dias* — caso crítico de processo)
+• ALADISTON FERNANDES MARTINS — 24/04 (prazo +3d)
+• LETICIA AIDA MEZZENA — 24/04 (prazo +3d)
+• NATALIA CORDON FORTUNA PEREIRA — 24/04
+• RAQUEL CHRISTINA CARNEIRO GUAZZELLI — 25/04 (prazo +3d)
+• CESAR BATISTA DONINI — 25/04
+• SOLANGE BAPTISTA DO AMARAL — 25/04
+
+Também em Cotação/Cadastro (ação pendente): THOMAS VEIGA KLAR (25/04), BOLIVAR PIMENTA JUNIOR (27/04), ELAINE CRISTINA NAVARRO (26/04).
+
+_Nota: itens "Em Análise/Aprovação" já estão renovados — aguardam apenas emissão da apólice pela seguradora. Não são risco comercial._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+≥80 deals ativos parados há mais de 5 dias (threshold crítico = ≥5).
+
+Principais casos:
+• JULIA GOMES ESTEVES — *28 dias* sem update
+• VIVIANNE HELENA CASTANHO DE OLIVEIRA — *28 dias* sem update
+• JOSE OTAVIO DE ALMEIDA BARROS — *28 dias* sem update
+• ERNANDES GERALDO MARSAL DE BESSA — 13 dias
+• BG MANUTENCOES LTDA — 12 dias
+
+_Leads OK: 3 leads ativos, todos atualizados em 17/04._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação há 13 dias (mesmos do ciclo anterior de 17/04):
+• AUTO POSTO CONFIANCA SHOPPING LTDA
+• KATHARINA METZLER
+• ASSOCIACAO DOS PROP MOR LOT FECHADO _(ocorrência de jan/26 — 3 meses em aberto)_
+• RODRIGO GOMES DE PAULA
+
+Health score degradado estimado para esses clientes. Sem plano de retenção registrado.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator (nota 6) sem atualização há *243 dias* (desde 20/08/2025).
+Mesmo caso dos ciclos 14/04 e 17/04 — nenhuma ação tomada até hoje.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *QUALIDADE DAS AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+Task não executou em 18/04 (sáb) e 19/04 (dom).
+Possível comportamento esperado para fim de semana.
+Confirmar se agendamento inclui weekends.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+Meta mensal de abril/2026 não localizada. Sem meta = desvio incalculável.
+
+Dado observado no board Apólices:
+• 40 apólices emitidas em abril (01–20/04)
+• Prêmio líquido acumulado: *≈ R$ 118.906*
+
+Solicitar meta ao diretor-comercial e registrar em wiki/pages/analyses/forecast-menegon/.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 20/04/2026 06:00_
