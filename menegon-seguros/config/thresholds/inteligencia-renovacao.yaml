@@ -1,0 +1,8 @@
+# Thresholds — Inteligência de Renovação
+# Ajustável pelo recalibrador semanalmente (sextas 15:00 BRT)
+# Última atualização: 2026-04-19
+
+janela_dias: 15          # quantos dias antes do vencimento para gerar o dossiê
+tolerancia_dias: 1       # margem: também processa [janela-1, janela+1] para absorver feriados/falhas
+sinistros_alerta: 2      # nº de sinistros que classifica o cliente como [RISCO] no dossiê
+ltv_vip: 15000           # prêmio líquido histórico acumulado mínimo para marcar [VIP]

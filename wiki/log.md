@@ -2,6 +2,13 @@
 
 Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `grep "^## \[" wiki/log.md`.
 
+## [2026-04-19] ingest | Inteligência de Renovação — rotina criada
+- Criado `menegon-seguros/agents/inteligencia-renovacao/AGENTS.md` — rotina diária 07:00 BRT, 8 passos.
+- Criado `menegon-seguros/config/thresholds/inteligencia-renovacao.yaml` — janela 15d, tolerância 1d, LTV VIP R$15k, sinistros alerta ≥2.
+- Criado `wiki/pages/analyses/inteligencia-renovacao-menegon/index.md` — índice da rotina.
+- Atualizado `hub-state.json` — rotinas_ativas 12→13, nova rotina e agente adicionados.
+- Atualizado `wiki/index.md` — entrada em Analyses.
+
 ## [2026-04-13] schema | wiki initialized
 - Created `wiki/CLAUDE.md` schema with three-layer architecture (raw / pages / control).
 - Created empty `wiki/index.md` catalog.
@@ -140,3 +147,13 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - CLAUDE.md: documentadas settings recomendadas do Obsidian vault; attachment folder = `raw/images/`
 - CLAUDE.md: nova seção "Content language" declarando pt-BR para pages/index/log e en para schema/meta
 - .gitignore (raiz): adicionado `wiki/.obsidian/` para não versionar config local do vault
+
+## [2026-04-16] query | Diagnóstico Completo de Vendas 2026-04
+- Criado `wiki/pages/analyses/diagnostico-vendas-2026-04.md` — análise de 4 focos solicitada por Marco
+- Fontes: Monday API (8 boards, snapshot vivo) + Quiver CSV (1.108 apólices) + documentação existente
+- Páginas criadas: diagnostico-vendas-2026-04.md
+- Dados coletados em: data/monday-snapshots/2026-04-16/, data/quiver-2026-04-16/, data/kpis/2026-04-16.json
+- Atualizado wiki/index.md com entrada em Analyses
+- 12 análises existentes referenciadas em Connections
+- Alertas identificados: funil inbound inoperante, workflow renovação com falhas, concentração crítica Ester
+- Quick wins: 8 itens com impacto×esforço | Roadmap: 3 epics por mês (Saneamento, Visibilidade, Escala)

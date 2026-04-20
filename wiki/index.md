@@ -28,4 +28,6 @@ Catalog of every page in this wiki. Agent rewrites sections on ingest. See [CLAU
 
 ## Analyses
 
+- [Diagnóstico Completo de Vendas 2026-04](pages/analyses/diagnostico-vendas-2026-04.md) — diagnóstico de 4 focos (funil, CRM, performance, ciclo de vida) com KPIs, quick wins e roadmap 90d
 - [Monitor CRM — Índice](pages/analyses/crm-monitor/index.md) — relatórios diários de saúde operacional do Monday CRM
+- [Inteligência de Renovação — Índice](pages/analyses/inteligencia-renovacao-menegon/index.md) — dossiê analítico por cliente 15 dias antes do vencimento: apólices, LTV, sinistros, ramos

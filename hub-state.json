@@ -1,0 +1,586 @@
+{
+  "generated_at": "2026-04-16T00:00:00-03:00",
+  "generated_by": "seed-manual",
+  "systems": [
+    {
+      "id": "monday-crm",
+      "name": "Monday.com CRM",
+      "descricao": "Fonte de verdade — 8 boards, 20k+ itens, 49 automacoes",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {
+        "boards": 8,
+        "total_items": 20000,
+        "automacoes": 49
+      },
+      "url": "https://menegon-seguros-company.monday.com",
+      "categoria": "crm"
+    },
+    {
+      "id": "quiver",
+      "name": "Quiver ERP",
+      "descricao": "Sistema de gestao da corretora — fonte de apolices, producao e renovacoes",
+      "status": "manual",
+      "last_check": null,
+      "metrics": {},
+      "url": null,
+      "nota": "Integracao via exportacao manual de XLSX",
+      "categoria": "erp"
+    },
+    {
+      "id": "atendeseg",
+      "name": "AtendeSeG",
+      "descricao": "WhatsApp Business API — lembretes de renovacao e atendimento automatizado",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {
+        "canais": 2
+      },
+      "url": "https://chat.atendeseg.com.br",
+      "categoria": "comunicacao"
+    },
+    {
+      "id": "claude-routines",
+      "name": "Claude Code Routines",
+      "descricao": "12 rotinas cloud — analises diarias, semanais e mensais automatizadas",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {
+        "rotinas_ativas": 13,
+        "limite_dia": 15
+      },
+      "url": null,
+      "categoria": "automacao"
+    },
+    {
+      "id": "pinecone",
+      "name": "Pinecone Telemetria",
+      "descricao": "Vector DB para telemetria de agentes e RAG — index menegon-telemetria",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {},
+      "url": null,
+      "categoria": "ia"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM Brain",
+      "descricao": "Repositorio de resumos de sessao — memoria historica do Marco",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {},
+      "url": null,
+      "nota": "ID: d669fd9b-814c-434a-9c90-42417dc07dcd",
+      "categoria": "conhecimento"
+    },
+    {
+      "id": "wiki",
+      "name": "Wiki Obsidian",
+      "descricao": "Base de conhecimento estruturada — entidades, conceitos, analises de rotinas",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {
+        "analises_ativas": 12
+      },
+      "url": null,
+      "categoria": "conhecimento"
+    },
+    {
+      "id": "website",
+      "name": "Site Menegon",
+      "descricao": "Landing page publica com formulario de captacao de leads",
+      "status": "operational",
+      "last_check": "2026-04-16T00:00:00-03:00",
+      "metrics": {},
+      "url": "https://marcomene02-blip.github.io/menegon-site",
+      "categoria": "marketing"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n Cloud",
+      "descricao": "Plataforma de workflows — configurada mas nao usada para rotinas Menegon",
+      "status": "inactive",
+      "last_check": null,
+      "metrics": {},
+      "url": "https://menegon.app.n8n.cloud",
+      "nota": "Decisao 2026-04-15: nao usar n8n para rotinas Menegon",
+      "categoria": "automacao"
+    },
+    {
+      "id": "powerbi",
+      "name": "Power BI",
+      "descricao": "Dashboard de BI — relatorios de producao, renovacao e desempenho",
+      "status": "manual",
+      "last_check": null,
+      "metrics": {},
+      "url": null,
+      "nota": "Arquivo local: Menegon.pbix",
+      "categoria": "analytics"
+    }
+  ],
+  "routines": [
+    {
+      "id": "monitor-crm",
+      "name": "Monitor CRM",
+      "descricao": "Monitoramento de saude do CRM em 6 dimensoes",
+      "schedule": "Diaria 06:00",
+      "frequencia": "diaria",
+      "nucleo": "operacional",
+      "last_run": "2026-04-14",
+      "last_status": "alertas",
+      "alertas_gerados": 4,
+      "updates_monday": 6,
+      "analysis_path": "wiki/pages/analyses/monitor-crm/2026-04-14.md"
+    },
+    {
+      "id": "monday-crm-aprendizado-diario",
+      "name": "Aprendizado CRM Matinal",
+      "descricao": "Analise de aprendizado do CRM — versao matinal (Seg-Sex 08:05)",
+      "schedule": "Seg-Sex 08:05",
+      "frequencia": "diaria",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "monday-crm-aprendizado-vespertino",
+      "name": "Aprendizado CRM Vespertino",
+      "descricao": "Analise de aprendizado do CRM — versao vespertina (Seg-Sex 18:03)",
+      "schedule": "Seg-Sex 18:03",
+      "frequencia": "diaria",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "resumo-fechamentos-diario",
+      "name": "Resumo de Fechamentos",
+      "descricao": "Resumo diario de fechamentos e negociacoes",
+      "schedule": "Diaria",
+      "frequencia": "diaria",
+      "nucleo": "comercial",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "monday-crm-analise-semanal",
+      "name": "Analise Semanal CRM",
+      "descricao": "Analise completa semanal com KPIs, benchmarks e saude do pipeline",
+      "schedule": "Segundas 07:00",
+      "frequencia": "semanal",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "varredura-churn-semanal",
+      "name": "Varredura de Churn",
+      "descricao": "Deteccao de clientes com risco de cancelamento",
+      "schedule": "Segundas 10:00",
+      "frequencia": "semanal",
+      "nucleo": "crm-fidelizacao",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": "wiki/pages/analyses/churn-menegon/"
+    },
+    {
+      "id": "forecast-semanal",
+      "name": "Forecast de Receita",
+      "descricao": "Previsao semanal de receita em 3 cenarios",
+      "schedule": "Sextas 14:00",
+      "frequencia": "semanal",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": "wiki/pages/analyses/forecast-menegon/"
+    },
+    {
+      "id": "pipeline-midweek-terca",
+      "name": "Pipeline Mid-Week",
+      "descricao": "Revisao do pipeline no meio da semana",
+      "schedule": "Tercas",
+      "frequencia": "semanal",
+      "nucleo": "comercial",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": "wiki/pages/analyses/limpeza-pipeline-menegon/"
+    },
+    {
+      "id": "consolidacao-semanal-conhecimento",
+      "name": "Consolidacao de Conhecimento",
+      "descricao": "Consolidacao semanal de aprendizados e insights",
+      "schedule": "Domingos 20:00",
+      "frequencia": "semanal",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "monday-crm-alerta-sabado",
+      "name": "Alerta Critico Sabado",
+      "descricao": "Alertas de vencimentos criticos para o fim de semana",
+      "schedule": "Sabados 09:09",
+      "frequencia": "semanal",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "detractor-rescue-quinzenal",
+      "name": "Resgate de Detratores",
+      "descricao": "Acoes de recuperacao para clientes detratores do NPS (NPS < 6, premio > R$3k)",
+      "schedule": "Quinzenal",
+      "frequencia": "quinzenal",
+      "nucleo": "crm-fidelizacao",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "performance-mensal",
+      "name": "Performance Mensal",
+      "descricao": "Relatorio mensal completo de performance da corretora",
+      "schedule": "Mensal (dia 1, 08:00)",
+      "frequencia": "mensal",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "hub-sync",
+      "name": "Hub Sync",
+      "descricao": "Sincronizacao diaria — agrega estado de todos os sistemas e atualiza hub-state.json",
+      "schedule": "Seg-Sab 05:30",
+      "frequencia": "diaria",
+      "nucleo": "operacional",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": null
+    },
+    {
+      "id": "inteligencia-renovacao",
+      "name": "Inteligência de Renovação",
+      "descricao": "Dossiê analítico por cliente 15 dias antes do vencimento: apólices, LTV, sinistros, ramos",
+      "schedule": "Diaria 07:00",
+      "frequencia": "diaria",
+      "nucleo": "renovacao",
+      "trigger_id": "trig_01GAEQHpeuJKuMBv2mqvSgcJ",
+      "last_run": null,
+      "last_status": "nunca_executada",
+      "alertas_gerados": null,
+      "analysis_path": "wiki/pages/analyses/inteligencia-renovacao-menegon/"
+    }
+  ],
+  "kpis": {
+    "taxa_renovacao": {
+      "label": "Taxa de Renovacao",
+      "current": 0.93,
+      "target": 0.95,
+      "unit": "percentual",
+      "trend": "up",
+      "status": "alerta"
+    },
+    "crescimento_anual": {
+      "label": "Crescimento Anual Premio",
+      "current": 0.22,
+      "target": 0.3,
+      "unit": "percentual",
+      "trend": "up",
+      "status": "alerta"
+    },
+    "nps": {
+      "label": "NPS da Carteira",
+      "current": 92,
+      "target": 70,
+      "unit": "pontos",
+      "trend": "stable",
+      "status": "ok"
+    },
+    "clientes_ativos": {
+      "label": "Clientes Ativos no CRM",
+      "current": 1525,
+      "target": 3200,
+      "unit": "clientes",
+      "trend": "up",
+      "status": "em_construcao"
+    },
+    "saude_pipeline": {
+      "label": "Saude do Pipeline",
+      "current": 72,
+      "target": 80,
+      "unit": "score",
+      "trend": "stable",
+      "status": "alerta"
+    }
+  },
+  "pipeline_summary": {
+    "leads": {
+      "board_id": "18409157023",
+      "total": null,
+      "por_status": {}
+    },
+    "seguro_novo": {
+      "board_id": "9332203907",
+      "total": null,
+      "por_status": {}
+    },
+    "apolices": {
+      "board_id": "9749857183",
+      "total": null,
+      "por_status": {}
+    },
+    "renovacao": {
+      "board_id": "9427535861",
+      "urgentes_7dias": 26,
+      "criticos_2dias": 2,
+      "por_status": {}
+    },
+    "nps": {
+      "board_id": "9751082146",
+      "score_medio": 92,
+      "total": null
+    }
+  },
+  "agents": [
+    {
+      "id": "diretor-comercial",
+      "name": "Diretor Comercial",
+      "nucleo": "direcao",
+      "role": "Aprovador estrategico — Marco Menegon",
+      "status": "active"
+    },
+    {
+      "id": "gerente-comercial",
+      "name": "Gerente Comercial",
+      "nucleo": "comercial",
+      "role": "Coordenacao da equipe de vendas",
+      "status": "active"
+    },
+    {
+      "id": "especialista-renovacao",
+      "name": "Especialista em Renovacao",
+      "nucleo": "comercial",
+      "role": "Gestao e priorizacao de renovacoes",
+      "status": "active"
+    },
+    {
+      "id": "inteligencia-renovacao",
+      "name": "Inteligência de Renovação",
+      "nucleo": "renovacao",
+      "role": "Dossiê analítico do cliente 15 dias antes do vencimento",
+      "status": "active"
+    },
+    {
+      "id": "especialista-seguro-novo",
+      "name": "Especialista em Seguro Novo",
+      "nucleo": "comercial",
+      "role": "Conducao de propostas e fechamentos",
+      "status": "active"
+    },
+    {
+      "id": "hunter-cross-sell",
+      "name": "Hunter de Cross-sell",
+      "nucleo": "comercial",
+      "role": "Identificacao de oportunidades de cross-sell",
+      "status": "active"
+    },
+    {
+      "id": "qualificador-leads",
+      "name": "Qualificador de Leads",
+      "nucleo": "comercial",
+      "role": "Qualificacao e triagem de novos leads",
+      "status": "active"
+    },
+    {
+      "id": "analista-churn",
+      "name": "Analista de Churn",
+      "nucleo": "crm-fidelizacao",
+      "role": "Deteccao de risco de cancelamento",
+      "status": "active"
+    },
+    {
+      "id": "executor-retencao",
+      "name": "Executor de Retencao",
+      "nucleo": "crm-fidelizacao",
+      "role": "Execucao de planos de recuperacao (requer aprovacao Marco)",
+      "status": "active"
+    },
+    {
+      "id": "analista-nps",
+      "name": "Analista de NPS",
+      "nucleo": "crm-fidelizacao",
+      "role": "Analise de satisfacao e resgate de detratores",
+      "status": "active"
+    },
+    {
+      "id": "cmo",
+      "name": "CMO",
+      "nucleo": "marketing",
+      "role": "Estrategia e coordenacao de marketing",
+      "status": "active"
+    },
+    {
+      "id": "analista-campanhas",
+      "name": "Analista de Campanhas",
+      "nucleo": "marketing",
+      "role": "Analise de performance de campanhas",
+      "status": "active"
+    },
+    {
+      "id": "criador-conteudo",
+      "name": "Criador de Conteudo",
+      "nucleo": "marketing",
+      "role": "Producao de conteudo para redes sociais e blog",
+      "status": "active"
+    },
+    {
+      "id": "especialista-inbound",
+      "name": "Especialista Inbound",
+      "nucleo": "marketing",
+      "role": "Gestao do funil de marketing inbound",
+      "status": "active"
+    },
+    {
+      "id": "analista-pipeline",
+      "name": "Analista de Pipeline",
+      "nucleo": "operacional",
+      "role": "Auditoria e limpeza do pipeline comercial",
+      "status": "active"
+    },
+    {
+      "id": "analista-forecast",
+      "name": "Analista de Forecast",
+      "nucleo": "operacional",
+      "role": "Previsao de receita em 3 cenarios",
+      "status": "active"
+    },
+    {
+      "id": "analista-performance",
+      "name": "Analista de Performance",
+      "nucleo": "operacional",
+      "role": "Avaliacao de performance individual e do time",
+      "status": "active"
+    },
+    {
+      "id": "monitor-crm",
+      "name": "Monitor CRM",
+      "nucleo": "operacional",
+      "role": "Monitoramento continuo de saude do CRM",
+      "status": "active"
+    },
+    {
+      "id": "recalibrador",
+      "name": "Recalibrador",
+      "nucleo": "operacional",
+      "role": "Auto-ajuste de thresholds baseado em historico de execucoes",
+      "status": "active"
+    },
+    {
+      "id": "calendario-editorial",
+      "name": "Calendario Editorial",
+      "nucleo": "marketing",
+      "role": "Planejamento e gestao de calendario de conteudo",
+      "status": "active"
+    },
+    {
+      "id": "nurturing-inbound",
+      "name": "Nurturing Inbound",
+      "nucleo": "marketing",
+      "role": "Nutricao automatizada de leads inbound",
+      "status": "active"
+    },
+    {
+      "id": "qualificacao-inbound",
+      "name": "Qualificacao Inbound",
+      "nucleo": "marketing",
+      "role": "Qualificacao e scoring de leads inbound",
+      "status": "active"
+    },
+    {
+      "id": "analise-conversao-inbound",
+      "name": "Analise de Conversao Inbound",
+      "nucleo": "marketing",
+      "role": "Analise de taxas de conversao do funil inbound",
+      "status": "active"
+    }
+  ],
+  "acknowledged_alerts": [],
+  "data_flows": [
+    {
+      "id": "site-leads",
+      "from": "website",
+      "to": "monday-crm",
+      "label": "Captacao de Leads (site -> CRM)",
+      "status": "pendente",
+      "nota": "Monday Forms como candidato; n8n descartado"
+    },
+    {
+      "id": "quiver-monday",
+      "from": "quiver",
+      "to": "monday-crm",
+      "label": "Importacao de apolices e renovacoes (XLSX manual)",
+      "status": "manual"
+    },
+    {
+      "id": "monday-wiki",
+      "from": "monday-crm",
+      "to": "wiki",
+      "label": "Analises de rotinas gravadas na wiki",
+      "status": "ativo"
+    },
+    {
+      "id": "monday-pinecone",
+      "from": "monday-crm",
+      "to": "pinecone",
+      "label": "Telemetria de agentes via emit-telemetria",
+      "status": "ativo"
+    },
+    {
+      "id": "monday-atendeseg",
+      "from": "monday-crm",
+      "to": "atendeseg",
+      "label": "Lembretes de renovacao via WhatsApp",
+      "status": "ativo"
+    },
+    {
+      "id": "atendeseg-monday",
+      "from": "atendeseg",
+      "to": "monday-crm",
+      "label": "Classificacao de intencao do cliente (Gemini AI)",
+      "status": "ativo"
+    },
+    {
+      "id": "wiki-pinecone",
+      "from": "wiki",
+      "to": "pinecone",
+      "label": "Upsert de narrativas de execucao",
+      "status": "ativo"
+    },
+    {
+      "id": "sessions-notebooklm",
+      "from": "claude-routines",
+      "to": "notebooklm",
+      "label": "Resumos de sessao via Stop hook",
+      "status": "ativo"
+    }
+  ]
+}
