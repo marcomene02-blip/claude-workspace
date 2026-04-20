@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-20 — 0 clientes na janela 2026-05-04 a 2026-05-06. Nenhuma apólice ativa com vencimento em 15 dias.
+2026-04-20 (re-exec 10:17 BRT) — 0 clientes na janela 2026-05-04 a 2026-05-06. Pipeline ativo encerra em 2026-04-30; próximo ciclo ainda não cadastrado.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -28,4 +28,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | Data | Clientes | LTV total | Alertas | Observação |
 |------|----------|-----------|---------|------------|
 | — | — | — | — | Rotina criada em 2026-04-19. Ainda sem execuções. |
-| 2026-04-20 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Janela 2026-05-04–05-06 vazia; pipeline ativo encerra em 2026-04-30. |
+| 2026-04-20 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Janela 2026-05-04–05-06 vazia; pipeline ativo encerra em 2026-04-30. Re-exec 10:17 BRT confirmou resultado. |
