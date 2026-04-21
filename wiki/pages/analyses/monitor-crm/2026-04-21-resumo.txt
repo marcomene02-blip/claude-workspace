@@ -1,0 +1,74 @@
+*MONITOR CRM — 21/04/2026* 🔴
+Status global: *CRÍTICO*
+2 críticos · 3 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+10 apólices com risco comercial vencendo até 27/04.
+
+🚨 *MIGUEL RICARDO PUERTA* (ID 11540671779)
+→ Follow-up · vence *23/04 (amanhã-depois)* · prazo 20/04 vencido
+
+Demais vencimentos próximos:
+• ALADISTON FERNANDES MARTINS — Follow-up — 24/04 (ID 11540656289)
+• LETICIA AIDA MEZZENA — Follow-up — 24/04 (ID 11540656290)
+• NATÁLIA CORDON FORTUNA PEREIRA — Follow-up — 24/04 (ID 11540691824)
+• RAQUEL CHRISTINA CARNEIRO GUAZZELLI — Follow-up — 25/04 (ID 11540656291)
+• CESAR BATISTA DONINI — Follow-up — 25/04 (ID 11540691825)
+• SOLANGE BAPTISTA DO AMARAL — Follow-up — 25/04 (ID 11540691826)
+• THOMAS VEIGA KLAR — Em Cotação — 25/04 (ID 11540679345)
+• ELAINE CRISTINA NAVARRO — Atualizar Cadastro — 26/04 (ID 11540681285)
+• BOLIVAR PIMENTA JUNIOR — Em Cotação — 27/04 (ID 11540681286)
+
+_8 apólices em Em Análise/Aprovação = já renovadas, aguardando emissão (sem risco): RAQUEL SARTOR, ROBERTO HONG, MARIA APARECIDA, GUSTAVO MARTIN, DANIELE PENTEADO, GARLANE LIMA, AUTO POSTO PANORAMA, FABIO PIOZZI._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+8 deals ativos parados >5 dias (limite crítico: ≥5):
+
+• JULIA GOMES ESTEVES — *29 dias parado* (ID 11526039203)
+• VIVIANNE HELENA CASTANHO DE OLIVEIRA — *29 dias* (ID 11526039204)
+• JOSE OTAVIO DE ALMEIDA BARROS — *29 dias* (ID 11486035724)
+• ERNANDES GERALDO MARSAL DE BESSA — 14 dias (ID 11691140163)
+• BRUNO OLIVEIRA DE ALMEIDA — 14 dias (ID 11691126986)
+• NATALIA DE BARROS PEREIRA — 14 dias (ID 11691140060)
+• MARIA CECILIA DE FREITAS SANTA FE — 14 dias (ID 11691156365)
+• BG MANUTENCOES LTDA — 13 dias (ID 11704790591)
+
+Leads: 3 ativos, todos atualizados em 20/04 ✅
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação desde 07/04 (14 dias):
+
+• AUTO POSTO CONFIANCA SHOPPING LTDA (ID 11693775801) — desde 03/04
+• KATHARINA METZLER (ID 11693775802) — desde 31/03
+• *ASSOC PROP MOR LOT FECHADO* (ID 11693775803) — desde 17/01 ⚠️ _95 dias em aberto_
+• RODRIGO GOMES DE PAULA (ID 11693775804) — desde 25/03
+
+Engajamento não registrado (Último Contato nulo). Sem plano de retenção visível.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator · nota 6 · CPF 047.571.908-59 (ID 9854144275)
+• Data resposta: 19/08/2025 · _sem atualização há ~244 dias_
+• Mesmo caso pendente desde 14/04 — sem ação tomada
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 _não localizada_ (4º ciclo sem meta)
+• Referência: ≈ R$ 118.906 acumulado até 20/04 (40 apólices)
+• Solicitar meta ao diretor-comercial urgente
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 21/04/2026 06:00_
