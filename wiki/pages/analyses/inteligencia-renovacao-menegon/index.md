@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-21
+updated: 2026-04-22
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-21 (07:00 BRT) — 0 clientes na janela 2026-05-05 a 2026-05-07. Pipeline ativo encerra em 2026-04-30; próxima carga ainda não cadastrada.
+2026-04-22 (07:14 BRT) — 0 clientes na janela 2026-05-06 a 2026-05-08. Pipeline ativo encerra em 2026-04-30; próxima carga ainda não cadastrada.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -32,3 +32,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-20 (j10) | 6 clientes | R$ 51.373,41 | 0 VIP · 0 RISCO | Teste janela_dias=10; janela 2026-04-29–05-01. 2 apólices prêmio R$ 0 (Atualizar Cadastro). |
 | 2026-04-20 (07:23) | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-04–05-06 vazia; pipeline ativo encerra em 2026-04-30. |
 | 2026-04-21 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-05–05-07 vazia; pipeline ativo encerra em 2026-04-30. |
+| 2026-04-22 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:14 BRT. Janela 2026-05-06–05-08 vazia; pipeline ativo encerra em 2026-04-30. |
