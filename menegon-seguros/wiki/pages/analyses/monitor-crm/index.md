@@ -1,7 +1,7 @@
 ---
 title: Monitor CRM — Índice de Relatórios
 type: index
-updated: 2026-04-16
+updated: 2026-04-22
 tags: [monday, crm, monitor]
 ---
 
@@ -9,4 +9,5 @@ tags: [monday, crm, monitor]
 
 | Data | Status | Resumo |
 |---|---|---|
+| 2026-04-22 | critico | 2 críticos (Renovações, Pipeline), 4 alertas (Churn, NPS, Automações, Forecast). 1 apólice vencendo amanhã (Follow-up); 9 deals parados >5d; prazo tarefa vencido 4d; rotina sem execução por 6 dias. |
 | 2026-04-16 | critico | 2 críticos (Renovações, Pipeline), 3 alertas (Churn, NPS, Forecast). 4 apólices vencendo ≤2 dias; 13 deals parados >5d; 1 detrator NPS sem follow-up há 239 dias. Primeira execução. |

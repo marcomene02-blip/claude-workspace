@@ -1,0 +1,56 @@
+*MONITOR CRM — 22/04/2026* 🔴
+Status global: *CRÍTICO*
+2 críticos · 4 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• MIGUEL RICARDO PUERTA — vence *amanhã 23/04*, status: Follow-up (não está em andamento!) — ID #11540671779
+• MARCILIO VEIGA ALVES FERREIRA — prazo da tarefa vencido há *4 dias* (18/04), apólice vencida em 16/04 — ID #11540681104
+• *17 apólices* vencendo até 29/04 com status fora de andamento (Follow-up, Em Cotação, Atualizar Cadastro)
+• Próximas urgências: ALADISTON FERNANDES MARTINS (24/04), LETICIA AIDA MEZZENA (24/04), THOMAS VEIGA KLAR (25/04)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+• *9 deals ativos* sem nenhuma atualização há mais de 5 dias
+• Parados há 30 dias: JULIA GOMES ESTEVES, VIVIANNE HELENA CASTANHO DE OLIVEIRA, JOSE OTAVIO DE ALMEIDA BARROS
+• Parados há 15 dias: ERNANDES G. MARSAL DE BESSA, BRUNO OLIVEIRA DE ALMEIDA, NATALIA DE BARROS PEREIRA, MARIA CECILIA DE FREITAS SANTA FE
+• Parados há 14 dias: BG MANUTENCOES LTDA (prazo vencido há 12 dias)
+• Parado há 6 dias: MARCIO DONIZETE MASSARDI
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+• 4 sinistros PENDENTES sem resolução: ASSOCIACAO DOS PROP MOR LOT FECHADO (aberto há *95 dias*), RODRIGO GOMES DE PAULA (28d), KATHARINA METZLER (22d), AUTO POSTO CONFIANCA SHOPPING (19d)
+• Todos os sinistros sem atualização há 15 dias (desde 07/04)
+• Campo "Último Contato" ausente na maioria dos clientes ativos — engajamento não rastreado
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator com nota *6* sem atualização há *~245 dias* (desde 20/08/2025)
+• Ação esperada: contato de resgate, fechamento do loop NPS
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *QUALIDADE DAS AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+• Monitor CRM *não executou por 6 dias* (última execução: 16/04/2026)
+• Agentes acionados em 16/04 (especialista-renovacao, analista-pipeline) sem evidência de ação nos boards
+• Verificar task agendada e logs de execução
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Nenhum relatório de meta mensal em wiki/pages/analyses/
+• Sem meta definida, não é possível calcular desvio real vs. projetado
+• Solicitar meta ao diretor-comercial e publicar relatório base urgente
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 22/04/2026 06:00_
