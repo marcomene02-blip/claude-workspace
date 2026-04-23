@@ -1,0 +1,60 @@
+*MONITOR CRM — 23/04/2026* 🔴
+Status global: *CRÍTICO*
+2 críticos · 4 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• NATÁLIA CORDON FORTUNA PEREIRA — vence *amanhã 24/04*, status Follow-up (#11540691824)
+• 11 apólices em Follow-up vencendo esta semana (24/04 a 29/04)
+• Vencendo HOJE (23/04) ainda em processamento: MARIA APARECIDA DIAS DE ALMEIDA MANOEL, MIGUEL RICARDO PUERTA (melhorou: agora Em Análise/Aprovação), GUSTAVO MARTIN TEIXEIRA PINTO
+• ~14 prazos de tarefa vencidos ontem (22/04); GUSTAVO MARTIN e PILAN ENGENHARIA com 2 dias de atraso
+• Renovados esta semana que já fecharam: SELMA APARECIDA CORREA, CICERO CINTAS GOMES, ALEXANDRE JOSE ALVES, CLAUDETE GOMES RIBEIRO ✅
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+• 9 deals ativos sem atualização há >5 dias — *todos os deals do pipeline*
+• Parados 31 dias (desde 23/03): JULIA GOMES ESTEVES (#11526039203), VIVIANNE HELENA CASTANHO DE OLIVEIRA (#11526039204), JOSE OTAVIO DE ALMEIDA BARROS (#11486035724)
+• Parados 16 dias (desde 07/04): ERNANDES GERALDO MARSAL DE BESSA, BRUNO OLIVEIRA DE ALMEIDA, NATALIA DE BARROS PEREIRA, MARIA CECILIA DE FREITAS SANTA FE
+• Parado 15 dias: BG MANUTENCOES LTDA (prazo 10/04 vencido 13 dias)
+• Parado 7 dias: MARCIO DONIZETE MASSARDI
+• Leads ativos OK: 3 leads atualizados em 22/04
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+• 4 sinistros PENDENTES sem atualização há 16 dias (desde 07/04):
+  - ASSOCIACAO DOS PROP MOR LOT FECHADO — sinistro aberto em *17/01/2026 (96 dias)* · Porto Seguro
+  - RODRIGO GOMES DE PAULA — ocorrência 25/03 · Tokio Marine
+  - KATHARINA METZLER — ocorrência 31/03 · Bradesco
+  - AUTO POSTO CONFIANCA SHOPPING LTDA — ocorrência 03/04 · Allianz
+• Campo "Último Contato" nulo na maioria dos 1.525 clientes — rastreamento de engajamento inativo
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6) sem follow-up há *~246 dias* (última atualização: 20/08/2025, #9854144275)
+• Motivo: atendimento humanizado para idosos
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+• Monitor voltou à rotina normal (22/04 → 23/04 = +1 dia ✅)
+• Agentes acionados em 22/04 (6 agentes) sem evidência de atuação nos boards Monday
+• Padrão de não-execução dos agentes persiste desde 16/04
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 não publicada
+• Sem relatório base em wiki/pages/analyses/ — desvio não calculável
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 23/04/2026 06:00_
