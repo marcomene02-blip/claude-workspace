@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-23
+updated: 2026-04-24
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-23 (07:10 BRT) — 0 clientes na janela 2026-05-07 a 2026-05-09. Pipeline ativo encerra em 2026-04-30; próxima carga ainda não cadastrada.
+2026-04-24 (07:15 BRT) — 9 clientes na janela 2026-05-08 a 2026-05-10. 2 VIPs (Claudete Pinto Pereira · Odair João Valário). LTV total da janela: R$ 17.613,02.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -34,3 +34,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-21 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-05–05-07 vazia; pipeline ativo encerra em 2026-04-30. |
 | 2026-04-22 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:14 BRT. Janela 2026-05-06–05-08 vazia; pipeline ativo encerra em 2026-04-30. |
 | 2026-04-23 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:10 BRT. Janela 2026-05-07–05-09 vazia; pipeline ativo encerra em 2026-04-30. |
+| 2026-04-24 | 9 clientes | R$ 17.613,02 | 2 VIP · 0 RISCO | Execução diária 07:15 BRT. Janela 2026-05-08–05-10. VIPs: Claudete Pinto Pereira (R$ 18.185,90) · Odair João Valário (R$ 40.152,82). |
