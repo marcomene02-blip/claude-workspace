@@ -1,0 +1,79 @@
+*MONITOR CRM — 24/04/2026* 🔴
+Status global: *CRÍTICO*
+2 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+*Vence HOJE (24/04) — Follow-up:*
+• NATÁLIA CORDON FORTUNA PEREIRA (#11540691824) — prazo da tarefa vencido 1 dia
+
+*Vence HOJE (24/04) — Em Análise/Aprovação:*
+• ALADISTON FERNANDES MARTINS (#11540656289)
+• LETICIA AIDA MEZZENA (#11540656290)
+
+*Vencem AMANHÃ 25/04 — Follow-up:*
+• RAQUEL CHRISTINA CARNEIRO G. DE OLIVEIRA (#11540656291)
+• THOMAS VEIGA KLAR (#11540679345)
+• CESAR BATISTA DONINI (#11540691825)
+• SOLANGE BAPTISTA DO AMARAL (#11540691826)
+
+*Vence 26/04 — Follow-up:*
+• ELAINE CRISTINA NAVARRO DE ALMEIDA (#11540681285)
+
+Total: *21 apólices pendentes* vencendo ≤7 dias (9 em ≤2 dias, 6 delas Follow-up). Prazos de tarefa vencidos em múltiplos itens.
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+9 deals ativos parados >5 dias sem atualização:
+
+• JULIA GOMES ESTEVES (#11526039203) — Follow-up, *32 dias* parado (23/03)
+• VIVIANNE HELENA CASTANHO (#11526039204) — Follow-up, *32 dias* (23/03)
+• JOSE OTAVIO DE ALMEIDA BARROS (#11486035724) — Follow-up, *32 dias* (23/03)
+• ERNANDES GERALDO MARSAL DE BESSA (#11691140163) — Em Emissão, *17 dias* (07/04)
+• BRUNO OLIVEIRA DE ALMEIDA (#11691126986) — Em Emissão, *17 dias* (07/04)
+• NATALIA DE BARROS PEREIRA (#11691140060) — Em Emissão, *17 dias* (07/04)
+• MARIA CECILIA DE FREITAS SANTA FE (#11691156365) — Em Emissão, *17 dias* (07/04)
+• BG MANUTENCOES LTDA (#11704790591) — Follow-up, *16 dias* (08/04)
+• MARCIO DONIZETE MASSARDI (#11771204798) — Em Emissão, *8 dias* (16/04)
+
+Escaladas automáticas postadas em 23/04 sem resposta registrada.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+• 4 sinistros PENDENTES sem update há *17 dias* (desde 07/04):
+  – AUTO POSTO CONFIANCA SHOPPING LTDA (ocorrência 03/04)
+  – KATHARINA METZLER (ocorrência 31/03)
+  – RODRIGO GOMES DE PAULA (ocorrência 25/03)
+  – ASSOC. PROP. MOR. LOT. FECHADO (ocorrência *17/01/2026 — 97 dias aberto!*)
+• AUTO POSTO CONFIANCA acumula: sinistro PENDENTE + renovação vencendo 30/04 com status "Atualizar Cadastro" → múltiplos fatores de risco.
+• Campo "Último Contato" nulo na base de clientes — engajamento não rastreado.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator: nota 6, ID #9854144275, sem atualização há *~247 dias* (desde 20/08/2025).
+• Nenhum follow-up registrado desde a resposta de 19/08/2025.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+• Rotinas funcionando: Monitor CRM ✓, sla-corretor-diario ✓, limpeza-pipeline ✓
+• *8 dias sem output "[Agente]"* dos agentes especializados: especialista-renovacao, analista-pipeline, analista-churn, analista-nps, analista-forecast não registraram ações nos boards desde 16/04.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 não publicada em wiki/pages/analyses/.
+• Desvio não pode ser calculado sem referência. Publicar relatório base.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 24/04/2026 06:00_
