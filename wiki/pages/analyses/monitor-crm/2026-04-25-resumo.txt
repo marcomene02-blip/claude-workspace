@@ -1,0 +1,73 @@
+*MONITOR CRM — 25/04/2026* 🔴
+Status global: *CRÍTICO*
+5 alertas · 2 críticos (Renovações, Pipeline)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+*3 apólices vencem HOJE (25/04) em Follow-up — ação imediata:*
+• RAQUEL CHRISTINA CARNEIRO GUAZZELLI (ID 11540656291) — prazo vencido 1 dia
+• CESAR BATISTA DONINI (ID 11540691825) — prazo vencido 1 dia
+• SOLANGE BAPTISTA DO AMARAL (ID 11540691826) — prazo vencido 2 dias
+
+*Vencimento amanhã (26/04):*
+• ELAINE CRISTINA NAVARRO DE ALMEIDA (ID 11540681285) — prazo vencido 2 dias
+
+*Vencimentos esta semana (27–30/04):*
+• BOLIVAR PIMENTA JUNIOR (27/04) — Em Análise/Aprovação (em emissão) ✓
+• LUIZ DA COSTA SOUZA (28/04) — Follow-up
+• YUDY MARCEL RAMOS SANTI (28/04) — Follow-up, prazo vencido 1 dia
+• SILVIA REGINA CUNHA FUNARI (28/04) — Follow-up, prazo vencido 2 dias
+• VINICIUS ANTONIO BARDELLA (29/04) — Follow-up
+• BRUNO DEO DE OLIVEIRA (30/04) — Follow-up, prazo vencido 1 dia
+• AUTO POSTO CONFIANCA SHOPPING LTDA (30/04) — Atualizar Cadastro
+• AUTO POSTO UNIVERSITARIO BOTUCATU LTDA (30/04) — Atualizar Cadastro
+
+_Total: 11 apólices com risco comercial · 9 prazos de tarefa vencidos_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*8 deals parados há mais de 5 dias:*
+• JULIA GOMES ESTEVES (ID 11526039203) — *33 dias* sem update
+• VIVIANNE HELENA CASTANHO DE OLIVEIRA (ID 11526039204) — *33 dias*
+• JOSE OTAVIO DE ALMEIDA BARROS (ID 11486035724) — *33 dias*
+• ERNANDES GERALDO MARSAL DE BESSA (ID 11691140163) — *18 dias*
+• NATALIA DE BARROS PEREIRA (ID 11691140060) — *18 dias*
+• MARIA CECILIA DE FREITAS SANTA FE (ID 11691156365) — *18 dias*
+• BG MANUTENCOES LTDA (ID 11704790591) — *17 dias*
+• MARCIO DONIZETE MASSARDI (ID 11771204798) — *9 dias*
+
+_Positivo: BRUNO OLIVEIRA DE ALMEIDA e SONIA REGINA atualizados em 24/04. 28 novos deals importados em lote em 24/04 — verificar legitimidade._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+*4 sinistros PENDENTE sem movimentação desde 07/04 (18 dias):*
+• AUTO POSTO CONFIANCA SHOPPING LTDA (ID 11693775801) — ocorrência 03/04 (22 dias)
+• KATHARINA METZLER (ID 11693775802) — ocorrência 31/03 (25 dias)
+• ASSOCIACAO DOS PROP MOR LOT FECHADO (ID 11693775803) — ocorrência *17/01 (98 dias!)*
+• RODRIGO GOMES DE PAULA (ID 11693775804) — ocorrência 25/03 (31 dias)
+
+_Sem plano de retenção registrado para nenhum dos 4 casos. Health score crítico não confirmado individualmente._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator: nota 6, CPF 047.571.908-59 (ID 9854144275)
+• Sem atualização desde *agosto/2025 (~248 dias)* — 5º ciclo consecutivo sem ação
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 *ainda não localizada* — 5º ciclo consecutivo
+• Acumulado abril/2026: ≈ *R$ 176.307* (53 apólices, 01/04–25/04)
+• Desvio incalculável sem meta de referência
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 25/04/2026 06:00_
