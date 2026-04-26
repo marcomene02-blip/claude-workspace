@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-25
+updated: 2026-04-26
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-25 (07:00 BRT) — 8 clientes na janela 2026-05-09 a 2026-05-11. 2 VIPs (Paula Schmidt Azevedo Gaiolla · Posto São Paulo Avenida Ltda). LTV total da janela: R$ 128.363,93.
+2026-04-26 (07:00 BRT) — 9 clientes na janela 2026-05-10 a 2026-05-12. 4 VIPs (Paula Schmidt Azevedo Gaiolla · Posto São Paulo Avenida Ltda · Armando Delmanto · FBRS Gestão e Administração de Bens Eireli). LTV total da janela: R$ 220.293,56.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -36,3 +36,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-23 | 0 clientes | R$ 0,00 | 0 VIP · 0 RISCO | Execução diária 07:10 BRT. Janela 2026-05-07–05-09 vazia; pipeline ativo encerra em 2026-04-30. |
 | 2026-04-24 | 9 clientes | R$ 17.613,02 | 2 VIP · 0 RISCO | Execução diária 07:15 BRT. Janela 2026-05-08–05-10. VIPs: Claudete Pinto Pereira (R$ 18.185,90) · Odair João Valário (R$ 40.152,82). |
 | 2026-04-25 | 8 clientes | R$ 128.363,93 | 2 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-09–05-11. VIPs: Paula Schmidt Azevedo Gaiolla (R$ 45.781,30) · Posto São Paulo Avenida Ltda (R$ 27.333,47). |
+| 2026-04-26 | 9 clientes | R$ 220.293,56 | 4 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-10–05-12. VIPs: Paula Schmidt (R$ 45.781,30) · Posto São Paulo Avenida (R$ 27.333,47) · Armando Delmanto (R$ 69.545,69) · FBRS Gestão (R$ 20.269,63). |
