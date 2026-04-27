@@ -1,0 +1,82 @@
+*MONITOR CRM — 27/04/2026* 🔴
+Status global: *CRÍTICO*
+4 críticos · 2 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+*6 apólices vencem em ≤2 dias* sem status "Renovado":
+
+• LUIZ DA COSTA SOUZA — vence *amanhã 28/04* — Follow-up — prazo da tarefa HOJE
+• YUDY MARCEL RAMOS SANTI — vence *28/04* — Follow-up — prazo vencido 3d (24/04)
+• SILVIA REGINA CUNHA FUNARI — vence *28/04* — Follow-up — prazo vencido 4d (23/04)
+• LUIZ EDIVALDO PEZZATO — vence *28/04* — Em Análise — prazo vencido 5d (22/04)
+• VINICIUS ANTONIO BARDELLA — vence *29/04* — Follow-up — prazo da tarefa HOJE
+• NEWTON AYRES JUNIOR — vence *29/04* — Em Análise — prazo vencido 2d (25/04)
+
+_Demais pendentes até 03/05: BRUNO DEO DE OLIVEIRA, DGR SERVICOS, AUTO POSTO CONFIANCA, AUTO POSTO UNIVERSITARIO (todos 30/04), RENATO MEIRA DE CASTRO (02/05), VANDERLEIA NICOLA e DAYANA XAVIER (03/05). Total: 14 apólices pendentes._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+*AUTO POSTO CONFIANCA SHOPPING LTDA* — health score estimado <40 🚨
+→ Sinistro PENDENTE há 20 dias (ocorrência 03/04)
+→ Renovação vencendo 30/04 com status "Atualizar Cadastro"
+→ Múltiplos fatores de risco simultâneos — acionar plano de retenção urgente
+
+*4 sinistros PENDENTES* sem atualização desde 07/04 (20+ dias):
+• AUTO POSTO CONFIANCA SHOPPING LTDA — PENDENTE 20d
+• KATHARINA METZLER — PENDENTE 25d
+• RODRIGO GOMES DE PAULA — PENDENTE 20d
+• ASSOCIACAO DOS PROP MOR LOT FECHADO — PENDENTE 25d / *aberto há 100 dias* (ocorrência 17/01/2026)
+
+_Campo "Último Contato" nulo em 200/200 clientes ativos consultados — base sem registro de engajamento._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*8 deals parados >5 dias* (crítico: ≥5):
+
+• JULIA GOMES ESTEVES (#11526039203) — *35 dias* — Follow-up
+• VIVIANNE HELENA CASTANHO (#11526039204) — *35 dias* — Follow-up
+• JOSE OTAVIO DE ALMEIDA BARROS (#11486035724) — *35 dias* — Follow-up
+• ERNANDES GERALDO MARSAL DE BESSA (#11691140163) — *20 dias* — Em Analise/Emissão
+• NATALIA DE BARROS PEREIRA (#11691140060) — *20 dias* — Em Analise/Emissão
+• MARIA CECILIA DE FREITAS SANTA FE (#11691156365) — *20 dias* — Em Analise/Emissão
+• BG MANUTENCOES LTDA (#11704790591) — *19 dias* — Follow-up
+• MARCIO DONIZETE MASSARDI (#11771204798) — *11 dias* — Em Analise/Emissão
+
+_Leads: 4 ativos, atualizados em 25–26/04 ✅_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+*Monitor CRM não executou em 25/04 e 26/04* — 2 dias consecutivos sem execução ⚠️
+_Última execução: 24/04/2026_
+
+*11 dias consecutivos* sem output "[Agente]" dos agentes especializados (desde 16/04):
+especialista-renovacao · analista-pipeline · analista-churn · analista-nps · analista-forecast
+
+→ Investigar falha de agendamento e reiniciar pipeline de agentes.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+*1 detrator sem follow-up há 249 dias*
+• Nota 6 · CPF 047.571.908-59 · Data resposta: 19/08/2025
+→ Identificar cliente, registrar contato e plano de recuperação.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+*Meta de abril/2026 não publicada* — desvio incalculável.
+→ Publicar relatório de forecast base em wiki/pages/analyses/ para habilitar monitoramento.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 27/04/2026 06:00_
