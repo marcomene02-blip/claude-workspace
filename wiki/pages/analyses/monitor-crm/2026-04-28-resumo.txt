@@ -1,0 +1,68 @@
+*MONITOR CRM — 28/04/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+2 apólices vencem *HOJE (28/04)* em Follow-up:
+• YUDY RAMOS SANTI (#11540679347) — prazo 1d vencido
+• SILVIA FUNARI (#11540685017) — prazo *5 dias* vencido
+
+1 vence *amanhã (29/04)*:
+• VINICIUS BARDELLA (#11540656293)
+
+Total: *14 apólices* com risco comercial real até 05/05
+Prazos críticos: DAYANA XAVIER 10d atraso (vence 03/05), FRANCISCO BURZACA 9d (vence 04/05), mais 6 com ≥8d atraso
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*8 deals* ativos parados ≥12 dias sem movimento:
+• JULIA GOMES ESTEVES — *36 dias* parado (#11526039203)
+• VIVIANNE HELENA CASTANHO — *36 dias* parado (#11526039204)
+• JOSE OTAVIO ALMEIDA BARROS — *36 dias* parado (#11486035724)
+• ERNANDES MARSAL DE BESSA — 21 dias parado (#11691140163)
+• NATALIA DE BARROS PEREIRA — 21 dias parado (#11691140060)
+• MARIA CECILIA FREITAS SANTA FE — 21 dias parado (#11691156365)
+• BG MANUTENCOES LTDA — 20 dias parado (#11704790591)
+• MARCIO DONIZETE MASSARDI — 12 dias parado (#11771204798)
+
+_Sem progresso desde 25/04. 3 deals ultrapassam 1 mês parados._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação desde 07/04 (*21 dias*):
+• ASSOC PROP MOR LOT FECHADO (#11693775803) — ocorrência 17/01, *101 dias* em aberto
+• AUTO POSTO CONFIANCA SHOPPING (#11693775801) — sinistro pendente + apólice vencendo 30/04 (Atualizar Cadastro)
+• KATHARINA METZLER (#11693775802) — ocorrência ~31/03, 28 dias
+• RODRIGO GOMES DE PAULA (#11693775804) — ocorrência ~25/03, 33 dias
+
+_6º ciclo consecutivo sem ação corretiva._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator sem resposta há *~252 dias*:
+• Nota 6 — CPF 047.571.908-59 (ID #9854144275)
+• Última atualização: 20/08/2025
+
+_6º ciclo consecutivo sem ação de recuperação. Urgente._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• *6º ciclo* consecutivo sem meta mensal de abril/2026
+• Acumulado estimado: ≈ R$ 176 mil (ref. 25/04)
+• Desvio: _impossível calcular sem meta definida_
+
+_Solicitar meta ao diretor-comercial com urgência._
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 28/04/2026 06:00_
