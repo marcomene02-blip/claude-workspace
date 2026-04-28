@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-27
+updated: 2026-04-28
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-27 (07:00 BRT) — 12 clientes na janela 2026-05-11 a 2026-05-13. 5 VIPs (Paula Schmidt Azevedo Gaiolla · Paula Maria Leite Maletta · Posto São Paulo Avenida Ltda · Armando Delmanto · FBRS Gestão e Administração de Bens Eireli). LTV total da janela: R$ 254.726,75.
+2026-04-28 (07:00 BRT) — 11 clientes na janela 2026-05-12 a 2026-05-14. 3 VIPs (Armando Delmanto · FBRS Gestão e Administração de Bens Eireli · Paula Maria Leite Maletta). LTV total da janela: R$ 189.033,30.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -38,3 +38,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-25 | 8 clientes | R$ 128.363,93 | 2 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-09–05-11. VIPs: Paula Schmidt Azevedo Gaiolla (R$ 45.781,30) · Posto São Paulo Avenida Ltda (R$ 27.333,47). |
 | 2026-04-26 | 9 clientes | R$ 220.293,56 | 4 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-10–05-12. VIPs: Paula Schmidt (R$ 45.781,30) · Posto São Paulo Avenida (R$ 27.333,47) · Armando Delmanto (R$ 69.545,69) · FBRS Gestão (R$ 20.269,63). |
 | 2026-04-27 | 12 clientes | R$ 254.726,75 | 5 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-11–05-13. VIPs: Paula Schmidt (R$ 45.781,30) · Paula Maria Leite Maletta (R$ 18.523,99) · Posto São Paulo Avenida (R$ 27.333,47) · Armando Delmanto (R$ 82.419,94) · FBRS Gestão (R$ 20.269,63). |
+| 2026-04-28 | 11 clientes | R$ 189.033,30 | 3 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-12–05-14. VIPs: Armando Delmanto (R$ 82.419,94) · FBRS Gestão (R$ 20.269,63) · Paula Maria Leite Maletta (R$ 18.523,99). |
