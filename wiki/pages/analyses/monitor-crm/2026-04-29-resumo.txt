@@ -1,0 +1,56 @@
+*MONITOR CRM — 29/04/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• *VINICIUS ANTONIO BARDELLA* — vence *HOJE 29/04* em Follow-up (ID 11540656293)
+• *BRUNO DEO DE OLIVEIRA* — vence *amanhã 30/04* em Follow-up, prazo da tarefa vencido há 5 dias (ID 11540679349)
+• Total: 12 apólices com risco comercial até 05/05
+• Prazos mais críticos: CARLOS RIBEIRO (Atualizar Cadastro, 24d atraso), DAYANA XAVIER (Em Cotação, 11d atraso), FRANCISCO BURZACA (Em Cotação, 10d atraso)
+• ✅ Positivo: AUTO POSTO CONFIANÇA e AUTO POSTO UNIVERSITÁRIO avançaram para Em Análise/Aprovação ontem
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+• 8 deals parados >5 dias — *7º ciclo consecutivo sem progresso*
+• JULIA GOMES ESTEVES — 37 dias parado (ID 11526039203)
+• VIVIANNE HELENA C. DE OLIVEIRA — 37 dias parado (ID 11526039204)
+• JOSE OTAVIO DE ALMEIDA BARROS — 37 dias parado (ID 11486035724)
+• ERNANDES G. MARSAL DE BESSA — 22 dias (ID 11691140163)
+• NATALIA DE BARROS PEREIRA — 22 dias (ID 11691140060)
+• MARIA CECILIA DE FREITAS SANTA FE — 22 dias (ID 11691156365)
+• BG MANUTENCOES LTDA — 21 dias (ID 11704790591)
+• MARCIO DONIZETE MASSARDI — 13 dias (ID 11771204798)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+• 4 sinistros PENDENTE sem resolução (22 dias sem atualização no Monday):
+• *ASSOC PROP MOR LOT FECHADO* — sinistro aberto desde 17/01 (*102 dias*!) — risco de health score <40 (ID 11693775803)
+• RODRIGO GOMES DE PAULA — sinistro desde 25/03 (35 dias, ID 11693775804)
+• KATHARINA METZLER — sinistro desde 31/03 (29 dias, ID 11693775802)
+• AUTO POSTO CONFIANÇA — sinistro desde ~03/04 (26 dias, ID 11693775801); apólice avançou para em análise ontem ✅
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6) sem nenhuma ação há *253 dias* (desde ago/2025)
+• CPF 047.571.908-59 (ID Monday 9854144275)
+• 7º ciclo consecutivo sem ação — urgente acionar plano de recuperação
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 não localizada — *7º ciclo consecutivo*
+• Último acumulado estimado: ≈ R$ 176.307+ (53+ apólices até ~25/04)
+• Sem meta definida: impossível calcular desvio. Solicitar ao diretor-comercial.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 29/04/2026 06:00_
