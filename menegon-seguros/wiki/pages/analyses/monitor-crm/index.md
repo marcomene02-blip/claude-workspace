@@ -1,7 +1,7 @@
 ---
 title: Monitor CRM — Índice de Relatórios
 type: index
-updated: 2026-04-27
+updated: 2026-04-30
 tags: [monday, crm, monitor]
 ---
 
@@ -9,6 +9,7 @@ tags: [monday, crm, monitor]
 
 | Data | Status | Resumo |
 |---|---|---|
+| 2026-04-30 | critico | 4 críticos (Renovações, Churn, Pipeline, Automações), 2 alertas (NPS, Forecast). 4 apólices vencem HOJE 30/04; AUTO POSTO CONFIANÇA health score ~17 + sinistro 23d; 17 deals parados (3×38d); Monitor ausente 28–29/04. |
 | 2026-04-27 | critico | 4 críticos (Renovações, Churn, Pipeline, Automações), 2 alertas (NPS, Forecast). 6 apólices vencendo ≤2 dias (28–29/04); 8 deals parados (3×35d); AUTO POSTO CONFIANCA score <40; Monitor ausente 25–26/04. |
 | 2026-04-24 | critico | 2 críticos (Renovações, Pipeline), 4 alertas (Churn, NPS, Automações, Forecast). NATÁLIA CORDON vence HOJE (Follow-up); 9 deals parados (3×32d, 4×17d, 1×16d, 1×8d). |
 | 2026-04-23 | critico | 2 críticos (Renovações, Pipeline), 4 alertas (Churn, NPS, Automações, Forecast). NATÁLIA CORDON vence amanhã (Follow-up); 9 deals parados >5d (3 há 31d); 4 sinistros PENDENTES 16d sem update. Monitor volta à rotina normal. |

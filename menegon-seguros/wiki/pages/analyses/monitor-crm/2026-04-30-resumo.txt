@@ -1,0 +1,84 @@
+*MONITOR CRM — 30/04/2026* 🔴
+Status global: *CRÍTICO*
+4 críticos · 2 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+*4 apólices vencem HOJE 30/04:*
+• BRUNO DEO DE OLIVEIRA (#11540679349) — Follow-up
+• DGR SERVICOS DE CONTABILIDADE (#11540679350) — Em Análise/Aprovação
+• AUTO POSTO CONFIANCA SHOPPING LTDA (#11540673945) — Em Análise/Aprovação ⚠️ prazo tarefa vencido 2d
+• AUTO POSTO UNIVERSITARIO BOTUCATU LTDA (#11540673946) — Em Análise/Aprovação ⚠️ prazo tarefa vencido 2d
+
+*Vence 02/05 (≤2 dias):*
+• RENATO MEIRA DE CASTRO (#11830111771) — Follow-up
+
+*Prazos de tarefa vencidos 10-11 dias (crítico):*
+• LEONTINO PAULETTI (#11830117861) — prazo 20/04 — Em Cotação
+• FRANCISCO JOSE BURZACA (#11830111774) — prazo 19/04 — Em Cotação
+• IZABEL CRISTINA REIS DE ANDRADE (#11830111776) — prazo 20/04 — Em Cotação
+
+_Total: 16 apólices pendentes até 07/05_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+*⚡ AUTO POSTO CONFIANÇA — URGÊNCIA MÁXIMA:*
+• Renovação vence *HOJE 30/04* (sem cobertura a partir de amanhã)
+• Sinistro PENDENTE há *23 dias* sem movimentação (#11693775801)
+• Health score estimado: ~17/100 (crítico: <40)
+• 8ª escalação consecutiva sem resposta humana
+
+*4 sinistros PENDENTES sem update desde 07/04 (23 dias):*
+• AUTO POSTO CONFIANÇA (#11693775801)
+• KATHARINA METZLER (#11693775802) — aviso 02/04 (28 dias)
+• ASSOCIACAO DOS PROP MOR LOT FECHADO (#11693775803) — *103 dias aberto* desde 17/01
+• RODRIGO GOMES DE PAULA (#11693775804)
+
+*analista-churn* nunca executado desde 13/04 (17 dias)
+Taxa renovação: 93% (meta: 95%) — zona de alerta
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*17 deals ativos parados >5 dias:*
+• 3 parados *38 dias* (desde 23/03): JULIA GOMES (#11526039203), VIVIANNE CASTANHO (#11526039204), JOSE OTAVIO BARROS (#11486035724)
+• 2 parados *23 dias* (desde 07/04): ERNANDES MARSAL (#11691140163), MARIA CECILIA SANTA FE (#11691156365)
+• 12 parados *6 dias* (desde 24/04): ÉDER LOPES, MILEIDE SILVEIRA, ASSOCIACAO IDE, MENEGON ADM, PIETRO NAVAS, TRANSPORTE PANORAMA, ERICK BATISTA, NEUSA SALVADOR, EDSON SILVA, JOSE FRAZA, PAULO BRUM, REGINALDO ORNELAS
+
+Deals fechados em abril/2026: 10 (meta não publicada)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM ausente em *28/04 e 29/04* (2 dias consecutivos)
+• *analista-churn* nunca executado desde 13/04 (17 dias)
+• *8ª auditoria consecutiva* do retencao-sla-escalada com 0% de execução (22/04–29/04)
+• Sem resposta humana às escalações críticas acumuladas
+
+Rotinas funcionando: expansao-carteira-quarta ✅ · inteligencia-renovacao ✅ · retencao-sla-escalada ✅
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6, ID #9854144275, CPF 047.571.908-59)
+• Sem atualização há *252 dias* (desde 20/08/2025)
+• Nenhum follow-up ou plano de recuperação registrado
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de abril/2026 *não publicada* (relatório analista-forecast ausente)
+• Taxa de renovação: 93% (meta: 95%)
+• Deals fechados Seguro Novo abril: 10 (sem meta para comparar)
+• Desvio não pode ser calculado
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 30/04/2026 06:00_
