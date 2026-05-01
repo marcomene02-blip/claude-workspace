@@ -1,0 +1,69 @@
+*MONITOR CRM — 01/05/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+⚠️ *2 apólices vencem em 2 dias (03/05) ainda em Follow-up:*
+• VANDERLEIA CASTRO ALEGRE NICOLA — vence 03/05 (ID: 11830117860)
+• DAYANA CAROLINA XAVIER DE BARROS — vence 03/05 (ID: 11830111772)
+
+📋 *Prazo de tarefa vencido HOJE (01/05):*
+• JULIANA CRISTINA SODARIO CRUZ — vence 07/05 — Atualizar Cadastro (ID: 11830126958)
+
+📋 *Demais Follow-ups ativos (vencimento até 07/05):*
+• FRANCISCO JOSE BURZACA — 04/05 (ID: 11830111774)
+• LEONTINO PAULETTI — 05/05 (ID: 11830117861)
+• ROSELI APARECIDA BARBOSA — 05/05 (ID: 11830117862)
+• IZABEL CRISTINA REIS DE ANDRADE — 05/05 (ID: 11830111776)
+
+✅ *Progresso desde 29/04:* RENATO MEIRA → Em Análise ✓ | WALTER FAVERO → Renovado ✓ | CARLOS RIBEIRO → Em Análise ✓
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+14 deals parados >5 dias (threshold crítico: ≥5).
+*6 novos* desde 29/04 — lote de 24/04 estagnado há 7 dias.
+
+🔴 *Crônicos (>20 dias sem ação):*
+• JULIA GOMES ESTEVES — 39 dias (ID: 11526039203)
+• VIVIANNE HELENA CASTANHO DE OLIVEIRA — 39 dias (ID: 11526039204)
+• JOSE OTAVIO DE ALMEIDA BARROS — 39 dias (ID: 11486035724)
+• ERNANDES GERALDO MARSAL DE BESSA — 24 dias (ID: 11691140163)
+• MARIA CECILIA DE FREITAS SANTA FE — 24 dias (ID: 11691156365)
+
+🟡 *Novos na janela (lote 24/04 — 7 dias):*
+ÉDER C. LOPES · MILEIDE PEREIRA · ASSOCIACAO IDE · MENEGON ADMIN · PIETRO NAVAS · TRANSPORTE PANORAMA · ERICK BATISTA · JOSE FRAZA · PAULO BRUM
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação desde 07/04 (24 dias — 8º ciclo):
+• ASSOC PROP MOR LOT FECHADO — sinistro desde 17/01 (*104 dias* em aberto) — candidato a health score <40 (ID: 11693775803)
+• RODRIGO GOMES DE PAULA — desde 25/03 (37 dias) (ID: 11693775804)
+• KATHARINA METZLER — desde 31/03 (31 dias) (ID: 11693775802)
+• AUTO POSTO CONFIANCA SHOPPING — desde ~03/04 (28 dias) (ID: 11693775801)
+
+Nenhum plano de retenção registrado para os 4 casos.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator (nota 6, ID: 9854144275) sem atualização desde agosto/2025 (~255 dias).
+8º ciclo consecutivo sem ação de recuperação.
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+Meta de maio/2026 não registrada. Maio iniciou hoje.
+8º ciclo sem execução do analista-forecast.
+Sem meta → impossível calcular desvio % real.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 01/05/2026 06:00_
