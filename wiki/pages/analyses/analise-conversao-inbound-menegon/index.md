@@ -21,3 +21,4 @@ metricas_chave:
 
 ## Execuções
 <!-- lista reversa cronológica gerada pela rotina -->
+- [2026-05-01](./2026-05-01.md) — 1 lead (14d) | taxa-qual 0% | [ANOMALIA] volume -67% | escalado ao Marco
