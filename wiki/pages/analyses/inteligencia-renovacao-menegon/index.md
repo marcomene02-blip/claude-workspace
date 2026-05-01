@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-04-30
+updated: 2026-05-01
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-04-30 (07:00 BRT) — 7 clientes na janela 2026-05-14 a 2026-05-16. 0 VIPs. LTV total da janela: R$ 55.042,99.
+2026-05-01 (07:00 BRT) — 8 clientes na janela 2026-05-15 a 2026-05-17. 1 VIP: ALCIDES VENDRAMI (R$ 23.568,37). LTV total da janela: R$ 77.253,14.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -41,3 +41,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-28 | 11 clientes | R$ 189.033,30 | 3 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-12–05-14. VIPs: Armando Delmanto (R$ 82.419,94) · FBRS Gestão (R$ 20.269,63) · Paula Maria Leite Maletta (R$ 18.523,99). |
 | 2026-04-29 | 10 clientes | R$ 93.114,79 | 1 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-13–05-15. VIP: Paula Maria Leite Maletta (R$ 18.523,99). |
 | 2026-04-30 | 7 clientes | R$ 55.042,99 | 0 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-14–05-16. Todos mono-ramo. Pendência: JULIA LAURINDO GIACOMINI — apólice ativa não registrada no CRM. |
+| 2026-05-01 | 8 clientes | R$ 77.253,14 | 1 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-15–05-17. VIP: ALCIDES VENDRAMI (R$ 23.568,37). Pendência: JULIA LAURINDO GIACOMINI — apólice ativa ainda não registrada no CRM. |
