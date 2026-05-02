@@ -1,0 +1,74 @@
+*MONITOR CRM — 02/05/2026* 🔴
+Status global: *CRÍTICO*
+4 alertas · 2 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+⚠️ Vencem *AMANHÃ* (03/05) em Follow-up:
+• VANDERLEIA CASTRO ALEGRE NICOLA (ID 11830117860)
+• DAYANA CAROLINA XAVIER DE BARROS (ID 11830111772)
+
+⚠️ Vence em 2 dias (04/05) em Follow-up:
+• FRANCISCO JOSE BURZACA (ID 11830111774)
+
+⚠️ Em Cotação com prazo tarefa vencido *9 dias* (desde 23/04):
+• CLAUDETE PINTO PEREIRA (ID 11830121237) — vence 08/05
+• ELAINE CRISTINA SALVADOR (ID 11830121238) — vence 08/05
+• ODAIR JOAO VALARIO (ID 11830121239) — vence 08/05
+
+Também em Follow-up (vencimento 05–09/05): LEONTINO, ROSELI, IZABEL, ROSA MARIA, ALINE ROSSINI.
+Atualizar Cadastro: JULIANA CRISTINA (07/05), GABRIELLY (09/05) — prazo tarefa vencido 1 dia.
+
+_Total: 13 apólices em risco comercial real até 09/05._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+≥14 deals parados >5 dias (9º ciclo consecutivo):
+
+• JULIA GOMES ESTEVES — *40 dias* (ID 11526039203)
+• VIVIANNE HELENA CASTANHO — *40 dias* (ID 11526039204)
+• JOSE OTAVIO DE ALMEIDA BARROS — *40 dias* (ID 11486035724)
+• ERNANDES GERALDO MARSAL DE BESSA — *25 dias* (ID 11691140163)
+• MARIA CECILIA DE FREITAS SANTA FE — *25 dias* (ID 11691156365)
+• + 9 deals do lote 24/04 (8 dias cada): ÉDER LOPES, MILEIDE PEREIRA, ASSOC IDE, MENEGON ADMIN, PIETRO NAVAS, TRANSPORTE PANORAMA, ERICK BATISTA, JOSE FRAZA, PAULO BRUM
+
+_Escaladas SLA automáticas de 28/04 sem resposta humana há 4 dias._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *CHURN — ALERTA*
+_(analista-churn)_
+
+4 sinistros PENDENTE sem movimentação há *25 dias* (desde 07/04 — 9º ciclo):
+
+• ASSOC PROP MOR LOT FECHADO — sinistro desde *17/01/2026 (105 dias)* — risco crítico de churn
+• RODRIGO GOMES DE PAULA — sinistro desde 25/03 (38 dias)
+• KATHARINA METZLER — sinistro desde 31/03 (32 dias)
+• AUTO POSTO CONFIANCA SHOPPING — sinistro desde ~03/04 (29 dias)
+
+_Sem plano de retenção registrado para nenhum dos 4 casos._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator (nota 6, ID 9854144275) sem resposta desde agosto/2025 (~256 dias).
+_9º ciclo consecutivo sem ação._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *QUALIDADE DAS AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+Escaladas [ROTINA sla-corretor-diario] de 28/04 em 5 deals do Seguro Novo sem resposta humana há 4 dias. Padrão de não-resposta às automações persiste (9º ciclo).
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+9º ciclo consecutivo sem meta mensal. analista-forecast nunca executou. Desvio de maio/2026 não calculável.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 02/05/2026 06:00_
