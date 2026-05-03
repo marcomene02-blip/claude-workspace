@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-02
+updated: 2026-05-03
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-02 (07:00 BRT) — 11 clientes na janela 2026-05-16 a 2026-05-18. 4 VIPs: LIVIA MARTIN CARDOZO (R$ 28.013,04) · TIEGHIS MOVEIS PROJETADOS E PLANEJADOS (R$ 28.204,86) · ALCIDES VENDRAMI (R$ 23.568,37) · SHANTAL MENEGON PILLAY (R$ 21.613,98). LTV total da janela: R$ 159.620,46.
+2026-05-03 (07:00 BRT) — 13 clientes na janela 2026-05-17 a 2026-05-19. 7 VIPs: JOAO HENRIQUE PUPO NEVES (R$ 85.202,68) · MARA SILVIA MARCELLO (R$ 36.731,00) · TIEGHIS MOVEIS PROJETADOS E PLANEJADOS (R$ 28.204,86) · LIVIA MARTIN CARDOZO (R$ 28.013,04) · ALCIDES VENDRAMI (R$ 23.568,37) · SHANTAL MENEGON PILLAY (R$ 21.614,98) · DANIELLA PALUDETTI GAIOTTI BOIANI (R$ 18.839,32). LTV total da janela: R$ 294.225,74.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -43,3 +43,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-04-30 | 7 clientes | R$ 55.042,99 | 0 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-14–05-16. Todos mono-ramo. Pendência: JULIA LAURINDO GIACOMINI — apólice ativa não registrada no CRM. |
 | 2026-05-01 | 8 clientes | R$ 77.253,14 | 1 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-15–05-17. VIP: ALCIDES VENDRAMI (R$ 23.568,37). Pendência: JULIA LAURINDO GIACOMINI — apólice ativa ainda não registrada no CRM. |
 | 2026-05-02 | 11 clientes | R$ 159.620,46 | 4 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-16–05-18. VIPs: LIVIA MARTIN CARDOZO (R$ 28.013,04) · TIEGHIS MOVEIS PROJETADOS E PLANEJADOS (R$ 28.204,86) · ALCIDES VENDRAMI (R$ 23.568,37) · SHANTAL MENEGON PILLAY (R$ 21.613,98). Pendência: JULIA LAURINDO GIACOMINI — apólice ativa não registrada no CRM (3ª execução consecutiva). |
+| 2026-05-03 | 13 clientes | R$ 294.225,74 | 7 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-17–05-19. VIPs: JOAO HENRIQUE PUPO NEVES (R$ 85.202,68) · MARA SILVIA MARCELLO (R$ 36.731,00) · TIEGHIS MOVEIS (R$ 28.204,86) · LIVIA MARTIN CARDOZO (R$ 28.013,04) · ALCIDES VENDRAMI (R$ 23.568,37) · SHANTAL MENEGON PILLAY (R$ 21.614,98) · DANIELLA PALUDETTI GAIOTTI BOIANI (R$ 18.839,32). |
