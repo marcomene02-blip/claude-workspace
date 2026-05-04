@@ -157,3 +157,9 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - 12 análises existentes referenciadas em Connections
 - Alertas identificados: funil inbound inoperante, workflow renovação com falhas, concentração crítica Ester
 - Quick wins: 8 itens com impacto×esforço | Roadmap: 3 epics por mês (Saneamento, Visibilidade, Escala)
+
+## [2026-05-04] query | Briefing Semanal de Renovações 2026-W19
+- Criado `wiki/pages/analyses/renovacao-weekly-briefing/2026-W19.md` — briefing automatizado da semana 19 (04/05 a 10/05/2026)
+- Fonte: Monday board 9427535861 (Renovação), dados coletados via MCP às 07:00 BRT por `renovacao-weekly-briefing`
+- 15 renovações ativas filtradas (zero fechadas); R$ 31.371,29 em risco; 5 com vencimento ≤ 3 dias sem cotação aberta
+- Atualizado `wiki/index.md` com entrada em Analyses
