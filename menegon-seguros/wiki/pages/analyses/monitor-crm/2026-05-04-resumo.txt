@@ -1,0 +1,74 @@
+*MONITOR CRM — 04/05/2026* 🔴
+Status global: *CRÍTICO*
+4 críticos · 2 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+*VENCE HOJE 04/05:*
+• FRANCISCO JOSE BURZACA — Follow-up — R$3.472,56
+
+*Vencem AMANHÃ 05/05 (4 apólices):*
+• CARLOS ROGERIO NUNES RIBEIRO — Em Análise/Aprovação — R$4.096,22
+• LEONTINO PAULETTI — Follow-up — R$1.384,82
+• ROSELI APARECIDA BARBOSA — Follow-up — R$1.979,98
+• IZABEL CRISTINA REIS DE ANDRADE — Follow-up — R$1.864,21
+
+*Prazo da Tarefa vencido ≥3 dias (9 apólices):*
+• CLAUDETE PEREIRA / ELAINE SALVADOR / ODAIR VALARIO — 11d vencido — vencem 08/05
+• ROSA MARIA DA COSTA — 4d vencido — vence 08/05
+• JULIANA SODARIO CRUZ — 3d vencido — vence 07/05
+• GABRIELLY PEREIRA / LUCAS BAPTISTAO / POSTO SAO PAULO / CLEUSA BARROS — 3d vencido — vencem 09–11/05
+
+_Total: 17 apólices não-renovadas em janela crítica_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+*AUTO POSTO CONFIANÇA SHOPPING LTDA — health score ~17 (crítico <40):*
+• Sinistro PENDENTE há 27 dias sem atualização (desde 07/04)
+• Renovação vencida em 30/04 sem desfecho
+• Último contato: não registrado
+
+*4 sinistros PENDENTES — todos sem update desde 07/04 (27 dias):*
+• KATHARINA METZLER — aberto há 33 dias
+• ASSOCIACAO PROP MOR LOT FECHADO — aberto há _107 dias_
+• RODRIGO GOMES DE PAULA — aberto há 27 dias
+• AUTO POSTO CONFIANÇA — aberto há 27 dias
+
+⚠️ analista-churn sem execução há _21 dias_ (desde 13/04). Zero planos de retenção registrados.
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*14 deals ativos parados >5 dias — 11º ciclo consecutivo:*
+• JULIA GOMES ESTEVES / VIVIANNE HELENA / JOSE OTAVIO — *41 dias* parados
+• ERNANDES BESSA / MARIA CECILIA SANTA FE — *27 dias* parados (Em Análise/Emissão)
+• 9 deals — *10 dias* parados (Calculado / Em Análise/Emissão — lote 24/04)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM sem relatório completo (git) desde *30/04 — 4 dias*
+• Mais de 6 escaladas [Monitor CRM] / [ROTINA sla] sem resposta humana >3 dias
+• analista-churn ausente há 21 dias consecutivos
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6, CPF 047.571.908-59) sem follow-up há *258 dias* (desde 20/08/2025)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta de maio/2026 não publicada — desvio indeterminado
+• Nenhuma apólice nova emitida em maio/2026 rastreada até agora
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 04/05/2026 06:00_
