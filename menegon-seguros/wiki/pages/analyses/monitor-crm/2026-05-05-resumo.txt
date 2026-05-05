@@ -1,0 +1,66 @@
+*MONITOR CRM — 05/05/2026* 🔴
+Status global: *CRÍTICO*
+4 críticos · 2 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+3 apólices vencem *HOJE (05/05)*:
+• LEONTINO PAULETTI (#11830117861) — Em Análise/Aprovação
+• ROSELI APARECIDA BARBOSA (#11830117862) — Follow-up — parada desde 30/04
+• IZABEL CRISTINA REIS DE ANDRADE (#11830111776) — Em Análise/Aprovação
+
+Vencendo em 2 dias (07/05):
+• JULIANA CRISTINA SODARIO CRUZ (#11830126958) — Atualizar Cadastro
+
+Demais 13 apólices pendentes vencendo 08–12/05.
+Total na janela: *17 apólices* (todas com prazo de tarefa vencido).
+
+_Nota positiva: CARLOS ROGERIO NUNES RIBEIRO (vencia hoje) aparentemente renovado. FRANCISCO BURZACA venceu ontem (04/05)._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• *AUTO POSTO CONFIANÇA SHOPPING LTDA* — health score estimado *~17* (crítico < 40)
+  Sinistro PENDENTE 28 dias sem atualização desde 07/04 (#11693775801)
+  Último Contato: nulo | Renovação vencida 30/04
+
+4 sinistros PENDENTES sem movimentação há *28 dias*:
+1. AUTO POSTO CONFIANCA SHOPPING LTDA — 29d desde ocorrência (#11693775801)
+2. KATHARINA METZLER — 34d (#11693775802)
+3. ASSOCIACAO DOS PROP MOR LOT FECHADO — *108d* desde ocorrência 17/01 (#11693775803)
+4. RODRIGO GOMES DE PAULA — 41d (#11693775804)
+
+_analista-churn sem execução há 22 dias (desde 13/04). Zero planos de retenção registrados._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+*12 deals ativos parados >5 dias:*
+• 3 × 43 dias: JULIA GOMES ESTEVES (#11526039203), VIVIANNE HELENA C. OLIVEIRA (#11526039204), JOSE OTAVIO DE ALMEIDA BARROS (#11486035724)
+• 2 × 28 dias: ERNANDES GERALDO MARSAL (#11691140163), MARIA CECILIA SANTA FE (#11691156365)
+• 7 × 11 dias: #11840310156, #11840310158, #11840310162, #11840310250, #11840310253, #11840310256, #11840297909
+
+_Melhoria: TRANSPORTE PANORAMA e PAULO CESAR atualizados ontem e saíram do parado._
+_Forecast: 8 apólices emitidas em maio (~R$19.242 prêmio líquido). Meta não publicada._
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator: nota 6 | CPF 047.571.908-59 | ID #9854144275
+  Resposta em 19/08/2025 — *259 dias sem follow-up*
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• analista-churn ausente *22 dias* (task agendada não rodou ontem)
+• ≥6 itens [Agente]/[ESCALADA] sem resposta humana >3 dias (acumulados desde 27/04)
+• Monitor CRM rodou 04/05 e 05/05 consecutivamente ✅
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 05/05/2026 06:05_
