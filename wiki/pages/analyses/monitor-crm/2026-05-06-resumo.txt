@@ -1,0 +1,64 @@
+*MONITOR CRM — 06/05/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• ⚠️ *JULIANA CRISTINA SODARIO CRUZ* — vence *AMANHÃ 07/05* — Status: Atualizar Cadastro
+• Vencendo *08/05 (2 dias):* ROSA MARIA DA COSTA, CLAUDETE PINTO PEREIRA, ELAINE CRISTINA SALVADOR, ODAIR JOAO VALARIO
+• Vencendo 09–13/05: mais 13 apólices — total *18 apólices em risco nos próximos 7 dias*
+• 🚨 *2 apólices JÁ VENCIDAS ainda em aberto:* VINICIUS BARDELLA (venceu 29/04) e BRUNO DEO DE OLIVEIRA (venceu 30/04) — ambos em Follow-up
+• Prazo da Tarefa vencido: dezenas de itens com prazo desde *21/04 (15+ dias de atraso)*
+• Renovadores envolvidos: MARCO AURELIO MENEGON *NETO*, MARCO AURELIO MENEGON FILHO, GIOVANA ALBANO DIAS MENEGON
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• 🚨 *AUTO POSTO CONFIANÇA SHOPPING LTDA* — apólice *VENCIDA desde 30/04*, sinistro PENDENTE há *29 dias* sem responsável atribuído — health score estimado *~17/100* (crítico: <40)
+• *ASSOCIACAO PROP MOR LOT FECHADO* — sinistro PENDENTE há *109 dias* (desde 17/01) — cliente Promotor NPS 10 em risco
+• *KATHARINA METZLER* — sinistro PENDENTE há *36 dias* (desde 31/03)
+• *RODRIGO GOMES DE PAULA* — sinistro PENDENTE há *42 dias* (desde 25/03)
+• *analista-churn ausente há 23 dias* (desde 13/04) — 0 planos de retenção gerados
+• *13ª escalada [retencao-sla-escalada] consecutiva sem resposta humana*
+• Taxa de renovação: *93%* (meta: 95%)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *PIPELINE SEGURO NOVO — ALERTA*
+_(analista-pipeline)_
+
+• *2 deals parados há 44 dias:*
+  - VIVIANNE HELENA CASTANHO DE OLIVEIRA (Follow-up, desde 23/03)
+  - JULIA GOMES ESTEVES (Follow-up, desde 23/03)
+• 11 outros deals ativos com movimentação recente (04–05/05)
+• Meta maio/2026 não publicada — forecast indisponível
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• *1 detrator* (nota 6, CPF 047.571.908-59)
+• Sem follow-up há *260+ dias* (última atualização: 20/08/2025)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• *13 escaladas [retencao-sla-escalada]* sem resposta humana (desde 13/04)
+• *12 oportunidades cross-sell* geradas em 29/04 sem resposta há *7 dias*
+• *analista-churn:* 23 dias consecutivos sem execução — causa raiz das escaladas
+• >15 updates de agentes sem resposta >3 dias (threshold crítico: ≥3)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal *nunca publicada* pelo analista-forecast
+• Apólices emitidas em maio até 06/05: 11 novas, prêmio líquido R$ 26.125,34
+• Taxa renovação proxy: *93%* vs meta 95%
+• Solicitar meta maio/2026 ao diretor-comercial
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 06/05/2026 06:00_
