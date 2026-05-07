@@ -1,0 +1,84 @@
+*MONITOR CRM — 07/05/2026* 🔴
+Status global: *CRÍTICO*
+3 críticos · 3 alertas
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+⚠️ *JULIANA CRISTINA SODARIO CRUZ* — vence *HOJE 07/05* — Status: Atualizar Cadastro — #11830126958
+Prazo da tarefa vencido há 1 dia.
+
+Vencendo amanhã (08/05):
+• CLAUDETE PINTO PEREIRA (#11830121237) — Follow-up
+• ELAINE CRISTINA SALVADOR (#11830121238) — Follow-up
+• ODAIR JOAO VALARIO (#11830121239) — Em Análise/Aprovação
+
+Prazos de tarefa com atraso crítico (≥3 dias):
+• POSTO SAO PAULO AVENIDA (#11830120649) — prazo vencido há *11 dias* (26/04)
+• ARMANDO DELMANTO (#11830120650) — prazo vencido há *10 dias* (27/04)
+
+Total: *18 apólices* não-renovadas vencendo até 14/05.
+Melhorias: LEONTINO, ROSELI e IZABEL (venciam 05/05) foram tratadas. ROSA MARIA DA COSTA renovada ✅
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+🚨 *AUTO POSTO CONFIANÇA SHOPPING LTDA* (#11693775801)
+Health score estimado: *~17/100* (threshold crítico: <40)
+• Sinistro PENDENTE há *34 dias* (ocorrência: 03/04)
+• Apólice vencida em 30/04 — não renovada
+• Último Contato: nulo (engajamento zero)
+
+🚨 *ASSOCIACAO DOS PROP MOR LOT FECHADO* (#11693775803)
+• Sinistro PENDENTE há *110 dias* (ocorrência: 17/01/2026)
+• Sem atualização desde 07/04
+
+4 sinistros PENDENTES sem qualquer update há *30 dias*:
+1. Auto Posto Confiança — 34d
+2. Katharina Metzler (#11693775802) — 37d
+3. Associação Prop Mor — 110d
+4. Rodrigo Gomes de Paula (#11693775804) — 43d
+
+_`analista-churn` sem execução há 24 dias (desde 13/04). Zero planos de retenção registrados._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM *não rodou ontem (06/05)* — gap de 1 dia
+• `analista-churn` ausente há *24 dias consecutivos* (desde 13/04)
+• Auditoria de updates [Agente] indisponível hoje (erro MCP Monday)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *PIPELINE SEGURO NOVO — ALERTA*
+_(analista-pipeline)_
+
+✅ *Grande melhora:* Os 12 deals parados do relatório 05/05 foram todos encerrados (Perdido/Fechado) entre 05/05–06/05.
+
+9 deals ativos — todos atualizados ontem (06/05). Sem deals parados >5 dias.
+
+⚠️ *1 lead qualificado parado >5 dias:*
+• Techsolv Ltda (#11564132868) — Qualificado — última atualização: 01/05 (*6 dias*)
+
+Forecast: meta de maio/2026 não disponível (analista-forecast sem relatório).
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+1 detrator sem follow-up há *261 dias*:
+• Nota 6 — CPF 047.571.908-59 — resposta: 19/08/2025 (#9854144275)
+• *11ª semana consecutiva* sem ação registrada
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+Meta de maio/2026 *não publicada* pelo analista-forecast.
+Prêmio acumulado estimado: ~R$ 19.242 (base 05/05 — 8 apólices).
+Desvio vs. meta: *não calculável*.
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 07/05/2026 06:00_
