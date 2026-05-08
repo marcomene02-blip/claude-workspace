@@ -1,0 +1,47 @@
+*MONITOR CRM — 08/05/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• ELAINE CRISTINA SALVADOR — vence *HOJE (08/05)* · Follow-up · Marco A. Neto
+• ODAIR JOAO VALARIO — vence *HOJE (08/05)* · Em Análise/Aprovação · Marco A. Neto
+• CLAUDETE PINTO PEREIRA — vence *HOJE (08/05)* · Não Renovado · Marco A. Neto
+• *17 apólices* sem renovação nos próximos 7 dias (08/05 a 15/05)
+• Prazo de tarefa CRÍTICO: POSTO SAO PAULO AVENIDA (vencido há *12 dias*) · ARMANDO DELMANTO (vencido há *11 dias*)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• AUTO POSTO CONFIANÇA — apólice *vencida 30/04* · sinistro Allianz *31 dias pendente* sem responsável · health score *~17/100* (crítico <40)
+• ASSOC. PROP MOR LOT FECHADO — sinistro Porto Seguro *111 dias* em aberto · cliente NPS 10 · risco de churn + reclamação formal
+• analista-churn ausente *25 dias* consecutivos (desde 13/04) · 14ª escalada SLA sem resposta humana
+• 0% de planos de retenção executados nos últimos 14 ciclos · taxa renovação 93% (meta 95%)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *PIPELINE SEGURO NOVO — ALERTA*
+_(analista-pipeline)_
+
+• Techsolv Ltda — lead Qualificado parado há *7 dias* (última ação 01/05, próximo contato vencido)
+• 9 deals ativos atualizados recentemente — sem deals parados ✓
+• Sem meta mensal / relatório de forecast disponível para avaliação de desvio
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6) sem qualquer ação há *261 dias* (desde 19/08/2025)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM *não rodou ontem (07/05)* — gap de 1 dia na monitoração diária
+• [retencao-sla-escalada] de 01/05, 04/05, 05/05 e 06/05 sem resposta humana *>3 dias* (≥4 itens)
+• analista-churn inativo *25 dias* — causa raiz dos gaps de automação · escalar ao Marco para reativação
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 08/05/2026 06:00_

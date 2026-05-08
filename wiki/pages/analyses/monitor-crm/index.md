@@ -4,7 +4,7 @@ familia: B
 toca_cliente_externo: false
 modo_autonomia: auto
 board_monday_principal: 9332203920
-updated: 2026-05-06
+updated: 2026-05-08
 metricas_chave:
   - metricas_acao.itens_avaliados
   - metricas_acao.alertas_gerados
@@ -16,7 +16,7 @@ metricas_chave:
 
 ## Última execução
 
-2026-05-06 — status: **critico** — Renovações (JULIANA SODARIO CRUZ vence AMANHÃ 07/05; 18 apólices em risco; 2 já vencidas — VINICIUS 29/04 e BRUNO DEO 30/04; prazo tarefa vencido dezenas itens desde abril), Churn (AUTO POSTO health score ~17 + 4 sinistros 29–109d + analista-churn 23d ausente + 13ª escalada SLA), Automações (13+ escaladas sem resposta, cross-sell 7d sem ação); Pipeline/NPS/Forecast alertas (10º ciclo).
+2026-05-08 — status: **critico** — Renovações (ELAINE e ODAIR vencem HOJE 08/05; CLAUDETE Não Renovado; 17 apólices ≤7d; POSTO SAO PAULO 12d + ARMANDO 11d prazos vencidos), Churn (AUTO POSTO health ~17 + apólice vencida 30/04 + sinistro 31d + analista-churn 25d + 14ª escalada), Automações (monitor não rodou 07/05, ≥4 escaladas >3d); Pipeline/NPS alertas (11º ciclo).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -25,6 +25,7 @@ metricas_chave:
 
 | Data | Status | Resumo |
 |---|---|---|
+| 2026-05-08 | critico | Renovações: ELAINE e ODAIR vencem HOJE (08/05); CLAUDETE Não Renovado; 17 apólices ≤7d; POSTO SAO PAULO (12d vencido) e ARMANDO DELMANTO (11d vencido). Churn: AUTO POSTO health ~17 + apólice vencida 30/04 + sinistro 31d + analista-churn 25d ausente + 14ª escalada. Automações: monitor não rodou 07/05, ≥4 escaladas >3d sem resposta. Pipeline/NPS alertas (11º ciclo) |
 | 2026-05-06 | critico | Renovações: JULIANA SODARIO vence 07/05 (AMANHÃ); 18 apólices ≤7d; VINICIUS (29/04) e BRUNO DEO (30/04) já vencidas; prazo tarefa dezenas itens desde abril. Churn: AUTO POSTO health ~17 + 4 sinistros 29–109d + analista-churn 23d ausente + 13ª escalada SLA. Automações: 13+ escaladas + cross-sell 7d. Pipeline/NPS/Forecast alertas (10º ciclo) |
 | 2026-05-02 | critico | Renovações: VANDERLEIA e DAYANA vencem 03/05 (AMANHÃ), FRANCISCO vence 04/05 — 3 em ≤2d; CLAUDETE/ELAINE/ODAIR prazo tarefa 9d vencido; 13 em risco; Pipeline: ≥14 deals parados ≥8d (lote 24/04 + crônicos); Churn, NPS, Automações, Forecast alertas (9º ciclo) |
 | 2026-05-01 | critico | Renovações: VANDERLEIA e DAYANA vencem 03/05 em Follow-up (2d), 7 apólices risco até 07/05; Pipeline: 14 deals parados ≥7d (6 novos); Churn, NPS, Forecast alertas (8º ciclo) |
