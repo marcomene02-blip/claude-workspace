@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-07 (10:00 BRT) — 13 clientes na janela 2026-05-21 a 2026-05-23. 3 VIPs: ANA PAULA SPADOTTO (R$ 18.891,24) · SHEILA CRISTINA SAYURI ABE MAGALHAES (R$ 22.378,26) · RENATA CRISTINA MENEGUELLA CURY (R$ 22.296,08). LTV total da janela: R$ 28.066,75. 0 RISCO. Pendências CRM: EDUARDO FERNANDO (apólice 9459620 "Renovada" prematura — 3ª ocorrência) · HELENICE BARREIROS (duplicata 311220250312960) · RENATA CURY (apólice ZURICH 2641 expirada ainda Ativa).
+2026-05-08 (07:00 BRT) — 9 clientes na janela 2026-05-22 a 2026-05-24. 3 VIPs: SHEILA CRISTINA SAYURI ABE MAGALHAES (R$ 22.378,26) · RENATA CRISTINA MENEGUELLA CURY (R$ 22.296,08) · ALINE DE CASSIA FISCHER ANIZELLI (R$ 20.448,25). LTV total da janela: R$ 103.984,83. 0 RISCO. Pendência CRM: EDUARDO FERNANDO (apólice 9459620 "Renovada" prematura — 3ª ocorrência consecutiva). Multi-ramo: RENATA CURY (AUTO+PATRIMONIAL) · RICARDO SEULLNER (AUTO+PESSOAS INDIVIDUAL).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -48,3 +48,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-05-05 | 16 clientes | R$ 24.348,62 | 7 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-19–05-21. VIPs: JOAO HENRIQUE PUPO NEVES (R$ 85.202,68) · ANA PAULA SPADOTTO (R$ 27.831,06) · GRANDD ATACADO (R$ 50.779,36) · MARA SILVIA MARCELLO (R$ 36.731,00) · MARCO AURELIO MENEGON FILHO (R$ 26.444,29) · PILAN ENGENHARIA (R$ 22.797,45) · DANIELLA PALUDETTI GAIOTTI BOIANI (R$ 18.839,32). 5 novos: ANA PAULA SPADOTTO, LUIZA CARAMANTE ARRUDA, OTAVIO CARMELLO GOMES, RENATA SILVA VIEIRA, HELENICE BARREIROS ORPHEU. |
 | 2026-05-06 | 15 clientes | R$ 30.040,69 | 5 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-20–05-22. VIPs: GRANDD ATACADO (R$ 50.779,36) · ANA PAULA SPADOTTO (R$ 27.831,06) · MARCO AURELIO MENEGON FILHO (R$ 26.444,29) · PILAN ENGENHARIA (R$ 22.797,45) · SHEILA CRISTINA SAYURI ABE MAGALHAES (R$ 22.378,26). Nova janela: SHEILA CRISTINA (VIP, 1ª vez). Pendências: EDUARDO FERNANDO (status CRM inconsistente), HELENICE (duplicata apólice), PILAN (cadastro fragmentado). |
 | 2026-05-07 | 13 clientes | R$ 28.066,75 | 3 VIP · 0 RISCO | — |
+| 2026-05-08 | 9 clientes | R$ 103.984,83 | 3 VIP · 0 RISCO | VIPs: SHEILA SAYURI (R$ 22.378,26) · RENATA MENEGUELLA CURY (R$ 22.296,08) · ALINE FISCHER ANIZELLI (R$ 20.448,25). Pendência CRM: EDUARDO FERNANDO — apólice 9459620 "Renovada" prematura (3ª ocorrência). |
