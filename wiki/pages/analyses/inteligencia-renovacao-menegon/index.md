@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-08 (07:00 BRT) — 9 clientes na janela 2026-05-22 a 2026-05-24. 3 VIPs: SHEILA CRISTINA SAYURI ABE MAGALHAES (R$ 22.378,26) · RENATA CRISTINA MENEGUELLA CURY (R$ 22.296,08) · ALINE DE CASSIA FISCHER ANIZELLI (R$ 20.448,25). LTV total da janela: R$ 103.984,83. 0 RISCO. Pendência CRM: EDUARDO FERNANDO (apólice 9459620 "Renovada" prematura — 3ª ocorrência consecutiva). Multi-ramo: RENATA CURY (AUTO+PATRIMONIAL) · RICARDO SEULLNER (AUTO+PESSOAS INDIVIDUAL).
+2026-05-09 (07:00 BRT) — 9 clientes na janela 2026-05-23 a 2026-05-25. 4 VIPs: MARIO EDUARDO PARAISO DE ALMEIDA (R$ 28.493,26) · RENATA CRISTINA MENEGUELLA CURY (R$ 22.296,08) · ALINE DE CASSIA FISCHER ANIZELLI (R$ 20.448,25) · RAQUEL CHRISTINA CARNEIRO GUAZZELLI DE OLIVEIRA (R$ 18.063,62). LTV total da janela: R$ 20.043,41. 0 RISCO. 2 primeiras renovações: JOAO CARLOS BRAGA ALBUQUERQUE · MARCELO CHAGURI. 3 multi-ramo: RENATA CURY (AUTO+PATRIMONIAL) · MARIO PARAISO (AUTO+PATRIMONIAL) · ISOLINA SCOLASTRICI (AUTO+PATRIMONIAL).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -49,3 +49,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-05-06 | 15 clientes | R$ 30.040,69 | 5 VIP · 0 RISCO | Execução diária 07:00 BRT. Janela 2026-05-20–05-22. VIPs: GRANDD ATACADO (R$ 50.779,36) · ANA PAULA SPADOTTO (R$ 27.831,06) · MARCO AURELIO MENEGON FILHO (R$ 26.444,29) · PILAN ENGENHARIA (R$ 22.797,45) · SHEILA CRISTINA SAYURI ABE MAGALHAES (R$ 22.378,26). Nova janela: SHEILA CRISTINA (VIP, 1ª vez). Pendências: EDUARDO FERNANDO (status CRM inconsistente), HELENICE (duplicata apólice), PILAN (cadastro fragmentado). |
 | 2026-05-07 | 13 clientes | R$ 28.066,75 | 3 VIP · 0 RISCO | — |
 | 2026-05-08 | 9 clientes | R$ 103.984,83 | 3 VIP · 0 RISCO | VIPs: SHEILA SAYURI (R$ 22.378,26) · RENATA MENEGUELLA CURY (R$ 22.296,08) · ALINE FISCHER ANIZELLI (R$ 20.448,25). Pendência CRM: EDUARDO FERNANDO — apólice 9459620 "Renovada" prematura (3ª ocorrência). |
+| 2026-05-09 | 9 clientes | R$ 20.043,41 | 4 VIP · 0 RISCO | VIPs: MARIO PARAISO (R$ 28.493,26) · RENATA MENEGUELLA CURY (R$ 22.296,08) · ALINE FISCHER ANIZELLI (R$ 20.448,25) · RAQUEL GUAZZELLI (R$ 18.063,62). 2 primeiras renovações: JOAO CARLOS BRAGA · MARCELO CHAGURI. 3 multi-ramo. |
