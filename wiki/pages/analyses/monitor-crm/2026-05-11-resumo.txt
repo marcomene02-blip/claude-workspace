@@ -1,0 +1,52 @@
+*MONITOR CRM — 11/05/2026* 🔴
+Status global: *CRÍTICO*
+2 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• *2 apólices vencem HOJE (11/05) sem renovação:*
+  - POSTO SAO PAULO AVENIDA LTDA (Em Análise/Aprovação, prazo vencido 15d)
+  - CLEUSA MARIA SCATOLA DE BARROS (Follow-up, prazo vencido 3d)
+• *Vencem AMANHÃ (12/05):* ARMANDO DELMANTO + FBRS GESTAO (ambos Em Análise)
+• *Já vencidas sem renovar (09-10/05):* GABRIELLY, ALINE, DEBORAH, ROGER
+• *Total na janela ≤7 dias:* 21 apólices não renovadas
+• Prazos de tarefa críticos: POSTO SAO PAULO 15d, ARMANDO 14d, GABRIEL 10d
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• *AUTO POSTO CONFIANÇA:* health score ~17/100, sinistro PENDENTE *38 dias* (Allianz)
+• *ASSOCIACAO PROP MOR LOT FECHADO:* sinistro PENDENTE *114 dias* (Porto Seguro) — risco crítico
+• *KATHARINA METZLER:* sinistro PENDENTE 41 dias
+• *RODRIGO GOMES DE PAULA:* sinistro PENDENTE 47 dias
+• analista-churn ausente *28 dias* consecutivos — *15ª escalada* sem resposta humana
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *PIPELINE SEGURO NOVO — ALERTA*
+_(analista-pipeline)_
+
+• *JULIA GOMES e VIVIANNE:* crônicos com 47+ dias sem atualização
+• *Techsolv Ltda (Leads):* parado 10 dias, próximo contato 01/05 vencido
+• Sem dados de forecast — meta mensal não disponível
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator (nota 6) sem follow-up há *265 dias*
+• 12º+ ciclo consecutivo sem ação sobre este item
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM *não rodou em 09/05 e 10/05* (2 falhas consecutivas)
+• ≥3 itens de agente sem resposta há >3 dias (escaladas SLA + cross-sell)
+• analista-churn inativo 28 dias — causa raiz estrutural
+• Regularização do agendamento do monitor necessária com urgência
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 11/05/2026 06:00_
