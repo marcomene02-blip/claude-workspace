@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-11 (10:00 BRT) — 11 clientes na janela 2026-05-25 a 2026-05-27. 5 VIPs: LAURO FERREIRA GONCALVES (R$ 67.459,58) · MARA SILVIA MARCELLO (R$ 36.731,00) · RAQUEL DIAS FROSSARD (R$ 29.072,59) · MARIO EDUARDO PARAISO DE ALMEIDA (R$ 28.493,26) · RAQUEL CHRISTINA CARNEIRO GUAZZELLI DE OLIVEIRA (R$ 18.063,62). LTV total da janela: R$ 225.362,80. 0 RISCO. 1 primeira renovação: PAULO BORLINA. 4 multi-ramo: LAURO (AUTO+PATRIMONIAL+RESP) · MARA (AUTO+PATRIMONIAL) · MARIO (PATRIMONIAL+AUTO) · ISOLINA (AUTO+PATRIMONIAL).
+2026-05-12 (07:00 BRT) — 8 clientes na janela 2026-05-26 a 2026-05-28. 3 VIPs: LAURO FERREIRA GONCALVES (R$ 39.601,27) · MARA SILVIA MARCELLO (R$ 34.078,06) · RAQUEL DIAS FROSSARD (R$ 29.072,59). LTV total da janela: R$ 143.422,13. 0 RISCO. 1 primeira renovação: PAULO BORLINA. 2 multi-ramo: LAURO (AUTO+PATRIMONIAL+RESP) · MARA (AUTO+PATRIMONIAL).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -51,3 +51,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-05-08 | 9 clientes | R$ 103.984,83 | 3 VIP · 0 RISCO | VIPs: SHEILA SAYURI (R$ 22.378,26) · RENATA MENEGUELLA CURY (R$ 22.296,08) · ALINE FISCHER ANIZELLI (R$ 20.448,25). Pendência CRM: EDUARDO FERNANDO — apólice 9459620 "Renovada" prematura (3ª ocorrência). |
 | 2026-05-09 | 9 clientes | R$ 20.043,41 | 4 VIP · 0 RISCO | VIPs: MARIO PARAISO (R$ 28.493,26) · RENATA MENEGUELLA CURY (R$ 22.296,08) · ALINE FISCHER ANIZELLI (R$ 20.448,25) · RAQUEL GUAZZELLI (R$ 18.063,62). 2 primeiras renovações: JOAO CARLOS BRAGA · MARCELO CHAGURI. 3 multi-ramo. |
 | 2026-05-11 | 11 clientes | R$ 225.362,80 | 5 VIP · 0 RISCO | VIPs: LAURO FERREIRA (R$ 67.459,58) · MARA MARCELLO (R$ 36.731,00) · RAQUEL DIAS (R$ 29.072,59) · MARIO PARAISO (R$ 28.493,26) · RAQUEL GUAZZELLI (R$ 18.063,62). 1 primeira renovação: PAULO BORLINA. 4 multi-ramo: LAURO · MARA · MARIO · ISOLINA. |
+| 2026-05-12 | 8 clientes | R$ 143.422,13 | 3 VIP · 0 RISCO | VIPs: LAURO FERREIRA (R$ 39.601,27) · MARA MARCELLO (R$ 34.078,06) · RAQUEL FROSSARD (R$ 29.072,59). 1 primeira renovação: PAULO BORLINA. 2 multi-ramo: LAURO · MARA. |
