@@ -1,0 +1,59 @@
+*MONITOR CRM — 13/05/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• *NATANYE LEMES MATCHIL DEO* — vence HOJE (13/05) · Follow-up (ID 11830120654)
+• *ESTELA MARIA ORPHEU PINHEIRO DE CASTRO* — vence HOJE (13/05) · Follow-up (ID 11830121244)
+• *BAPTISTAO & BUTINHOLI COSMET.* — vence AMANHÃ (14/05) · Follow-up (ID 11830121245)
+• *CELSO MARCOLINO* — vence AMANHÃ (14/05) · Follow-up (ID 11830142443)
+• FRAGA NETTO ADVOGADOS — vence 15/05 · Em Análise/Aprovação
+• JULIO CESAR BORGATTO ZUCARI — vence 15/05 · Follow-up
+• 7 apólices com Prazo da Tarefa vencido ≥3 dias (mais antigo: GABRIEL / JULIANA, 01/05 = +12 dias)
+• _22 das 28 apólices na janela 7d ainda sem renovação._
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• *AUTO POSTO CONFIANCA SHOPPING LTDA* — sinistro PENDENTE desde 03/04 (36 dias sem update) · health score ~17 · risco de perda total
+• 3 sinistros adicionais PENDENTE sem update desde 07/04: KATHARINA METZLER (31/03), RODRIGO GOMES DE PAULA (25/03), ASSOCIACAO PROP MOR LOT FECHADO (17/01 — _116 dias!_)
+• Analista-churn: ~30 dias sem executar (16ª escalada consecutiva)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM *não rodou em 12/05* (ontem) — task agendada falhou
+• _Acumulado: 3 falhas em 5 dias (09/05 · 10/05 · 12/05)_
+• API Monday retornou erro interno ao verificar updates [Agente]
+• Investigação urgente da causa das falhas de execução necessária
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *PIPELINE SEGURO NOVO — ALERTA*
+_(analista-pipeline)_
+
+• *LUIZ AMERICO BRANDINO JUNIOR* — deal parado 7 dias (última atualização 06/05 · Follow-up · prazo 07/05 vencido)
+• *Techsolv Ltda* — lead Qualificado parado 12 dias (última atualização 01/05 · Próximo Contato 01/05 vencido)
+• Analista-forecast nunca executou · meta mai/2026 não definida
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator ativo: *nota 6* · resposta em 19/08/2025 · _265 dias sem acompanhamento_
+• Ação de recuperação necessária urgente
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de mai/2026 não definida (analista-forecast nunca executou)
+• Prêmios capturados até hoje em mai/2026: ~R$ 41.297 (12 apólices)
+• Impossível calcular desvio sem meta de referência
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 13/05/2026 06:00_

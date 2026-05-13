@@ -4,7 +4,7 @@ familia: B
 toca_cliente_externo: false
 modo_autonomia: auto
 board_monday_principal: 9332203920
-updated: 2026-05-11
+updated: 2026-05-13
 metricas_chave:
   - metricas_acao.itens_avaliados
   - metricas_acao.alertas_gerados
@@ -16,11 +16,11 @@ metricas_chave:
 
 ## Última execução
 
-2026-05-11 — status: **critico** — Renovações: POSTO SAO PAULO e CLEUSA vencem HOJE (11/05); ARMANDO e FBRS amanhã (12/05); 4 vencidas 09-10/05 não renovadas; 21 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros pendentes (38-114d) + analista-churn 28d ausente (15ª escalada). Automações: monitor não rodou 09/05 e 10/05 (2 falhas). Pipeline/NPS alertas (12º ciclo).
+2026-05-13 — status: **critico** — Renovações: NATANYE LEMES e ESTELA MARIA vencem HOJE (13/05); BAPTISTAO & BUTINHOLI e CELSO MARCOLINO amanhã (14/05); 4 apólices ≤2d sem renovar; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 36 dias + analista-churn 30d ausente (16ª escalada). Automações: monitor não rodou 12/05 (3 falhas acumuladas). Pipeline/NPS/Forecast alertas (13º ciclo).
 
 ## Última execução anterior
 
-2026-05-08 — status: **critico** — Renovações (ELAINE e ODAIR vencem HOJE 08/05; CLAUDETE Não Renovado; 17 apólices ≤7d; POSTO SAO PAULO 12d + ARMANDO 11d prazos vencidos), Churn (AUTO POSTO health ~17 + apólice vencida 30/04 + sinistro 31d + analista-churn 25d + 14ª escalada), Automações (monitor não rodou 07/05, ≥4 escaladas >3d); Pipeline/NPS alertas (11º ciclo).
+2026-05-11 — status: **critico** — Renovações: POSTO SAO PAULO e CLEUSA vencem HOJE (11/05); ARMANDO e FBRS amanhã (12/05); 4 vencidas 09-10/05 não renovadas; 21 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros pendentes (38-114d) + analista-churn 28d ausente (15ª escalada). Automações: monitor não rodou 09/05 e 10/05 (2 falhas). Pipeline/NPS alertas (12º ciclo).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -29,6 +29,7 @@ metricas_chave:
 
 | Data | Status | Resumo |
 |---|---|---|
+| 2026-05-13 | critico | Renovações: NATANYE LEMES e ESTELA MARIA vencem HOJE (13/05); BAPTISTAO & BUTINHOLI e CELSO MARCOLINO amanhã (14/05); 4 apólices ≤2d sem renovar; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 36 dias + analista-churn 30d ausente (16ª escalada). Automações: monitor não rodou 12/05 (3 falhas acum.). Pipeline/NPS/Forecast alertas (13º ciclo) |
 | 2026-05-11 | critico | Renovações: POSTO SAO PAULO e CLEUSA vencem HOJE (11/05); ARMANDO e FBRS amanhã (12/05); 4 vencidas 09-10/05 sem renovar; 21 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros pendentes (38-114d) + analista-churn 28d (15ª escalada). Automações: monitor não rodou 09/05 e 10/05. Pipeline/NPS alertas (12º ciclo) |
 | 2026-05-08 | critico | Renovações: ELAINE e ODAIR vencem HOJE (08/05); CLAUDETE Não Renovado; 17 apólices ≤7d; POSTO SAO PAULO (12d vencido) e ARMANDO DELMANTO (11d vencido). Churn: AUTO POSTO health ~17 + apólice vencida 30/04 + sinistro 31d + analista-churn 25d ausente + 14ª escalada. Automações: monitor não rodou 07/05, ≥4 escaladas >3d sem resposta. Pipeline/NPS alertas (11º ciclo) |
 | 2026-05-06 | critico | Renovações: JULIANA SODARIO vence 07/05 (AMANHÃ); 18 apólices ≤7d; VINICIUS (29/04) e BRUNO DEO (30/04) já vencidas; prazo tarefa dezenas itens desde abril. Churn: AUTO POSTO health ~17 + 4 sinistros 29–109d + analista-churn 23d ausente + 13ª escalada SLA. Automações: 13+ escaladas + cross-sell 7d. Pipeline/NPS/Forecast alertas (10º ciclo) |
