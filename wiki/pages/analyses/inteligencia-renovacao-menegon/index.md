@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-13
+updated: 2026-05-14
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-13 (07:00 BRT) — 7 clientes na janela 2026-05-27 a 2026-05-29. 1 VIP: LAURO FERREIRA GONCALVES (R$ 39.601,27). LTV total da janela: R$ 100.165,38. 0 RISCO. 4 com status "Atualizar Cadastro". 2 multi-ramo: LAURO (AUTO+PATRIMONIAL+RESP) · ERIC GONCALVES DA CUNHA (AUTO+PATRIMONIAL).
+2026-05-14 (07:00 BRT) — 10 clientes na janela 2026-05-28 a 2026-05-30. 3 VIPs: LAURO FERREIRA GONCALVES (R$ 67.458,58) · ALL CONNECT SERVICOS LTDA ME (R$ 26.115,07) · VALDIR GONZALEZ PAIXAO JUNIOR (R$ 17.755,74). LTV total da janela: R$ 19.213,48. 0 RISCO. 5 com status "Atualizar Cadastro". 3 multi-ramo: LAURO · ERIC · ALL CONNECT.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -53,3 +53,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-05-11 | 11 clientes | R$ 225.362,80 | 5 VIP · 0 RISCO | VIPs: LAURO FERREIRA (R$ 67.459,58) · MARA MARCELLO (R$ 36.731,00) · RAQUEL DIAS (R$ 29.072,59) · MARIO PARAISO (R$ 28.493,26) · RAQUEL GUAZZELLI (R$ 18.063,62). 1 primeira renovação: PAULO BORLINA. 4 multi-ramo: LAURO · MARA · MARIO · ISOLINA. |
 | 2026-05-12 | 8 clientes | R$ 143.422,13 | 3 VIP · 0 RISCO | VIPs: LAURO FERREIRA (R$ 39.601,27) · MARA MARCELLO (R$ 34.078,06) · RAQUEL FROSSARD (R$ 29.072,59). 1 primeira renovação: PAULO BORLINA. 2 multi-ramo: LAURO · MARA. |
 | 2026-05-13 | 7 clientes | R$ 100.165,38 | 1 VIP · 0 RISCO | VIP: LAURO FERREIRA GONCALVES (R$ 39.601,27). 4 "Atualizar Cadastro". 2 multi-ramo: LAURO (AUTO+PATRIMONIAL+RESP) · ERIC GONCALVES DA CUNHA (AUTO+PATRIMONIAL). |
+| 2026-05-14 | 10 clientes | R$ 19.213,48 | 3 VIP · 0 RISCO | VIPs: LAURO FERREIRA GONCALVES (R$ 67.458,58) · ALL CONNECT SERVICOS LTDA ME (R$ 26.115,07) · VALDIR GONZALEZ PAIXAO JUNIOR (R$ 17.755,74). 5 "Atualizar Cadastro". 3 multi-ramo: LAURO · ERIC · ALL CONNECT. |
