@@ -1,0 +1,63 @@
+*MONITOR CRM — 15/05/2026* 🔴
+Status global: *CRÍTICO*
+2 alertas · 4 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• JULIO CESAR BORGATTO ZUCARI vence *HOJE (15/05)* em Follow-up — sem renovar (ID 11830142444)
+• GABRIEL DE ALMEIDA PEDUTI BATISTA vence *amanhã (16/05)* — Follow-up (ID 11830142445)
+• JULIANA DE OLIVEIRA vence *amanhã (16/05)* — Não Renovado (ID 11830121248)
+• RENATA SAAD DINIZ vence *17/05* — Follow-up, prazo ontem (ID 11830142447)
+• ALCIDES VENDRAMI vence *17/05* — Follow-up, prazo ontem (ID 11830142446)
+• Total ≤2 dias sem renovar: *5 apólices* | Total janela 7d: 20 pendentes
+• 7 itens com Prazo da Tarefa vencido ≥3 dias (BENEDITA +12d, TIEGHIS +12d, JOAO HENRIQUE +11d...)
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• *AUTO POSTO CONFIANÇA* — health score ~17 (crítico <40) | sinistro PENDENTE há *42 dias* sem update (ID 11693775801)
+• *ASSOCIACAO PROP MOR LOT FECHADO* — sinistro PENDENTE há *118 dias* (desde 17/01/2026) — ID 11693775803
+• *KATHARINA METZLER* — 45 dias PENDENTE (ID 11693775802)
+• *RODRIGO GOMES DE PAULA* — 51 dias PENDENTE (ID 11693775804)
+• Todos sem atualização desde 07/04/2026 (38 dias)
+• _17ª escalada ao analista-churn (nunca executou)_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+• LUIZ AMERICO BRANDINO JUNIOR — parado *9 dias* (último update 06/05, ID 11914673210)
+• Lote crônico março/2026: ~90 deals/leads sem update há *53 dias* (última atualização 23/03)
+• Total: ≥5 deals parados (limiar crítico atingido)
+• Forecast: meta maio/2026 *não definida* — analista-forecast nunca executou
+• _14º ciclo consecutivo_
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *QUALIDADE DAS AUTOMAÇÕES — CRÍTICO*
+_(gerente-comercial)_
+
+• Monitor CRM *não rodou ontem (14/05)* — 4ª falha em 6 dias (09/05, 10/05, 12/05, 14/05)
+• 369 agendamentos no board "Recuper Contato" sem data de follow-up
+• _4ª escalada consecutiva_
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator identificado: nota *6*, resposta de 19/08/2025 (ID 9854144275)
+• *269 dias* sem atualização — acompanhamento necessário
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Meta mensal de maio/2026 *não definida*
+• Analista-forecast nunca executou (índice vazio)
+• Sem dados comparativos — desvio não computável
+• _14º ciclo sem meta_
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 15/05/2026 06:00_

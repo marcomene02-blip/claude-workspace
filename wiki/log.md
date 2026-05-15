@@ -163,3 +163,11 @@ Append-only. Entry format: `## [YYYY-MM-DD] <op> | <title>`. Parseable with `gre
 - Fonte: Monday board 9427535861 (Renovação), dados coletados via MCP às 07:00 BRT por `renovacao-weekly-briefing`
 - 15 renovações ativas filtradas (zero fechadas); R$ 31.371,29 em risco; 5 com vencimento ≤ 3 dias sem cotação aberta
 - Atualizado `wiki/index.md` com entrada em Analyses
+
+## [2026-05-15] query | Monitor CRM — 2026-05-15
+- Criado `wiki/pages/analyses/monitor-crm/2026-05-15.md` — relatório diário status CRÍTICO (4 críticos, 2 alertas)
+- Criado `wiki/pages/analyses/monitor-crm/2026-05-15-resumo.txt` — resumo WhatsApp
+- Atualizado `wiki/pages/analyses/monitor-crm/index.md` — nova linha no topo da tabela, campo updated 2026-05-15
+- Dimensões críticas: Renovações (5 apólices ≤2d, JULIO CESAR vence HOJE), Churn (AUTO POSTO health ~17, 4 sinistros PENDENTE 38–118d), Pipeline (lote 53d parados), Automações (monitor não rodou 14/05 — 4ª falha em 6 dias)
+- Dimensões alerta: NPS (1 detrator 269d sem update), Forecast (meta não definida, analista ausente)
+- 6 agentes acionados via bloco ACIONAMENTO
