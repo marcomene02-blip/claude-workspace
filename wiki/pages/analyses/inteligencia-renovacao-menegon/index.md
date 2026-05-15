@@ -9,7 +9,7 @@ metricas_chave:
   - metricas_acao.alertas_gerados
   - metricas_acao.updates_escritos_no_monday
 created: 2026-04-19
-updated: 2026-05-14
+updated: 2026-05-15
 ---
 
 # Inteligência de Renovação — Índice
@@ -18,7 +18,7 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 
 ## Última execução
 
-2026-05-14 (07:00 BRT) — 10 clientes na janela 2026-05-28 a 2026-05-30. 3 VIPs: LAURO FERREIRA GONCALVES (R$ 67.458,58) · ALL CONNECT SERVICOS LTDA ME (R$ 26.115,07) · VALDIR GONZALEZ PAIXAO JUNIOR (R$ 17.755,74). LTV total da janela: R$ 19.213,48. 0 RISCO. 5 com status "Atualizar Cadastro". 3 multi-ramo: LAURO · ERIC · ALL CONNECT.
+2026-05-15 (07:00 BRT) — 15 itens em 14 clientes únicos na janela 2026-05-29 a 2026-05-31. 6 VIPs: GUSTAVO CESAR DIAS MENDES (R$ 31.585,66) · MULTICOMP INFORMATICA (R$ 60.284,22) · CASA FUSCO (R$ 51.112,33) · ALL CONNECT (R$ 26.115,07) · RAFAEL DALLE MOLLE (R$ 21.083,53) · VALDIR GONZALEZ (R$ 17.755,74). LTV total da janela: R$ 23.988,84. 0 RISCO. Destaque: grupo empresarial MULTICOMP/MC INFORMATICA/CASA FUSCO com 5 renovações VIDA EM GRUPO - MENSAL vencendo 31/05.
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -54,3 +54,4 @@ Rotina diária (07:00 BRT). Varre o board Renovação (`9427535861`) buscando ap
 | 2026-05-12 | 8 clientes | R$ 143.422,13 | 3 VIP · 0 RISCO | VIPs: LAURO FERREIRA (R$ 39.601,27) · MARA MARCELLO (R$ 34.078,06) · RAQUEL FROSSARD (R$ 29.072,59). 1 primeira renovação: PAULO BORLINA. 2 multi-ramo: LAURO · MARA. |
 | 2026-05-13 | 7 clientes | R$ 100.165,38 | 1 VIP · 0 RISCO | VIP: LAURO FERREIRA GONCALVES (R$ 39.601,27). 4 "Atualizar Cadastro". 2 multi-ramo: LAURO (AUTO+PATRIMONIAL+RESP) · ERIC GONCALVES DA CUNHA (AUTO+PATRIMONIAL). |
 | 2026-05-14 | 10 clientes | R$ 19.213,48 | 3 VIP · 0 RISCO | VIPs: LAURO FERREIRA GONCALVES (R$ 67.458,58) · ALL CONNECT SERVICOS LTDA ME (R$ 26.115,07) · VALDIR GONZALEZ PAIXAO JUNIOR (R$ 17.755,74). 5 "Atualizar Cadastro". 3 multi-ramo: LAURO · ERIC · ALL CONNECT. |
+| 2026-05-15 | 15 itens / 14 clientes | R$ 23.988,84 | 6 VIP · 0 RISCO | VIPs: MULTICOMP (R$ 60.284,22) · CASA FUSCO (R$ 51.112,33) · GUSTAVO MENDES (R$ 31.585,66) · ALL CONNECT (R$ 26.115,07) · RAFAEL DALLE MOLLE (R$ 21.083,53) · VALDIR GONZALEZ (R$ 17.755,74). Grupo empresarial MULTICOMP/MC INFORMATICA/CASA FUSCO com 5 renovações VIDA EM GRUPO - MENSAL em 31/05. |
