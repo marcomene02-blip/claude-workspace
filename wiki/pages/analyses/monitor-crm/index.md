@@ -4,7 +4,7 @@ familia: B
 toca_cliente_externo: false
 modo_autonomia: auto
 board_monday_principal: 9332203920
-updated: 2026-05-15
+updated: 2026-05-16
 metricas_chave:
   - metricas_acao.itens_avaliados
   - metricas_acao.alertas_gerados
@@ -16,11 +16,11 @@ metricas_chave:
 
 ## Última execução
 
-2026-05-15 — status: **critico** — Renovações: JULIO CESAR BORGATTO vence HOJE (15/05); GABRIEL, JULIANA amanhã (16/05); RENATA, ALCIDES em 17/05; 5 apólices ≤2d sem renovar; 20 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 38–118d + analista-churn 17ª escalada. Automações: monitor não rodou 14/05 (4ª falha acum. em 6 dias). Pipeline CRÍTICO (53d parados). NPS/Forecast alertas (14º ciclo).
+2026-05-16 — status: **critico** — Renovações: GABRIEL e JULIANA vencem HOJE (16/05); JULIANA já em Não Renovado (possível churn); RENATA, ALCIDES amanhã (17/05); 7 apólices ≤2d sem renovar; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 40–119d + 18ª escalada. Automações: monitor rodou 15/05 ✓ (streak interrompido); 374 agendamentos 39d sem update. Pipeline CRÍTICO (54d parados). NPS/Forecast alertas (15º ciclo).
 
 ## Última execução anterior
 
-2026-05-13 — status: **critico** — Renovações: NATANYE LEMES e ESTELA MARIA vencem HOJE (13/05); BAPTISTAO & BUTINHOLI e CELSO MARCOLINO amanhã (14/05); 4 apólices ≤2d sem renovar; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 36 dias + analista-churn 30d ausente (16ª escalada). Automações: monitor não rodou 12/05 (3 falhas acumuladas). Pipeline/NPS/Forecast alertas (13º ciclo).
+2026-05-15 — status: **critico** — Renovações: JULIO CESAR BORGATTO vence HOJE (15/05); GABRIEL, JULIANA amanhã (16/05); RENATA, ALCIDES em 17/05; 5 apólices ≤2d sem renovar; 20 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 38–118d + analista-churn 17ª escalada. Automações: monitor não rodou 14/05 (4ª falha acum. em 6 dias). Pipeline CRÍTICO (53d parados). NPS/Forecast alertas (14º ciclo).
 
 ## Histórico de recalibrações
 <!-- preenchido pelo recalibrador -->
@@ -29,6 +29,7 @@ metricas_chave:
 
 | Data | Status | Resumo |
 |---|---|---|
+| 2026-05-16 | critico | Renovações: GABRIEL e JULIANA vencem HOJE (16/05); JULIANA Não Renovado (possível churn); 7 apólices ≤2d; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 40–119d + 18ª escalada. Monitor rodou 15/05 ✓; 374 agendamentos 39d. Pipeline CRÍTICO (54d parados). NPS/Forecast alertas (15º ciclo) |
 | 2026-05-15 | critico | Renovações: JULIO CESAR BORGATTO vence HOJE (15/05); GABRIEL e JULIANA amanhã (16/05); RENATA e ALCIDES em 17/05; 5 apólices ≤2d sem renovar; 20 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 38–118d + 17ª escalada. Automações: monitor não rodou 14/05 (4ª falha acum.). Pipeline CRÍTICO (53d parados). NPS/Forecast alertas (14º ciclo) |
 | 2026-05-13 | critico | Renovações: NATANYE LEMES e ESTELA MARIA vencem HOJE (13/05); BAPTISTAO & BUTINHOLI e CELSO MARCOLINO amanhã (14/05); 4 apólices ≤2d sem renovar; 22 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros PENDENTE 36 dias + analista-churn 30d ausente (16ª escalada). Automações: monitor não rodou 12/05 (3 falhas acum.). Pipeline/NPS/Forecast alertas (13º ciclo) |
 | 2026-05-11 | critico | Renovações: POSTO SAO PAULO e CLEUSA vencem HOJE (11/05); ARMANDO e FBRS amanhã (12/05); 4 vencidas 09-10/05 sem renovar; 21 na janela 7d. Churn: AUTO POSTO health ~17 + 4 sinistros pendentes (38-114d) + analista-churn 28d (15ª escalada). Automações: monitor não rodou 09/05 e 10/05. Pipeline/NPS alertas (12º ciclo) |

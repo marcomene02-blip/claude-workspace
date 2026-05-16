@@ -1,0 +1,71 @@
+*MONITOR CRM — 16/05/2026* 🔴
+Status global: *CRÍTICO*
+3 alertas · 3 críticos
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *RENOVAÇÕES — CRÍTICO*
+_(especialista-renovacao)_
+
+• *HOJE (16/05):*
+  - GABRIEL DE ALMEIDA PEDUTI BATISTA — Em Análise/Aprovação (ID 11830142445, prazo hoje)
+  - JULIANA DE OLIVEIRA — *Não Renovado* (ID 11830121248) ⚠️ possível churn consumado
+
+• *Amanhã (17/05):*
+  - RENATA SAAD DINIZ — Follow-up (ID 11830142447, prazo 15/05 vencido)
+  - ALCIDES VENDRAMI — Follow-up (ID 11830142446)
+
+• *18/05 (2 dias):*
+  - OMAR APARECIDO FARAH HADDAD — Em Análise/Aprovação (ID 11830142449)
+  - BENEDITA MARIA DOMINGUES BARBOSA — Follow-up (ID 11830142448)
+  - TIEGHIS MOVEIS PROJETADOS — Em Cotação (ID 11830121048, prazo 03/05 vencido há 13d)
+
+→ *7 apólices ≤ 2 dias sem renovar* · 22 na janela 7d
+→ 5 itens com Prazo da Tarefa vencido ≥ 3 dias
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *CHURN — CRÍTICO*
+_(analista-churn)_
+
+• AUTO POSTO CONFIANCA SHOPPING LTDA — health score ~17 · sinistro PENDENTE 40 dias (ID 11693775801)
+• ASSOCIACAO PROP MOR LOT FECHADO — sinistro PENDENTE *119 dias* (ID 11693775803)
+• KATHARINA METZLER — sinistro PENDENTE 44 dias (ID 11693775802)
+• RODRIGO GOMES DE PAULA — sinistro PENDENTE 40 dias (ID 11693775804)
+• JULIANA DE OLIVEIRA — apólice em Não Renovado hoje (possível churn consumado)
+
+→ 4 sinistros PENDENTE sem qualquer update desde 07/04 (39 dias)
+→ Health score AUTO POSTO ~17 (limiar crítico: < 40) · 18ª escalada ao analista-churn
+
+━━━━━━━━━━━━━━━━━━━━
+🔴 *PIPELINE SEGURO NOVO — CRÍTICO*
+_(analista-pipeline)_
+
+• LUIZ AMERICO BRANDINO JUNIOR — Follow-up, *10 dias parado* (ID 11914673210, últ. update 06/05)
+• Lote crônico março/2026 — ~90 deals sem atualização desde 23/03 (*54 dias parados*)
+• Forecast maio/2026: meta *não definida* — analista-forecast nunca executou
+
+→ ≥ 5 deals parados (crítico) · 15º ciclo consecutivo
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *NPS — ALERTA*
+_(analista-nps)_
+
+• 1 detrator: nota *6*, resposta 19/08/2025 (ID 9854144275)
+→ *270 dias sem follow-up* · Última resposta geral: 04/05/2026 (nota 10)
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *QUALIDADE DAS AUTOMAÇÕES — ALERTA*
+_(gerente-comercial)_
+
+• Monitor rodou ontem (15/05) ✓ — streak de falhas interrompido
+• 374 agendamentos com status "Recuper Contato" sem update há 39 dias (últ. 07/04)
+• Histórico: 4 falhas de execução na semana 09–14/05
+
+━━━━━━━━━━━━━━━━━━━━
+🟡 *FORECAST — ALERTA*
+_(analista-forecast)_
+
+• Sem relatório de meta para maio/2026
+• analista-forecast nunca executou · 15º ciclo sem meta definida
+
+━━━━━━━━━━━━━━━━━━━━
+_Gerado automaticamente · Monitor CRM · Menegon Seguros · 16/05/2026 06:00_
